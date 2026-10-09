@@ -1,0 +1,4 @@
+# vídeos finais são grandes demais para o Git: ficam apenas na pasta local de entrega
+*.mp4
+*.mov
+*.mkv
