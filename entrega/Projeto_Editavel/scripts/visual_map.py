@@ -189,8 +189,9 @@ cue('v36_improviso', 'lettering', S('a gente dá um nome', 645) - 0.3, Ee('gest�
     sfx=[('impact', S('gestão no improviso', 646.5), -24)])
 cue('v37_etapas', 'steps4', S('o método que a gente aplica', 649.5) - 0.3, Ee('perder o efeito', 674.5) + 0.25, {
     'tSteps': [T(S('o diagnóstico', 653)), T(S('a estrutura', 654.5)), T(S('a implementação', 655.8)), T(S('a liderança', 657.2))],
-    'tMarket': T(S('começarem pela liderança', 661)), 'marketText': '↑ o mais comum no mercado: começar por aqui',
-    'caption': 'três semanas depois, vai perder o efeito.', 'tCap': T(S('três semanas depois', 671.5))})
+    'tMarket': T(S('começarem pela liderança', 661)), 'marketText': '↑ o mais comum no mercado: começar por aqui'})
+# nota: a fala "três semanas depois vai perder o efeito" foi mantida no áudio, mas sem destaque gráfico,
+# porque a versão 2 do roteiro retira "três semanas" da aula (decisão de conteúdo do cliente).
 # ---------------- ETAPA 1 · DIAGNÓSTICO ----------------
 cue('v38_etapa1', 'stepCard', S('falando sobre o diagnóstico', 677) - 0.6, S('tudo começa', 678.5) + 2.6, {'n': 1})
 cue('v39_culpado', 'quote', S('ele vai falar que já sabe', 687) - 0.2, Ee('quem é o culpado', 690.5) + 1.2, {

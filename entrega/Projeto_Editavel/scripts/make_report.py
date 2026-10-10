@@ -57,15 +57,47 @@ L.append('- A fala real difere bastante do roteiro: as apresentadoras improvisar
 L.append('- A transcrição revisada está em `Projeto_Editavel/dados/transcricao_final.md`.\n')
 L.append('## 3. Cortes de fala\n')
 used = [c for c in CR if c['used']]; rej = [c for c in CR if not c['used']]
-L.append(f"Duração: {ts(dur_src)} (bruto) → **{ts(dur_out)}** (final). Foram removidos {dur_src - dur_out:.1f} s em {len(used)} intervenções, todas com emenda ajustada ao quadro de vídeo e ao ponto mais silencioso do áudio (deslocamento máximo de 20 ms, com crossfade de 12 ms).\n")
-L.append('| Final | Bruto | Tipo | Removido | Como ficou |')
+L.append(f"Duração: {ts(dur_src)} (bruto) → **{ts(dur_out)}** (final). Foram removidos {f'{dur_src - dur_out:.1f}'.replace('.', ',')} s em {len(used)} intervenções, todas com emenda ajustada ao quadro de vídeo e ao ponto mais silencioso do áudio (deslocamento máximo de 20 ms, com crossfade de 12 ms).\n")
+PT = {
+ 'c2_existing_cut_34_blip': ('resíduo de emenda anterior', 'murmúrio de ~50 ms deixado por um corte já existente', '"…nem sabia que estava insatisfeito. Primeiro, eu quero te tranquilizar, tá?"'),
+ 'c4_hum_before_pessoas': ('hesitação', '"hum" (pausa preenchida de 0,2 s)', '"…onde existe problema de gente: pessoas do mesmo setor que não se entendem"'),
+ 'c5_estabelec_false_start': ('palavra interrompida', '"estabelec…" antes de "bem estabelecida"', '"uma regra que não foi bem estabelecida"'),
+ 'c6_vai_para_o_R': ('reinício de frase', '"vai para o R…"', '"Do líder, sobe para o RH"'),
+ 'c2_01': ('correção imediata', '"problema, esse"', '"Quando esse conflito sobe esse elevador…"'),
+ 'pause_617': ('pausa encurtada', 'pausa de 0,82 s → ~0,4 s', '"…sustentada aqui. Através da normativa"'),
+ 'c3-01': ('correção imediata', '"isso,"', '"E quando essa situação na sua empresa não muda…"'),
+ 'c4-01': ('resíduo de emenda anterior', 'fragmento "Tu" de ~80 ms antes de um corte já existente', '"…sobre o diagnóstico. Tudo começa…"'),
+ 'c4-02': ('reinício de frase', '"porque a gente tem um caminho"', '"com o diagnóstico na mão, a gente tem aí um caminho para um tratamento mais adequado"'),
+ 'da_das_796': ('repetição', '"da" em "parte da das"', '"…muito pulada por grande parte das empresas"'),
+ 'c4-03': ('reinício de frase', '"Por isso que ele"', '"…para o colaborador, né? Nas nossas implementações…"'),
+ 'c4-05': ('reinício de frase', '"As pessoas."', '"E o que acontece, gente? O mercado hoje…"'),
+ 'c5_01': ('reinício de frase', '"Se o seu primeiro não,"', '"Esse primeiro não em alguma dessas perguntas é o seu ponto de partida"'),
+ 'pause_1118': ('pausa encurtada', 'pausa de 1,26 s → ~0,65 s (transição de bloco preservada)', '"…realizá-la. Se durante essa aula…"'),
+ 'pause_1137': ('pausa encurtada', 'hesitação silenciosa de 0,36 s no meio da frase', '"…um passo a mais, né? Sem adquirir o programa."'),
+}
+KEPT = [
+ ('00:19,8 e 00:43,9', 'pausas dramáticas antes de "gente"', 'preservadas: são a virada do bloco de abertura'),
+ ('00:52,5', '"ge-re-renciar" (suposta sílaba repetida)', 'a análise fina mostrou uma única sílaba: não havia gagueira'),
+ ('02:52,3', '"ge…" antes de "gente"', 'é o "de" pronunciado devagar ("dji"); cortar deixaria "problema d\'gente"'),
+ ('04:34,6', 'pausa após "O que seria essa percepção da injustiça?"', 'preservada: pausa retórica antes da resposta'),
+ ('06:52,4', 'pausa entre "menos de mil" e "5 mil"', 'preservada: prepara o impacto do número'),
+ ('07:23,5', '"que foi aquele caso do TST, né?"', 'não há ponto de corte limpo; a fala é natural'),
+ ('13:12,9', 'pausa após "terceira etapa"', 'preservada: transição de bloco'),
+ ('14:09,0', '"implemententações" (suposta sílaba repetida)', 'a análise fina mostrou a palavra pronunciada uma única vez'),
+ ('17:26 a 17:47', 'pausas entre as perguntas do teste', 'preservadas: tempo para o espectador responder'),
+ ('20:30,9', 'ritmo lento de "E tudo começa sabendo ouvir"', 'preservado: frase de encerramento dita devagar de propósito'),
+]
+L.append('| Final | Bruto | Tipo | O que saiu | Como ficou |')
 L.append('|---|---|---|---|---|')
 for c in sorted(used, key=lambda c: c['a']):
-    L.append(f"| {ts(out_t(c['a']))} | {ts(c['a'])} | {c['type']} | {c['removed'][:60]} | {c['result'][:90]} |")
-L.append('\n**Propostas analisadas e mantidas no vídeo** (corte rejeitado para preservar a integridade da fala):\n')
-for c in sorted(rej, key=lambda c: c['a']):
-    L.append(f"- {ts(c['a'])} (bruto) · {c['type']} · \"{c['removed'][:70]}\". Motivo: {c['evidence'][:220]}")
+    tp, rm, rs = PT.get(c['id'], (c['type'], c['removed'][:60], c['result'][:90]))
+    L.append(f"| {ts(out_t(c['a']))} | {ts(c['a'])} | {tp} | {rm} | {rs} |")
+L.append('\n**Propostas analisadas e mantidas no vídeo**, para preservar a integridade e a naturalidade da fala (tempos do bruto):\n')
+for t, what, why in KEPT:
+    L.append(f"- **{t}**: {what}. {why[0].upper() + why[1:]}.")
 L.append('')
+L.append(f'**Observação de conteúdo (decisão de vocês):** aos 11:11 do bruto ({ts(out_t(671.5))} do final), a Hellen diz *"Porque três semanas depois vai perder o efeito."* A versão 2 do roteiro diz que **"três semanas" sai de toda a aula**. A fala foi mantida, porque a edição segue o que foi gravado, mas ficou sem destaque gráfico. Se quiserem, a frase sai com um corte limpo, e o trecho continua coerente: "A gente não pode contratar um treinamento sem antes escutar e sem antes escrever. A gente vai começar falando sobre o diagnóstico."\n')
+L.append('**Emenda anterior irrecuperável:** em 14:42 do bruto, o corte manual já existente encurta o final de "implementação" (~50 ms). Não há material gravado para reconstituir a sílaba. Ela continua compreensível.\n')
 L.append('## 4. Motion graphics e representações visuais\n')
 L.append('Linguagem gráfica única: azul-marinho, petróleo e dourado (a mesma paleta das artes do método no roteiro), tipografia **Inter Tight** (texto) e **Fraunces itálico** (destaques). As animações entram com fade, deslocamento curto e desfoque suave (easing cúbico/quártico), sem elasticidade nem explosões. O texto fica na área da cortina, acima das cabeças, e as legendas ficam embaixo, sobre a mesa, sem sobreposição. Cada palavra de lettering aparece no momento exato em que é falada.\n')
 L.append('| Início | Fim | Intervenção |')

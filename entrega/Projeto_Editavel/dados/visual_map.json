@@ -2236,11 +2236,7 @@
    "tMarket": {
     "@t": 661.504
    },
-   "marketText": "↑ o mais comum no mercado: começar por aqui",
-   "caption": "três semanas depois, vai perder o efeito.",
-   "tCap": {
-    "@t": 671.616
-   }
+   "marketText": "↑ o mais comum no mercado: começar por aqui"
   },
   "layout": "top",
   "sfx": [],
