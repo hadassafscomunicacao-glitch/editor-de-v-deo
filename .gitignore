@@ -2,4 +2,5 @@
 *.mp4
 *.mov
 *.mkv
-!entrega/partes/*.mp4
+!entrega/Partes_Com_Legendas/*.mp4
+!entrega/Partes_Sem_Legendas/*.mp4
