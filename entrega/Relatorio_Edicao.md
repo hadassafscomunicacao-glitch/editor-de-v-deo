@@ -144,6 +144,7 @@ Tudo foi aplicado com LUTs 3D (65³) por região, sem filtros prontos e sem suav
 ## 7. Áudio
 
 Filtro passa-altas em 75 Hz → redução de ruído leve (FFT, 4 dB) → equalização: -2 dB em 250 Hz (ressonância de caixa), -1 dB em 800 Hz, +2,5 dB em 3,2 kHz (presença), +1,5 dB em prateleira a partir de 8 kHz → de-esser suave → compressão 2:1 → limitador. Em seguida, equilíbrio entre as vozes (+2,3 dB nos trechos da Hellen, por palavra) e normalização EBU R128 em duas passadas.
+Resultado medido no vídeo final: **-14,0 LUFS** integrado, LRA 4,4 LU, pico -0,9 dBTP.
 Efeitos sonoros pontuais, sintetizados para este projeto: "ding" de elevador nas chegadas, motor discreto na subida, whoosh na abertura das telas divididas, impacto grave em 4 frases-chave e ticks nos dados. **Não foi usada trilha musical**, porque não havia um arquivo licenciado disponível. O vídeo está pronto para receber uma trilha, que deve ficar cerca de 20 dB abaixo da voz.
 
 ## 8. Legendas
@@ -152,7 +153,13 @@ Geradas a partir do texto revisado e sincronizadas com as palavras que realmente
 
 ## 9. Controle de qualidade
 
-- Todas as animações foram revistas quadro a quadro em folhas de contato sobre a imagem tratada.
+- **Arquivo:** H.264 High 1080×1920 30 fps · 37089 quadros (esperado 37089) · áudio AAC 256 kbps 48 kHz estéreo · duração do vídeo e do áudio idêntica (1236,3 s).
+- **Quadros pretos:** 0. **Congelamentos:** 0. **Erros de decodificação:** 0.
+- **Loudness:** -14,0 LUFS integrado, LRA 4,4 LU, pico -0,9 dBTP.
+- **Emendas de fala:** as 15 foram re-transcritas no arquivo final e todas estão íntegras. As que o comparador automático sinalizou foram conferidas uma a uma: o texto ouvido contém exatamente as palavras esperadas, e a diferença vinha só das bordas da janela de análise.
+- **Sincronia:** a imagem foi conferida contra o bruto em 8 pontos ao longo do vídeo, antes e depois dos cortes, e cada quadro corresponde exatamente ao quadro de origem previsto (deslocamento 0). O áudio de cada trecho tem desvio máximo de 18 ms em relação à imagem, abaixo do perceptível.
+- **Revisão visual:** 141 quadros do vídeo final (entrada e meio de cada animação e cada emenda) em folhas de contato. Isso levou a 2 correções, aplicadas e reverificadas: (1) os números dos cartões de dados não aparecem mais como "0" antes da contagem; (2) as setas do ciclo Regra ⇄ Comportamento só aparecem com a linha desenhada, e o título ganhou margem de segurança.
+- **Legendas:** revisão ortográfica com uma segunda checagem que rejeita qualquer correção que altere a fala.
 
 ## 10. Limitações e pontos para validação
 

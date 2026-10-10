@@ -7,7 +7,7 @@ import json, sys, subprocess, numpy as np, cv2, os, math, argparse
 cv2.setNumThreads(1)   # OpenCV worker pool otherwise competes with ffmpeg threads and stalls the pipe
 ap = argparse.ArgumentParser(); ap.add_argument('plan'); ap.add_argument('out'); ap.add_argument('--from', dest='f0', type=int, default=0)
 ap.add_argument('--to', dest='f1', type=int, default=None); ap.add_argument('--preview', action='store_true'); ap.add_argument('--nosubs', action='store_true')
-ap.add_argument('--crf', type=float, default=17); ap.add_argument('--preset', default='slow')
+ap.add_argument('--crf', type=float, default=17); ap.add_argument('--only', choices=['clean', 'subs'], default=None); ap.add_argument('--preset', default='slow')
 A = ap.parse_args()
 P = json.load(open(A.plan))
 W, H, FPS = 1080, 1920, 30
@@ -25,7 +25,7 @@ def ranges(fr):
         if x != p + 1: r.append((s, p)); s = x
         p = x
     r.append((s, p)); return r
-rs = ranges(sel_frames)
+rs = ranges(out_to_src[f0:])
 start_src = rs[0][0]
 seek = max(0, start_src - 90) / FPS          # input seek a bit before; select uses absolute frame numbers via copyts
 sel_expr = '+'.join(f'between(n,{a - int(round(seek * FPS))},{b - int(round(seek * FPS))})' for a, b in rs)
@@ -109,12 +109,23 @@ def enc_cmd(path, subs=None):
     return ['ffmpeg', '-v', 'error', '-nostdin', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
             '-vf', ','.join(vf), '-c:v', 'libx264', '-preset', A.preset, '-crf', str(A.crf), '-profile:v', 'high', '-pix_fmt', 'yuv420p',
             '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-movflags', '+faststart', '-threads', str(P.get('enc_threads', 3)), '-y', path]
-encs = [subprocess.Popen(enc_cmd(A.out + '_clean.mp4'), stdin=subprocess.PIPE)]
-if not A.nosubs and P.get('subs'):
+encs = [] if A.only == 'subs' else [subprocess.Popen(enc_cmd(A.out + '_clean.mp4'), stdin=subprocess.PIPE)]
+if not A.nosubs and P.get('subs') and A.only != 'clean':
     sub_file = P['subs']
     if f0:  # shift subtitles for partial renders
         sub_file = A.out + '_subs.ass'
-        subprocess.run(['ffmpeg', '-v', 'error', '-itsoffset', str(-f0 / FPS), '-i', P['subs'], '-y', sub_file])
+        import re as _re
+        def _t2s(x): h, m, s_ = x.split(':'); return int(h) * 3600 + int(m) * 60 + float(s_)
+        def _s2t(v): v = max(0.0, v); cs = int(round(v * 100)); return f'{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}'
+        off = f0 / FPS; out_lines = []
+        for ln in open(P['subs'], encoding='utf-8').read().split('\n'):
+            m_ = _re.match(r'^(Dialogue: \d+,)([^,]+),([^,]+),(.*)$', ln)
+            if m_:
+                a_, b_ = _t2s(m_.group(2)) - off, _t2s(m_.group(3)) - off
+                if b_ <= 0: continue
+                ln = f'{m_.group(1)}{_s2t(a_)},{_s2t(b_)},{m_.group(4)}'
+            out_lines.append(ln)
+        open(sub_file, 'w', encoding='utf-8').write('\n'.join(out_lines))
     encs.append(subprocess.Popen(enc_cmd(A.out + '_subs.mp4', sub_file), stdin=subprocess.PIPE))
 
 import time as _t

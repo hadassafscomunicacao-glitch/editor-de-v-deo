@@ -19,7 +19,8 @@ SCENES.dataCard = (root, P) => {
   return t => {
     const ex = exitK(t, P);
     if (kick) rise(kick, prog(t, 0, .5) * ex, 12, 4);
-    const a = prog(t, .1, .55) * ex; rise(num, a, 24, 8);
+    // the number only appears when its count starts (never show a misleading zero)
+    const a = prog(t, (P.tCount ?? .15) - .12, .45) * ex; rise(num, a, 24, 8);
     const k = prog(t, P.tCount ?? .15, P.countDur ?? 1.3, E.outQuart);
     num.innerHTML = fmt((P.from ?? 0) + (P.value - (P.from ?? 0)) * k) + (P.unit ? `<span style="font-size:.42em;font-weight:600;letter-spacing:0;margin-left:.18em">${P.unit}</span>` : '');
     rise(lab, prog(t, P.tLabel ?? .5, .6) * ex, 16, 6);
@@ -132,11 +133,11 @@ SCENES.loop = (root, P) => {
   const mkNode = (x, c) => {
     const n = el('div', { class: 'abs', style: { left: (x - 170) + 'px', width: '340px', top: (CY - 80) + 'px', textAlign: 'center' } }, root);
     el('div', { class: 'kicker', style: { fontSize: '19px', marginBottom: '8px' } }, n, c.kicker || '');
-    el('div', { class: 'serif shadow', style: { fontSize: '56px', color: '#fff', lineHeight: 1 } }, n, c.title);
+    el('div', { class: 'serif shadow', style: { fontSize: (c.title.length > 10 ? 46 : 56) + 'px', color: '#fff', lineHeight: 1 } }, n, c.title);
     if (c.sub) el('div', { class: 'sans shadow', style: { font: "500 24px 'Inter Tight'", color: 'rgba(245,240,230,.8)', marginTop: '8px' } }, n, c.sub);
     return n;
   };
-  const L = mkNode(270, P.left), R = mkNode(810, P.right);
+  const L = mkNode(290, P.left), R = mkNode(790, P.right);
   const svg = svgEl('svg', { width: 1080, height: 800, class: 'abs', style: 'left:0;top:0' }, root);
   const defs = svgEl('defs', {}, svg);
   const mk = svgEl('marker', { id: 'lh', markerWidth: 12, markerHeight: 12, refX: 7, refY: 6, orient: 'auto' }, defs); svgEl('path', { d: 'M0,0 L12,6 L0,12 z', fill: PAL.gold }, mk);
@@ -151,8 +152,10 @@ SCENES.loop = (root, P) => {
     const ex = exitK(t, P);
     rise(L, prog(t, P.left.t ?? 0, .6) * ex, 18, 6); rise(R, prog(t, P.right.t ?? .3, .6) * ex, 18, 6);
     const k1 = prog(t, P.tTop ?? 1, .9, E.inOutCubic), k2 = prog(t, P.tBottom ?? 2.5, .9, E.inOutCubic);
-    top.setAttribute('stroke-dashoffset', top.dataset.l * (1 - k1)); top.setAttribute('opacity', ex);
-    bot.setAttribute('stroke-dashoffset', bot.dataset.l * (1 - k2)); bot.setAttribute('opacity', ex);
+    top.setAttribute('stroke-dashoffset', top.dataset.l * (1 - k1)); top.setAttribute('opacity', k1 > 0 ? ex : 0);
+    bot.setAttribute('stroke-dashoffset', bot.dataset.l * (1 - k2)); bot.setAttribute('opacity', k2 > 0 ? ex : 0);
+    // arrowheads only once the stroke has reached the end (no floating heads before the line is drawn)
+    top.setAttribute('marker-end', k1 >= .97 ? 'url(#lh)' : 'none'); bot.setAttribute('marker-end', k2 >= .97 ? 'url(#lh)' : 'none');
     rise(tt, prog(t, (P.tTop ?? 1) + .3, .6) * ex, 10, 4); rise(bt, prog(t, (P.tBottom ?? 2.5) + .3, .6) * ex, 10, 4);
   };
 };
@@ -291,7 +294,8 @@ SCENES.elevMini = (root, P) => {
     const ex = exitK(t, P);
     const a = prog(t, 0, .5) * ex; box.style.opacity = a; box.style.transform = `translateY(${(1 - a) * 20}px)`;
     if (P.count != null) {
-      const k = prog(t, P.tCount ?? .4, P.countDur ?? 2.2, E.outCubic); num.textContent = String(Math.round(k * P.count)); ar.textContent = '↻';
+      const k = prog(t, P.tCount ?? .4, P.countDur ?? 2.2, E.outCubic); num.textContent = String(Math.max(1, Math.round(k * P.count))); ar.textContent = '↻';
+      ind.style.opacity = prog(t, (P.tCount ?? .4) - .12, .4);
     } else if (P.mode === 'stay') { num.textContent = 'T'; ar.style.opacity = .3; }
     else { const k = prog(t, P.tMove ?? .4, P.moveDur ?? 1.8, E.inOutCubic); const idx = Math.min(floors.length - 1, Math.floor(k * floors.length)); num.textContent = floors[idx]; ar.style.opacity = .5 + .5 * Math.abs(Math.sin(t * 6)); }
     txs.forEach((e, k) => {
