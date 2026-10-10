@@ -35,6 +35,10 @@ for k in sorted(by_seg):
             n = b1 - b0
             for i in range(n): final.append({'w': clean[b0 + i], 's': prev + (nxt - prev) * i / n, 'e': prev + (nxt - prev) * (i + 1) / n})
 final.sort(key=lambda w: w['s'])
+# orthographic fixes from the subtitle proofreading pass (Acordo Ortográfico)
+PROOF_FIXES = {f'anti-assédio{p}': f'antiassédio{p}' for p in ['', '.', ',', '?', '!', ';', ':']}
+for w in final:
+    w['w'] = PROOF_FIXES.get(w['w'], w['w'])
 # capitalise after sentence ends when a raw ASR word starts a sentence
 for i, w in enumerate(final):
     if i == 0 or re.search(r'[.!?]$', final[i - 1]['w']): w['w'] = w['w'][:1].upper() + w['w'][1:]

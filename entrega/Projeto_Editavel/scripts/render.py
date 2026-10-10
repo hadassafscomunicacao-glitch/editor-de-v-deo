@@ -4,6 +4,7 @@ Stage 2 (python/OpenCV): per output frame: reframing (punch-in / push-in / split
 Stage 3 (ffmpeg): encode the clean master (no subtitles) and, in parallel, the subtitled version (libass).
 Usage: python project/render.py plan.json OUT_PREFIX [--from F --to F] [--preview]"""
 import json, sys, subprocess, numpy as np, cv2, os, math, argparse
+cv2.setNumThreads(1)   # OpenCV worker pool otherwise competes with ffmpeg threads and stalls the pipe
 ap = argparse.ArgumentParser(); ap.add_argument('plan'); ap.add_argument('out'); ap.add_argument('--from', dest='f0', type=int, default=0)
 ap.add_argument('--to', dest='f1', type=int, default=None); ap.add_argument('--preview', action='store_true'); ap.add_argument('--nosubs', action='store_true')
 ap.add_argument('--crf', type=float, default=17); ap.add_argument('--preset', default='slow')
@@ -35,7 +36,7 @@ graph = (f"[0:v]select='{sel_expr}',settb=1/{FPS},setpts=N,format=yuv420p,split[
          f"[s1]split[ya][yb];[yb]gblur=sigma=16:steps=2:planes=1[bl];[ya][bl]lut2=c0='clip(x+{cl}*(x-y),0,255)':c1='x':c2='x',format=gbrp,lut3d={P['lut_fg']}[fg];"
          f"[s2]format=gbrp,lut3d={P['lut_bg']}[bg];[bg][fg][m]maskedmerge,format=rgb24[out]")
 with open(A.out + '_graph.txt', 'w') as f: f.write(graph)
-dec = subprocess.Popen(['ffmpeg', '-v', 'error', '-ss', f'{seek:.4f}', '-i', SRC, '-ss', f'{seek:.4f}', '-i', P['matte'],
+dec = subprocess.Popen(['ffmpeg', '-v', 'error', '-nostdin', '-ss', f'{seek:.4f}', '-i', SRC, '-ss', f'{seek:.4f}', '-i', P['matte'],
                         '-filter_complex_script', A.out + '_graph.txt', '-map', '[out]', '-fps_mode', 'passthrough', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'],
                        stdout=subprocess.PIPE, bufsize=W * H * 3 * 2)
 
@@ -105,9 +106,9 @@ def over(dst, rgba):
 # ---------- encoders ----------
 def enc_cmd(path, subs=None):
     vf = ['format=yuv420p'] if not subs else [f"ass={subs}:fontsdir={P['fontsdir']}", 'format=yuv420p']
-    return ['ffmpeg', '-v', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
+    return ['ffmpeg', '-v', 'error', '-nostdin', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
             '-vf', ','.join(vf), '-c:v', 'libx264', '-preset', A.preset, '-crf', str(A.crf), '-profile:v', 'high', '-pix_fmt', 'yuv420p',
-            '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-movflags', '+faststart', '-threads', '3', '-y', path]
+            '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709', '-movflags', '+faststart', '-threads', str(P.get('enc_threads', 3)), '-y', path]
 encs = [subprocess.Popen(enc_cmd(A.out + '_clean.mp4'), stdin=subprocess.PIPE)]
 if not A.nosubs and P.get('subs'):
     sub_file = P['subs']
@@ -116,9 +117,13 @@ if not A.nosubs and P.get('subs'):
         subprocess.run(['ffmpeg', '-v', 'error', '-itsoffset', str(-f0 / FPS), '-i', P['subs'], '-y', sub_file])
     encs.append(subprocess.Popen(enc_cmd(A.out + '_subs.mp4', sub_file), stdin=subprocess.PIPE))
 
+import time as _t
+TT = {'read': 0.0, 'proc': 0.0, 'write': 0.0}
 n = 0; FB = W * H * 3
 for i in range(f0, f1):
+    _a = _t.time()
     b = dec.stdout.read(FB)
+    TT['read'] += _t.time() - _a; _a = _t.time()
     if len(b) < FB: print('decoder ended early at', i, file=sys.stderr); break
     img = np.frombuffer(b, np.uint8).reshape(H, W, 3).copy()
     z, cx, cy, _ = framing_at(i)
@@ -128,9 +133,11 @@ for i in range(f0, f1):
     for p in overlays_at(i):
         img = over(img, cache.get(p))
     data = img.tobytes()
+    TT['proc'] += _t.time() - _a; _a = _t.time()
     for e in encs: e.stdin.write(data)
+    TT['write'] += _t.time() - _a
     n += 1
     if n % 300 == 0: print(f'{i}/{f1}', flush=True)
 for e in encs: e.stdin.close(); e.wait()
 dec.terminate()
-print('rendered', n, 'frames')
+print('rendered', n, 'frames', {k: round(v, 1) for k, v in TT.items()})
