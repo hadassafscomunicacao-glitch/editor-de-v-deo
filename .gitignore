@@ -2,3 +2,4 @@
 *.mp4
 *.mov
 *.mkv
+!entrega/partes/*.mp4
