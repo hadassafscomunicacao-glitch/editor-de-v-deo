@@ -1,0 +1,7 @@
+html,body{margin:0;padding:0;background:transparent;width:1080px;height:1920px;overflow:hidden;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+#root{position:absolute;inset:0}
+.abs{position:absolute}
+.sans{font-family:'Inter Tight',sans-serif}
+.serif{font-family:'Fraunces',serif}
+.shadow{text-shadow:0 2px 6px rgba(0,0,0,.35),0 8px 34px rgba(0,0,0,.55)}
+.kicker{font:600 26px 'Inter Tight';letter-spacing:.32em;text-transform:uppercase;color:#C9A55F}

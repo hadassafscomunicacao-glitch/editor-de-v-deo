@@ -1,0 +1,497 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter Tight SemiBold,56,&H00FFFFFF,&H000000FF,&H5A0B1420,&H8C000000,0,0,0,0,100,100,0,0,1,2.6,1.6,2,90,90,290,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.34,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Se você lidera pessoas,
+Dialogue: 0,0:00:01.36,0:00:03.98,Sub,,0,0,0,,{\blur1.2\fad(70,50)}se existe uma equipe\Nque responde a você,
+Dialogue: 0,0:00:04.00,0:00:06.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}eu quero te propor uma conta\Nrápida antes de você continuar
+Dialogue: 0,0:00:06.80,0:00:07.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}assistindo essa aula.
+Dialogue: 0,0:00:07.98,0:00:10.49,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Pense na sua última\Nsemana de trabalho.
+Dialogue: 0,0:00:10.51,0:00:14.01,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Quantas vezes alguém chegou até\Nvocê com um problema que não
+Dialogue: 0,0:00:14.03,0:00:15.69,Sub,,0,0,0,,{\blur1.2\fad(70,50)}era sobre estratégia,
+Dialogue: 0,0:00:15.71,0:00:19.05,Sub,,0,0,0,,{\blur1.2\fad(70,50)}não era sobre o cliente\Ne nem era sobre o dinheiro?
+Dialogue: 0,0:00:19.07,0:00:20.86,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Era sobre gente.
+Dialogue: 0,0:00:20.88,0:00:23.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Pessoas que estavam se\Ndesentendendo num setor,
+Dialogue: 0,0:00:23.52,0:00:26.62,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o líder que estava com muita\Ndificuldade de conduzir equipe,
+Dialogue: 0,0:00:26.64,0:00:28.64,Sub,,0,0,0,,{\blur1.2\fad(70,50)}enfim, motivar também.
+Dialogue: 0,0:00:28.66,0:00:31.76,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E um colaborador que pediu\Ndemissão da empresa,
+Dialogue: 0,0:00:31.78,0:00:33.95,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que você nem sabia\Nque estava insatisfeito.
+Dialogue: 0,0:00:33.97,0:00:35.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Primeiro, eu quero\Nte tranquilizar, tá?
+Dialogue: 0,0:00:35.52,0:00:39.42,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Dizer que esse problema não\Né exclusivo da sua empresa.
+Dialogue: 0,0:00:39.44,0:00:42.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Existe um desafio real\Ne comum a todas as empresas.
+Dialogue: 0,0:00:42.80,0:00:45.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E esse desafio é: gente.
+Dialogue: 0,0:00:45.04,0:00:46.46,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque onde tem pessoas,
+Dialogue: 0,0:00:46.48,0:00:49.40,Sub,,0,0,0,,{\blur1.2\fad(70,50)}tem emoções e também\Nvão ter conflitos.
+Dialogue: 0,0:00:49.42,0:00:51.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E é por isso\Nque liderar, na prática,
+Dialogue: 0,0:00:51.98,0:00:55.48,Sub,,0,0,0,,{\blur1.2\fad(70,50)}é gerenciar pessoas,\Ncomportamentos,
+Dialogue: 0,0:00:55.50,0:00:57.00,Sub,,0,0,0,,{\blur1.2\fad(70,50)}emoções e conflitos.
+Dialogue: 0,0:00:57.02,0:01:00.28,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Aí vem a importância de líderes\Npreparados para isso.
+Dialogue: 0,0:01:00.30,0:01:04.20,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E quando na empresa ela\Nfalta a estrutura de você
+Dialogue: 0,0:01:04.22,0:01:06.20,Sub,,0,0,0,,{\blur1.2\fad(70,50)}com normas claras,
+Dialogue: 0,0:01:06.22,0:01:09.30,Sub,,0,0,0,,{\blur1.2\fad(70,50)}regras para que todos entendam\Nqual é a cultura da empresa,
+Dialogue: 0,0:01:09.32,0:01:12.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}começa também esses desafios\Ncom relação à gestão
+Dialogue: 0,0:01:12.04,0:01:13.08,Sub,,0,0,0,,{\blur1.2\fad(70,50)}de pessoas.
+Dialogue: 0,0:01:13.10,0:01:15.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E eu aprendi uma coisa\Nna mediação de conflitos:
+Dialogue: 0,0:01:15.98,0:01:18.76,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a pergunta que você deve\Nfazer não é "como evitar
+Dialogue: 0,0:01:18.78,0:01:21.88,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o conflito?", e sim "a\Nminha empresa está preparada
+Dialogue: 0,0:01:21.90,0:01:25.40,Sub,,0,0,0,,{\blur1.2\fad(70,50)}para gerenciar e conduzir\No conflito quando ele aparecer?"
+Dialogue: 0,0:01:25.42,0:01:29.40,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E se você é do RH, eu sei\Nque você se sente diferente.
+Dialogue: 0,0:01:29.42,0:01:31.72,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Principalmente porque,\Nquando chega até o RH,
+Dialogue: 0,0:01:31.74,0:01:33.64,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o conflito já explodiu.
+Dialogue: 0,0:01:33.66,0:01:35.24,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E aí é mais difícil ainda.
+Dialogue: 0,0:01:35.26,0:01:35.88,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Por quê?
+Dialogue: 0,0:01:35.90,0:01:38.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque, além de você não\Nter tanta autoridade sobre
+Dialogue: 0,0:01:38.62,0:01:41.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o comportamento dos líderes,\Nvem um desafio pra você:
+Dialogue: 0,0:01:41.98,0:01:44.59,Sub,,0,0,0,,{\blur1.2\fad(70,50)}você não tem uma norma,\Nvocê não tem regra para
+Dialogue: 0,0:01:44.92,0:01:46.82,Sub,,0,0,0,,{\blur1.2\fad(70,50)}embasar as suas decisões.
+Dialogue: 0,0:01:46.84,0:01:47.46,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente.
+Dialogue: 0,0:01:47.48,0:01:49.70,Sub,,0,0,0,,{\blur1.2\fad(70,50)}É por isso que, nos\Npróximos minutos,
+Dialogue: 0,0:01:49.72,0:01:52.82,Sub,,0,0,0,,{\blur1.2\fad(70,50)}nós vamos mostrar para você\No que acontece com a sua empresa
+Dialogue: 0,0:01:52.84,0:01:55.22,Sub,,0,0,0,,{\blur1.2\fad(70,50)}quando essa estrutura falha.
+Dialogue: 0,0:01:55.24,0:01:58.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E por que algumas soluções\Napresentadas pelo mercado,
+Dialogue: 0,0:01:58.76,0:02:01.75,Sub,,0,0,0,,{\blur1.2\fad(70,50)}mais comuns, não se\Nsustentam sozinhos.
+Dialogue: 0,0:02:01.77,0:02:03.83,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Qual é o caminho\Nem quatro etapas,
+Dialogue: 0,0:02:03.85,0:02:07.03,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que segue uma sequência\Nlógica e não é uma sugestão.
+Dialogue: 0,0:02:07.05,0:02:09.75,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E, ao final desse vídeo,\Nvocê vai realizar um teste.
+Dialogue: 0,0:02:09.77,0:02:13.11,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E esse teste, você vai\Nresponder quatro perguntas.
+Dialogue: 0,0:02:13.13,0:02:16.07,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E somente após responder\Nessas quatro perguntas,
+Dialogue: 0,0:02:16.09,0:02:19.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}você vai saber por onde\Na sua empresa deve começar.
+Dialogue: 0,0:02:19.98,0:02:23.08,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Eu sou a Hellen,\Npsicóloga organizacional,
+Dialogue: 0,0:02:23.10,0:02:25.80,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e eu cuido do lado\Ndo comportamento.
+Dialogue: 0,0:02:25.82,0:02:29.24,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Eu sou Indira, eu sou advogada\Ne mediadora de conflitos,
+Dialogue: 0,0:02:29.26,0:02:30.68,Sub,,0,0,0,,{\blur1.2\fad(70,50)}eu cuido do lado das regras,
+Dialogue: 0,0:02:30.70,0:02:32.79,Sub,,0,0,0,,{\blur1.2\fad(70,50)}da normativa\Ne prevenção empresarial.
+Dialogue: 0,0:02:32.81,0:02:36.23,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Olha o que acontece com a sua\Nempresa quando essa estrutura
+Dialogue: 0,0:02:36.25,0:02:37.35,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela não existe.
+Dialogue: 0,0:02:37.37,0:02:39.91,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O mais comum, quando\Nexistem pessoas no ambiente,
+Dialogue: 0,0:02:39.93,0:02:41.19,Sub,,0,0,0,,{\blur1.2\fad(70,50)}é existir conflitos.
+Dialogue: 0,0:02:41.21,0:02:44.31,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E os conflitos, quando\Nnão são resolvidos,
+Dialogue: 0,0:02:44.33,0:02:47.35,Sub,,0,0,0,,{\blur1.2\fad(70,50)}eles não vão\Ndeixar de existir.
+Dialogue: 0,0:02:47.37,0:02:49.62,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Eles vão subir de andar.
+Dialogue: 0,0:02:49.64,0:02:53.12,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ou seja, onde existe\Nproblema de gente:
+Dialogue: 0,0:02:53.14,0:02:55.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}pessoas do mesmo setor\Nque não se entendem,
+Dialogue: 0,0:02:55.62,0:02:57.77,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma regra que não\Nfoi bem estabelecida,
+Dialogue: 0,0:02:57.79,0:03:00.65,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma promessa que o líder\Nfez e não foi cumprida,
+Dialogue: 0,0:03:00.67,0:03:02.49,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma escala que foi malfeita.
+Dialogue: 0,0:03:02.51,0:03:07.61,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ou seja, esse problema sempre\Nvai começar no andar de baixo.
+Dialogue: 0,0:03:07.63,0:03:10.33,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E muitos casos, ou\Ngrande maioria deles,
+Dialogue: 0,0:03:10.35,0:03:14.33,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma simples conversa de 10\Nminutos poderia resolver tudo,
+Dialogue: 0,0:03:14.35,0:03:17.66,Sub,,0,0,0,,{\blur1.2\fad(70,50)}mas essa conversa\Nnunca acontece.
+Dialogue: 0,0:03:17.68,0:03:18.46,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente.
+Dialogue: 0,0:03:18.48,0:03:21.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A gente costuma dizer, né:\Nquando ela não acontece,
+Dialogue: 0,0:03:21.04,0:03:22.49,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela pega um elevador.
+Dialogue: 0,0:03:22.51,0:03:24.97,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E aí, do colaborador\Nvai para o líder,
+Dialogue: 0,0:03:24.99,0:03:27.37,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que muitas vezes não tem\Npreparo para ter conversas
+Dialogue: 0,0:03:27.39,0:03:28.33,Sub,,0,0,0,,{\blur1.2\fad(70,50)}difíceis.
+Dialogue: 0,0:03:28.35,0:03:30.46,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Do líder, sobe para o RH,
+Dialogue: 0,0:03:30.48,0:03:33.34,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que não tem norma para\Nembasar as suas decisões.
+Dialogue: 0,0:03:33.36,0:03:35.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E ele passa a atuar\Nde caso a caso.
+Dialogue: 0,0:03:35.52,0:03:37.26,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E o líder também,\Nmuitas vezes,
+Dialogue: 0,0:03:37.28,0:03:39.34,Sub,,0,0,0,,{\blur1.2\fad(70,50)}por não ter a normativa\Ndentro da empresa,
+Dialogue: 0,0:03:39.36,0:03:41.90,Sub,,0,0,0,,{\blur1.2\fad(70,50)}né, ele resolve cada\Ncaso de um jeitinho.
+Dialogue: 0,0:03:41.92,0:03:45.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ou do humor do dia, que é\Nonde tem um risco também.
+Dialogue: 0,0:03:45.04,0:03:47.58,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Do RH, que não tem\Ntambém a norma,
+Dialogue: 0,0:03:47.60,0:03:49.98,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e ele acaba virando\Num bombeiro, um mediador,
+Dialogue: 0,0:03:50.00,0:03:53.25,Sub,,0,0,0,,{\blur1.2\fad(70,50)}no caso a caso, sobe\Npara o dono da empresa.
+Dialogue: 0,0:03:53.27,0:03:55.01,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E o dono da empresa,\Nmuitas vezes,
+Dialogue: 0,0:03:55.03,0:03:57.81,Sub,,0,0,0,,{\blur1.2\fad(70,50)}não consegue resolver\Naquilo ali e vai para a mesa
+Dialogue: 0,0:03:57.83,0:03:58.45,Sub,,0,0,0,,{\blur1.2\fad(70,50)}do advogado.
+Dialogue: 0,0:03:58.47,0:03:59.97,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E, dessa subida inteira,
+Dialogue: 0,0:03:59.99,0:04:04.61,Sub,,0,0,0,,{\blur1.2\fad(70,50)}é o único andar que tem\Ndata e valor definido.
+Dialogue: 0,0:04:04.63,0:04:07.17,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque pode virar, sim,\Num passivo trabalhista.
+Dialogue: 0,0:04:07.19,0:04:10.69,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E repara bem uma coisa:\Nninguém, em nenhum momento,
+Dialogue: 0,0:04:10.71,0:04:11.89,Sub,,0,0,0,,{\blur1.2\fad(70,50)}foi incompetente.
+Dialogue: 0,0:04:11.91,0:04:15.66,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ninguém sai de casa ou faz\Nalguma coisa porque ela queria
+Dialogue: 0,0:04:15.68,0:04:16.62,Sub,,0,0,0,,{\blur1.2\fad(70,50)}fazer aquilo errado.
+Dialogue: 0,0:04:16.64,0:04:19.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Na verdade, ela fez ou\Nexecutou aquilo que ela achava
+Dialogue: 0,0:04:19.76,0:04:20.70,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que sabia.
+Dialogue: 0,0:04:20.72,0:04:25.26,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O problema maior é que em nenhum\Nandar existe um freio.
+Dialogue: 0,0:04:25.28,0:04:29.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E o que acelera ainda mais esse\Nelevador é uma coisa chamada
+Dialogue: 0,0:04:29.04,0:04:30.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}de percepção de injustiça.
+Dialogue: 0,0:04:30.80,0:04:33.31,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O que seria essa\Npercepção da injustiça?
+Dialogue: 0,0:04:33.33,0:04:35.39,Sub,,0,0,0,,{\blur1.2\fad(70,50)}É quando, em um mesmo setor,
+Dialogue: 0,0:04:35.41,0:04:38.83,Sub,,0,0,0,,{\blur1.2\fad(70,50)}existe um líder e os seus\Ncolaboradores trazem um problema,
+Dialogue: 0,0:04:38.85,0:04:42.67,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma solução, e os mesmos\Ncolaboradores de um mesmo setor
+Dialogue: 0,0:04:42.69,0:04:45.47,Sub,,0,0,0,,{\blur1.2\fad(70,50)}recebem a mesma resposta.
+Dialogue: 0,0:04:45.49,0:04:48.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ou quando a regra\Ndepende de alguém.
+Dialogue: 0,0:04:48.98,0:04:53.28,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Essa pessoa vai deixar de procurar\No líder e ela vai subir
+Dialogue: 0,0:04:53.30,0:04:54.64,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o elevador novamente.
+Dialogue: 0,0:04:54.66,0:04:57.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Só que existe um problema\Nmuito sério acontecendo aqui.
+Dialogue: 0,0:04:57.62,0:05:00.59,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Quando esse conflito\Nsobe esse elevador,
+Dialogue: 0,0:05:00.60,0:05:02.98,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ele vai se transformar\Nem outra coisa.
+Dialogue: 0,0:05:03.00,0:05:04.52,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Uma fofoca.
+Dialogue: 0,0:05:04.83,0:05:07.93,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Uma perda da produtividade,\Num atestado,
+Dialogue: 0,0:05:07.95,0:05:10.49,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma demissão que não\Nera esperada.
+Dialogue: 0,0:05:10.51,0:05:12.65,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E em grande maioria\Ndas vezes, alguém,
+Dialogue: 0,0:05:12.67,0:05:15.05,Sub,,0,0,0,,{\blur1.2\fad(70,50)}quando pede\Ndemissão da empresa,
+Dialogue: 0,0:05:15.07,0:05:17.21,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela não está pedindo\Ndemissão da empresa,
+Dialogue: 0,0:05:17.23,0:05:19.83,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela está pedindo\Ndemissão do líder.
+Dialogue: 0,0:05:19.85,0:05:20.55,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente.
+Dialogue: 0,0:05:20.57,0:05:23.51,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Existe até uma pesquisa que relata\Nisso que a Hellen acabou
+Dialogue: 0,0:05:23.53,0:05:24.22,Sub,,0,0,0,,{\blur1.2\fad(70,50)}de falar.
+Dialogue: 0,0:05:24.24,0:05:27.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Gente, muitas vezes isso\Nacontece porque a gente não tem
+Dialogue: 0,0:05:27.76,0:05:28.94,Sub,,0,0,0,,{\blur1.2\fad(70,50)}regras claras.
+Dialogue: 0,0:05:28.96,0:05:30.46,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A gente não tem normas,
+Dialogue: 0,0:05:30.48,0:05:32.86,Sub,,0,0,0,,{\blur1.2\fad(70,50)}não tem política interna\Nde gestão de conflito.
+Dialogue: 0,0:05:32.88,0:05:35.90,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Os líderes não foram preparados\Npra lidar e nem sabem como
+Dialogue: 0,0:05:35.92,0:05:39.18,Sub,,0,0,0,,{\blur1.2\fad(70,50)}conduzir situações difíceis,\Ne viram um assédio moral, né?
+Dialogue: 0,0:05:39.20,0:05:40.86,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E não tem regras pra todos.
+Dialogue: 0,0:05:40.88,0:05:42.95,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, onde não\Nexiste regra clara,
+Dialogue: 0,0:05:43.34,0:05:45.72,Sub,,0,0,0,,{\blur1.2\fad(70,50)}sempre vai existir\Ndecisão subjetiva.
+Dialogue: 0,0:05:45.74,0:05:48.22,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E onde existe\Ndecisão subjetiva,
+Dialogue: 0,0:05:48.24,0:05:50.94,Sub,,0,0,0,,{\blur1.2\fad(70,50)}pode, sim, haver\Npercepção de injustiça.
+Dialogue: 0,0:05:50.96,0:05:54.30,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E a injustiça acumulada,\Ngente, mais cedo ou mais tarde,
+Dialogue: 0,0:05:54.32,0:05:55.42,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela vira processo.
+Dialogue: 0,0:05:55.44,0:05:57.18,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E eu quero mostrar\Npra vocês esses dados aqui,
+Dialogue: 0,0:05:57.20,0:05:58.22,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que são alarmantes.
+Dialogue: 0,0:05:58.24,0:06:02.06,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Só em 2025, a Justiça\Ndo Trabalho recebeu mais de 2,3
+Dialogue: 0,0:06:02.08,0:06:03.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}milhões de novas ações.
+Dialogue: 0,0:06:03.76,0:06:07.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O maior volume desde a reforma\Ntrabalhista, em 2017.
+Dialogue: 0,0:06:07.98,0:06:11.16,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Quando a gente olha os assuntos\Nque se repetem muito nessas
+Dialogue: 0,0:06:11.18,0:06:14.04,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ações, que não é\Nfraude, nem é má-fé,
+Dialogue: 0,0:06:14.06,0:06:17.00,Sub,,0,0,0,,{\blur1.2\fad(70,50)}é o básico: é um desligamento\Nmal conduzido,
+Dialogue: 0,0:06:17.02,0:06:18.36,Sub,,0,0,0,,{\blur1.2\fad(70,50)}é uma jornada sem controle,
+Dialogue: 0,0:06:18.38,0:06:21.00,Sub,,0,0,0,,{\blur1.2\fad(70,50)}são essas questões que a\NHellen acabou de relatar.
+Dialogue: 0,0:06:21.02,0:06:24.20,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ou seja, quase tudo\Nisso passa por uma falta
+Dialogue: 0,0:06:24.22,0:06:28.04,Sub,,0,0,0,,{\blur1.2\fad(70,50)}de estrutura,\Nde implementação, ou seja,
+Dialogue: 0,0:06:28.06,0:06:30.12,Sub,,0,0,0,,{\blur1.2\fad(70,50)}de método na gestão\Nde pessoas, né?
+Dialogue: 0,0:06:30.14,0:06:31.01,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Quando a gente fala de
+Dialogue: 0,0:06:31.36,0:06:34.94,Sub,,0,0,0,,{\blur1.2\fad(70,50)}comportamento, o sinal\Né ainda mais claro.
+Dialogue: 0,0:06:34.96,0:06:37.42,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Temos aqui também outros\Ndados importantes.
+Dialogue: 0,0:06:37.44,0:06:41.27,Sub,,0,0,0,,{\blur1.2\fad(70,50)}As ações de assédio\Nmoral, elas cresceram 22%
+Dialogue: 0,0:06:41.76,0:06:42.62,Sub,,0,0,0,,{\blur1.2\fad(70,50)}em um ano.
+Dialogue: 0,0:06:42.64,0:06:46.94,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Foram mais de 142 mil\Nnovos processos só em 2025.
+Dialogue: 0,0:06:46.96,0:06:51.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}As ações por burnout passaram\Nde menos de mil para 5 mil
+Dialogue: 0,0:06:51.40,0:06:52.83,Sub,,0,0,0,,{\blur1.2\fad(70,50)}no ano de 2025.
+Dialogue: 0,0:06:52.84,0:06:57.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E no ano de 2025\Nforam mais de 546
+Dialogue: 0,0:06:57.40,0:06:59.64,Sub,,0,0,0,,{\blur1.2\fad(70,50)}mil afastamentos pelo INSS
+Dialogue: 0,0:07:00.04,0:07:02.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}por questões de saúde mental.
+Dialogue: 0,0:07:02.04,0:07:06.10,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E quando a gente para para analisar\Ncada um desses números,
+Dialogue: 0,0:07:06.12,0:07:09.30,Sub,,0,0,0,,{\blur1.2\fad(70,50)}você percebe que por trás\Nde cada um deles existe
+Dialogue: 0,0:07:09.32,0:07:11.67,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma conversa\Nque não aconteceu.
+Dialogue: 0,0:07:11.69,0:07:15.99,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ou um líder que não sabia\Nconduzir essa conversa difícil.
+Dialogue: 0,0:07:16.01,0:07:17.27,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Dados alarmantes, né?
+Dialogue: 0,0:07:17.29,0:07:19.43,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E teve um dado nessa pesquisa\Nque a gente fez pra trazer
+Dialogue: 0,0:07:19.45,0:07:21.11,Sub,,0,0,0,,{\blur1.2\fad(70,50)}pra aula de vocês\Nque nos chamou a atenção,
+Dialogue: 0,0:07:21.13,0:07:22.87,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que foi aquele\Ncaso do TST, né?
+Dialogue: 0,0:07:22.89,0:07:25.83,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Aquele caso do TST que ele\Nmanteve recentemente
+Dialogue: 0,0:07:25.85,0:07:29.67,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma condenação no valor\Nde 238 mil reais contra
+Dialogue: 0,0:07:29.69,0:07:30.87,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma montadora.
+Dialogue: 0,0:07:30.89,0:07:32.95,Sub,,0,0,0,,{\blur1.2\fad(70,50)}De um líder que
+Dialogue: 0,0:07:32.97,0:07:35.51,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ele sofria assédio\Npor um subordinado,
+Dialogue: 0,0:07:35.53,0:07:36.95,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e ele levava para a empresa.
+Dialogue: 0,0:07:36.97,0:07:40.63,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ou seja, ele realizou 15\Nreclamações durante dois anos
+Dialogue: 0,0:07:40.65,0:07:42.23,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e a empresa não fez nada.
+Dialogue: 0,0:07:42.25,0:07:46.55,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E isso gerou esse valor de 238\Nmil reais de danos morais
+Dialogue: 0,0:07:46.57,0:07:47.86,Sub,,0,0,0,,{\blur1.2\fad(70,50)}para esse líder.
+Dialogue: 0,0:07:47.88,0:07:50.90,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, gente, 15\Nvezes o conflito
+Dialogue: 0,0:07:50.92,0:07:55.16,Sub,,0,0,0,,{\blur1.2\fad(70,50)}subiu, e em nenhum andar\Nexistia um freio para isso.
+Dialogue: 0,0:07:55.53,0:07:58.79,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Quando a empresa, ela percebe\Nesse tipo de problema,
+Dialogue: 0,0:07:58.81,0:08:00.71,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela costuma fazer duas coisas.
+Dialogue: 0,0:08:00.73,0:08:03.86,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E a primeira é contratar\Num treinamento.
+Dialogue: 0,0:08:03.88,0:08:07.22,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Uma palestra,\Num workshop de liderança,
+Dialogue: 0,0:08:07.24,0:08:09.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que vai, sim, gerar\Numa transformação,
+Dialogue: 0,0:08:09.40,0:08:10.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}vai gerar uma consciência.
+Dialogue: 0,0:08:10.76,0:08:14.58,Sub,,0,0,0,,{\blur1.2\fad(70,50)}As pessoas vão sair desse\Nworkshop de liderança realmente
+Dialogue: 0,0:08:14.60,0:08:15.30,Sub,,0,0,0,,{\blur1.2\fad(70,50)}motivadas.
+Dialogue: 0,0:08:15.32,0:08:18.66,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Mas o que geralmente\Nacontece é que, alguns meses,
+Dialogue: 0,0:08:18.68,0:08:21.46,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a empresa vai voltar\Ncomo estava antes.
+Dialogue: 0,0:08:21.48,0:08:24.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O problema não é\Nque o treinamento é ruim.
+Dialogue: 0,0:08:24.76,0:08:28.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O treinamento gera\Numa consciência no colaborador,
+Dialogue: 0,0:08:28.52,0:08:30.27,Sub,,0,0,0,,{\blur1.2\fad(70,50)}mas não muda a regra.
+Dialogue: 0,0:08:30.28,0:08:32.10,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A pessoa sair desses eventos,
+Dialogue: 0,0:08:32.12,0:08:35.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela vai voltar pra empresa\Ne ela vai lidar com líderes
+Dialogue: 0,0:08:35.80,0:08:38.65,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que cada um decide\Nde uma maneira.
+Dialogue: 0,0:08:38.67,0:08:40.57,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E aí acontece o seguinte:
+Dialogue: 0,0:08:40.59,0:08:44.49,Sub,,0,0,0,,{\blur1.2\fad(70,50)}essa consciência que foi\Ngerada com os treinamentos,
+Dialogue: 0,0:08:44.51,0:08:48.28,Sub,,0,0,0,,{\blur1.2\fad(70,50)}com as palestras, com o workshop,\Nela não vai sustentar e,
+Dialogue: 0,0:08:48.30,0:08:50.69,Sub,,0,0,0,,{\blur1.2\fad(70,50)}com o tempo, ela\Nvai perder a força.
+Dialogue: 0,0:08:51.13,0:08:53.99,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente, porque ela não tá\Nescrita em lugar nenhum, né?
+Dialogue: 0,0:08:54.01,0:08:55.75,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E é muito interessante\Na gente falar isso,
+Dialogue: 0,0:08:55.77,0:08:58.63,Sub,,0,0,0,,{\blur1.2\fad(70,50)}gente, porque uma segunda\Ncoisa que acontece muito
+Dialogue: 0,0:08:58.65,0:09:01.19,Sub,,0,0,0,,{\blur1.2\fad(70,50)}nas empresas é: ou a empresa,
+Dialogue: 0,0:09:01.21,0:09:04.95,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela leva um susto e ela decide\Ncontratar a parte normativa,
+Dialogue: 0,0:09:04.97,0:09:06.71,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o que é muito válido, tá?
+Dialogue: 0,0:09:06.73,0:09:08.71,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E tem empresas\Nque nem isso faz,
+Dialogue: 0,0:09:08.73,0:09:10.90,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que também já fica\Nmuito desprotegida, né?
+Dialogue: 0,0:09:10.92,0:09:14.34,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Mas as empresas que optam\Npor esse caminho de contratar
+Dialogue: 0,0:09:14.36,0:09:17.55,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a normativa, elas\Nfazem de duas formas.
+Dialogue: 0,0:09:17.57,0:09:21.62,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A primeira: modelos\Nprontos ou ChatGPT fazendo,
+Dialogue: 0,0:09:21.64,0:09:22.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que também é um risco.
+Dialogue: 0,0:09:22.52,0:09:22.90,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Por quê?
+Dialogue: 0,0:09:22.92,0:09:25.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque a normativa precisa\Nconversar com a realidade da sua
+Dialogue: 0,0:09:25.80,0:09:26.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}empresa.
+Dialogue: 0,0:09:26.52,0:09:29.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ela precisa traduzir a realidade\Nda sua empresa para que ela
+Dialogue: 0,0:09:29.40,0:09:31.55,Sub,,0,0,0,,{\blur1.2\fad(70,50)}seja sustentada\Ndentro da empresa.
+Dialogue: 0,0:09:32.46,0:09:35.32,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Outro caminho é realmente\Ncontratar um profissional,
+Dialogue: 0,0:09:35.34,0:09:38.68,Sub,,0,0,0,,{\blur1.2\fad(70,50)}um advogado, que possa entender\Na realidade da sua empresa,
+Dialogue: 0,0:09:38.70,0:09:41.88,Sub,,0,0,0,,{\blur1.2\fad(70,50)}fazer um diagnóstico ali\Ne construir essa normativa
+Dialogue: 0,0:09:41.90,0:09:44.04,Sub,,0,0,0,,{\blur1.2\fad(70,50)}conversando com a\Nrealidade da empresa.
+Dialogue: 0,0:09:44.06,0:09:47.24,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Daí ele recebe todos\Nesses documentos,
+Dialogue: 0,0:09:47.26,0:09:50.20,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ou seja, regulamento\Ninterno, código de conduta,
+Dialogue: 0,0:09:50.22,0:09:52.61,Sub,,0,0,0,,{\blur1.2\fad(70,50)}política de gestão\Nde conflito, política
+Dialogue: 0,0:09:52.94,0:09:55.32,Sub,,0,0,0,,{\blur1.2\fad(70,50)}antiassédio, né,\Nassédio moral e sexual,
+Dialogue: 0,0:09:55.34,0:09:56.44,Sub,,0,0,0,,{\blur1.2\fad(70,50)}manual de cultura.
+Dialogue: 0,0:09:56.46,0:10:00.57,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ele tem toda a parte normativa,\Nmas ele guarda numa gaveta.
+Dialogue: 0,0:10:00.59,0:10:02.01,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ele não implementa.
+Dialogue: 0,0:10:02.03,0:10:05.21,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, essa parte, você\Nestá estruturando a empresa.
+Dialogue: 0,0:10:05.23,0:10:07.45,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E é importante\Nque isso se faça assim.
+Dialogue: 0,0:10:07.47,0:10:09.54,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Só que você precisa\Nentender que
+Dialogue: 0,0:10:09.87,0:10:12.73,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a consciência que é\Ngerada lá no treinamento,
+Dialogue: 0,0:10:12.75,0:10:15.14,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela precisa ser\Nsustentada aqui,
+Dialogue: 0,0:10:15.16,0:10:17.31,Sub,,0,0,0,,{\blur1.2\fad(70,50)}através da normativa, né?
+Dialogue: 0,0:10:17.33,0:10:18.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente.
+Dialogue: 0,0:10:18.04,0:10:19.95,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Uma coisa complementa a outra.
+Dialogue: 0,0:10:19.96,0:10:24.12,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O que eu escuto na sala\Nvira escrita e cláusula
+Dialogue: 0,0:10:24.14,0:10:25.64,Sub,,0,0,0,,{\blur1.2\fad(70,50)}do que a Indira vai escrever.
+Dialogue: 0,0:10:25.66,0:10:30.22,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E o que a Indira escreve\Nvira conteúdo e treinamento.
+Dialogue: 0,0:10:30.24,0:10:33.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Perfeito, porque o documento,\Nele muda a regra, né?
+Dialogue: 0,0:10:33.04,0:10:34.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Mas não muda o comportamento.
+Dialogue: 0,0:10:34.40,0:10:36.14,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E o comportamento\Ngera consciência,
+Dialogue: 0,0:10:36.16,0:10:37.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}mas é sustentado pela regra.
+Dialogue: 0,0:10:37.76,0:10:38.30,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente.
+Dialogue: 0,0:10:38.32,0:10:41.00,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E quando essa situação\Nna sua empresa não muda,
+Dialogue: 0,0:10:41.02,0:10:44.52,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente dá um nome\Nde gestão no improviso.
+Dialogue: 0,0:10:44.54,0:10:46.84,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Mas calma, que a gente\Nvai te dar o caminho.
+Dialogue: 0,0:10:46.86,0:10:49.25,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O método que a gente\Naplica, ele segue
+Dialogue: 0,0:10:49.27,0:10:52.53,Sub,,0,0,0,,{\blur1.2\fad(70,50)}quatro etapas:\No diagnóstico, a estrutura,
+Dialogue: 0,0:10:52.55,0:10:54.84,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a implementação e a liderança.
+Dialogue: 0,0:10:54.86,0:10:59.08,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E o mais comum no mercado é\Nas empresas sempre começarem
+Dialogue: 0,0:10:59.10,0:11:02.39,Sub,,0,0,0,,{\blur1.2\fad(70,50)}pela liderança, ou seja,\Ncontratando um treinamento.
+Dialogue: 0,0:11:02.41,0:11:05.67,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A gente não pode contratar\Num treinamento sem antes escutar
+Dialogue: 0,0:11:05.69,0:11:07.59,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e sem antes escrever.
+Dialogue: 0,0:11:07.61,0:11:11.70,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque três semanas depois\Nvai perder o efeito.
+Dialogue: 0,0:11:11.72,0:11:14.24,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A gente vai começar falando\Nsobre o diagnóstico.
+Dialogue: 0,0:11:14.26,0:11:17.36,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Tudo começa: eu e a Indira\Nconversando com o dono
+Dialogue: 0,0:11:17.38,0:11:17.92,Sub,,0,0,0,,{\blur1.2\fad(70,50)}da empresa.
+Dialogue: 0,0:11:17.94,0:11:21.29,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Esse dono já traz\Num diagnóstico pré-pronto.
+Dialogue: 0,0:11:21.68,0:11:23.18,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Grande maioria das vezes,
+Dialogue: 0,0:11:23.20,0:11:25.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ele vai falar que já sabe\No que está acontecendo,
+Dialogue: 0,0:11:25.76,0:11:27.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que já sabe quem é o culpado.
+Dialogue: 0,0:11:27.52,0:11:30.86,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Mas esse dono não tem\Numa visão muito macro,
+Dialogue: 0,0:11:30.88,0:11:33.84,Sub,,0,0,0,,{\blur1.2\fad(70,50)}porque ele só sabe\Naquilo que sobe até ele.
+Dialogue: 0,0:11:33.86,0:11:36.00,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E nem o chefe, ou ninguém,
+Dialogue: 0,0:11:36.02,0:11:40.05,Sub,,0,0,0,,{\blur1.2\fad(70,50)}sobe à sala do chefe pra falar\Nque o chefe é o problema.
+Dialogue: 0,0:11:40.07,0:11:43.41,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ou seja, por isso\Nque o nosso diagnóstico,
+Dialogue: 0,0:11:43.43,0:11:46.61,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ele vem de fora, do anonimato.
+Dialogue: 0,0:11:46.63,0:11:50.05,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O nosso diagnóstico, ele\Nnão é uma pesquisa de clima,
+Dialogue: 0,0:11:50.07,0:11:52.85,Sub,,0,0,0,,{\blur1.2\fad(70,50)}porque uma pesquisa de clima\Nvai perguntar pra você como
+Dialogue: 0,0:11:52.87,0:11:54.05,Sub,,0,0,0,,{\blur1.2\fad(70,50)}você se sente.
+Dialogue: 0,0:11:54.07,0:11:57.17,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Agora, um diagnóstico\Norganizacional,
+Dialogue: 0,0:11:57.19,0:12:00.45,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ele vai perguntar como\Nas decisões são tomadas
+Dialogue: 0,0:12:00.47,0:12:03.73,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e o que influencia\Nessas decisões.
+Dialogue: 0,0:12:03.75,0:12:04.45,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente.
+Dialogue: 0,0:12:04.47,0:12:05.81,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Com essa relação\Ndo diagnóstico,
+Dialogue: 0,0:12:05.83,0:12:08.45,Sub,,0,0,0,,{\blur1.2\fad(70,50)}eu gosto muito da analogia\Nque a gente fala, né, Hellen?
+Dialogue: 0,0:12:08.47,0:12:10.37,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Sobre a questão\Nde você ir ao médico.
+Dialogue: 0,0:12:10.39,0:12:12.69,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Você vai ao médico e você\Njá pede uma cirurgia,
+Dialogue: 0,0:12:12.71,0:12:14.93,Sub,,0,0,0,,{\blur1.2\fad(70,50)}mas nenhum médico vai fazer\Numa cirurgia ou vai te
+Dialogue: 0,0:12:14.95,0:12:18.13,Sub,,0,0,0,,{\blur1.2\fad(70,50)}recomendar um tratamento\Nadequado se ele não te pedir
+Dialogue: 0,0:12:18.15,0:12:18.85,Sub,,0,0,0,,{\blur1.2\fad(70,50)}exames.
+Dialogue: 0,0:12:18.87,0:12:20.93,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Esses exames são\No diagnóstico.
+Dialogue: 0,0:12:20.95,0:12:24.21,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E aqui na empresa, quando\Na gente fala de estruturar,
+Dialogue: 0,0:12:24.23,0:12:27.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que é o nosso segundo\Npasso, nossa segunda etapa,
+Dialogue: 0,0:12:27.62,0:12:29.84,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente está falando\Ndo que vem do diagnóstico.
+Dialogue: 0,0:12:29.86,0:12:31.52,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, com o\Ndiagnóstico na mão,
+Dialogue: 0,0:12:31.54,0:12:34.85,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente tem aí um caminho\Npara um tratamento mais adequado.
+Dialogue: 0,0:12:34.87,0:12:36.29,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, isso vai virar o quê?
+Dialogue: 0,0:12:36.31,0:12:38.45,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Vai virar\Numa estrutura escrita.
+Dialogue: 0,0:12:38.47,0:12:41.01,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E aí vem as normativas\Nque a gente já mencionou, né?
+Dialogue: 0,0:12:41.03,0:12:43.41,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O manual de cultura,\No regulamento interno,
+Dialogue: 0,0:12:43.43,0:12:44.93,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o código de conduta,
+Dialogue: 0,0:12:44.95,0:12:48.29,Sub,,0,0,0,,{\blur1.2\fad(70,50)}as políticas internas\Nde gestão adequada de conflito
+Dialogue: 0,0:12:48.31,0:12:51.65,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e também a política\Ninterna anti-assédio.
+Dialogue: 0,0:12:51.67,0:12:54.90,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Tudo isso para ajudar\Na sustentar aquele equilíbrio
+Dialogue: 0,0:12:54.92,0:12:57.54,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que a gente falou entre\Na consciência e sustentar também
+Dialogue: 0,0:12:57.56,0:12:59.46,Sub,,0,0,0,,{\blur1.2\fad(70,50)}as regras dentro da empresa.
+Dialogue: 0,0:12:59.48,0:13:02.66,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque, gente, o documento,\Nele não protege por existir.
+Dialogue: 0,0:13:02.68,0:13:04.90,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Ele protege por ser aplicável.
+Dialogue: 0,0:13:04.92,0:13:08.61,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E aí entra a nossa\Nterceira etapa.
+Dialogue: 0,0:13:08.63,0:13:12.05,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque é muito pulada\Npor grande parte
+Dialogue: 0,0:13:12.38,0:13:13.72,Sub,,0,0,0,,{\blur1.2\fad(70,50)}das empresas.
+Dialogue: 0,0:13:13.74,0:13:16.36,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Você contrata, você\Nrecebe as normativas,
+Dialogue: 0,0:13:16.38,0:13:19.93,Sub,,0,0,0,,{\blur1.2\fad(70,50)}mas elas não são implementadas\Ndentro da empresa.
+Dialogue: 0,0:13:19.95,0:13:24.73,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E isso acaba dificultando\Nentre a prática
+Dialogue: 0,0:13:24.75,0:13:26.09,Sub,,0,0,0,,{\blur1.2\fad(70,50)}daquilo que está escrito.
+Dialogue: 0,0:13:26.11,0:13:27.21,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, como que a gente faz?
+Dialogue: 0,0:13:27.23,0:13:29.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A gente faz a implementação.
+Dialogue: 0,0:13:29.84,0:13:31.35,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Essa implementação,
+Dialogue: 0,0:13:31.68,0:13:35.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela é realizada\Nem todas as etapas.
+Dialogue: 0,0:13:35.52,0:13:38.14,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Inclusive, eu preciso\Naté, como advogada,
+Dialogue: 0,0:13:38.16,0:13:40.47,Sub,,0,0,0,,{\blur1.2\fad(70,50)}dar essa orientação\Npra vocês: que quando você
+Dialogue: 0,0:13:40.82,0:13:44.24,Sub,,0,0,0,,{\blur1.2\fad(70,50)}só adverte um colaborador\Nde uma norma que ele descumpriu,
+Dialogue: 0,0:13:44.26,0:13:46.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}sem comprovar que todos os\Ncolaboradores tinham ciência
+Dialogue: 0,0:13:46.98,0:13:50.24,Sub,,0,0,0,,{\blur1.2\fad(70,50)}dessa norma, provavelmente\Nessa demissão,
+Dialogue: 0,0:13:50.26,0:13:53.21,Sub,,0,0,0,,{\blur1.2\fad(70,50)}essa punição, ela pode\Nser anulada, revertida
+Dialogue: 0,0:13:53.70,0:13:55.68,Sub,,0,0,0,,{\blur1.2\fad(70,50)}nos tribunais de trabalho, né?
+Dialogue: 0,0:13:55.70,0:13:57.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, por isso que é\Nimportante implementar.
+Dialogue: 0,0:13:57.62,0:14:00.72,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E nessa implementação é\Nque a gente dá essa clareza
+Dialogue: 0,0:14:00.74,0:14:02.09,Sub,,0,0,0,,{\blur1.2\fad(70,50)}para o colaborador, né?
+Dialogue: 0,0:14:02.44,0:14:05.62,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Nas nossas implementações,\Na gente vai com o treinamento,
+Dialogue: 0,0:14:05.64,0:14:07.80,Sub,,0,0,0,,{\blur1.2\fad(70,50)}com a linguagem\Nacessível, todos eles
+Dialogue: 0,0:14:08.28,0:14:11.06,Sub,,0,0,0,,{\blur1.2\fad(70,50)}têm um conhecimento\Ndas regras e
+Dialogue: 0,0:14:11.08,0:14:13.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a empresa fica com a comprovação\Nde que eles tinham ciência.
+Dialogue: 0,0:14:13.80,0:14:16.42,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque é isso que, em um\Neventual ação trabalhista,
+Dialogue: 0,0:14:16.44,0:14:19.32,Sub,,0,0,0,,{\blur1.2\fad(70,50)}vão te pedir: qual é a comprovação\Nde que esse colaborador
+Dialogue: 0,0:14:19.34,0:14:22.12,Sub,,0,0,0,,{\blur1.2\fad(70,50)}tinha conhecimento e clareza\Ndaquilo que ele descumpriu,
+Dialogue: 0,0:14:22.14,0:14:24.28,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e por isso que ele está\Nlevando aquela punição.
+Dialogue: 0,0:14:24.30,0:14:25.72,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E mais do que isso:
+Dialogue: 0,0:14:25.74,0:14:28.12,Sub,,0,0,0,,{\blur1.2\fad(70,50)}qual é o caminho de um\Nprocesso disciplinar dentro
+Dialogue: 0,0:14:28.14,0:14:28.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}da empresa?
+Dialogue: 0,0:14:28.62,0:14:31.48,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Qual é o caminho que se deve\Nter, quem que vai apurar,
+Dialogue: 0,0:14:31.50,0:14:33.32,Sub,,0,0,0,,{\blur1.2\fad(70,50)}por exemplo, uma denúncia\Nanti-assédio?
+Dialogue: 0,0:14:33.34,0:14:35.64,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Tudo isso a gente também\Ntrabalha na questão
+Dialogue: 0,0:14:35.66,0:14:36.52,Sub,,0,0,0,,{\blur1.2\fad(70,50)}da implementação.
+Dialogue: 0,0:14:36.54,0:14:40.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E a quarta etapa: a gente\Ncomeça agora pela liderança,
+Dialogue: 0,0:14:40.62,0:14:44.82,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e somente agora a gente\Nvai começar a treinar.
+Dialogue: 0,0:14:44.84,0:14:45.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Porque
+Dialogue: 0,0:14:45.80,0:14:47.00,Sub,,0,0,0,,{\blur1.2\fad(70,50)}grande maioria
+Dialogue: 0,0:14:47.40,0:14:50.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}da liderança que foi\Npromovida dentro das empresas,
+Dialogue: 0,0:14:50.52,0:14:53.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}elas foram promovidas porque\Nelas tinham uma competência
+Dialogue: 0,0:14:53.40,0:14:55.59,Sub,,0,0,0,,{\blur1.2\fad(70,50)}técnica diária.
+Dialogue: 0,0:14:55.61,0:15:00.25,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Mas elas não sabem conduzir\Nconversas difíceis.
+Dialogue: 0,0:15:00.27,0:15:03.13,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Como elas não sabem\Nconduzir conversas difíceis,
+Dialogue: 0,0:15:03.15,0:15:05.61,Sub,,0,0,0,,{\blur1.2\fad(70,50)}elas vão começar\Na adiar essas conversas,
+Dialogue: 0,0:15:05.63,0:15:08.97,Sub,,0,0,0,,{\blur1.2\fad(70,50)}vai deixar pra depois,\Ne mais uma vez esse conflito,
+Dialogue: 0,0:15:08.99,0:15:11.19,Sub,,0,0,0,,{\blur1.2\fad(70,50)}essa situação vai\Nsubir de andar.
+Dialogue: 0,0:15:11.21,0:15:14.71,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, antes da gente\Nfazer um treinamento,
+Dialogue: 0,0:15:14.73,0:15:16.92,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente mapeia essa liderança.
+Dialogue: 0,0:15:16.94,0:15:20.36,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Aquele líder que não\Nsabe lidar com conflitos,
+Dialogue: 0,0:15:20.38,0:15:22.84,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente vai ensinar a ele\Nlidar com conflitos.
+Dialogue: 0,0:15:22.86,0:15:25.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E aquele líder\Nque atropela os conflitos,
+Dialogue: 0,0:15:25.98,0:15:29.88,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente vai ensinar ele a esperar\Npara poder resolver esse
+Dialogue: 0,0:15:29.90,0:15:30.70,Sub,,0,0,0,,{\blur1.2\fad(70,50)}conflito.
+Dialogue: 0,0:15:31.15,0:15:31.93,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Verdade, gente.
+Dialogue: 0,0:15:31.95,0:15:34.65,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E atendendo também a um pedido\Nde líderes que a gente sempre
+Dialogue: 0,0:15:34.67,0:15:35.53,Sub,,0,0,0,,{\blur1.2\fad(70,50)}vinha treinando,
+Dialogue: 0,0:15:35.55,0:15:39.61,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente desenvolveu uma ferramenta\Nprática para auxiliar.
+Dialogue: 0,0:15:39.63,0:15:41.61,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Dentro do programa\NCultura em Ação,
+Dialogue: 0,0:15:41.63,0:15:43.67,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a empresa recebe\Nessa ferramenta.
+Dialogue: 0,0:15:43.69,0:15:47.75,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A ferramenta, com o auxílio\Nda IA, ela vai ajudar o líder:
+Dialogue: 0,0:15:47.77,0:15:49.11,Sub,,0,0,0,,{\blur1.2\fad(70,50)}quando ele vai advertir,
+Dialogue: 0,0:15:49.13,0:15:51.27,Sub,,0,0,0,,{\blur1.2\fad(70,50)}quando que ele vai suspender\Ne quando ele já pode demitir
+Dialogue: 0,0:15:51.29,0:15:52.07,Sub,,0,0,0,,{\blur1.2\fad(70,50)}por justa causa,
+Dialogue: 0,0:15:52.09,0:15:54.87,Sub,,0,0,0,,{\blur1.2\fad(70,50)}através de um material\Ncomplementar — ele vai ter um guia
+Dialogue: 0,0:15:54.89,0:15:55.75,Sub,,0,0,0,,{\blur1.2\fad(70,50)}sobre isso.
+Dialogue: 0,0:15:55.77,0:15:58.47,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A gente também colocou o guia\Nde conversas difíceis dentro
+Dialogue: 0,0:15:58.49,0:15:59.43,Sub,,0,0,0,,{\blur1.2\fad(70,50)}da ferramenta.
+Dialogue: 0,0:15:59.45,0:16:02.63,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A ferramenta vai auxiliar\No líder quando ele fazer o relato
+Dialogue: 0,0:16:02.65,0:16:04.58,Sub,,0,0,0,,{\blur1.2\fad(70,50)}do caso, já trazer um PDI,
+Dialogue: 0,0:16:04.60,0:16:07.54,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que é o Plano de Desenvolvimento\NIndividual do colaborador,
+Dialogue: 0,0:16:07.56,0:16:09.94,Sub,,0,0,0,,{\blur1.2\fad(70,50)}como que dar feedback, como\Nter conversas difíceis.
+Dialogue: 0,0:16:09.96,0:16:12.82,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então, assim, é muito completo\No programa Cultura em Ação,
+Dialogue: 0,0:16:12.84,0:16:15.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e o líder também tem\Ntodo esse auxílio.
+Dialogue: 0,0:16:15.40,0:16:17.14,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E, desde o que a Hellen falou,
+Dialogue: 0,0:16:17.16,0:16:19.30,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente tem uma mandala\Nque vocês estão vendo aí.
+Dialogue: 0,0:16:19.32,0:16:20.80,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E o que acontece, gente?
+Dialogue: 0,0:16:20.82,0:16:21.68,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O mercado hoje,
+Dialogue: 0,0:16:21.70,0:16:25.25,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ele insiste em pintar\Na mandala de fora pra dentro,
+Dialogue: 0,0:16:25.27,0:16:28.06,Sub,,0,0,0,,{\blur1.2\fad(70,50)}quando na verdade a gente\Nse pinta de dentro pra fora.
+Dialogue: 0,0:16:28.39,0:16:31.97,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Não tem como eu vir treinar\Na liderança sem antes eu
+Dialogue: 0,0:16:31.99,0:16:32.90,Sub,,0,0,0,,{\blur1.2\fad(70,50)}estruturar.
+Dialogue: 0,0:16:32.92,0:16:35.86,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Não tem como eu estruturar\Nsem antes eu diagnosticar
+Dialogue: 0,0:16:35.88,0:16:37.06,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o que está acontecendo.
+Dialogue: 0,0:16:37.08,0:16:38.58,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E quando eu vou estruturar,
+Dialogue: 0,0:16:38.60,0:16:41.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}eu preciso também implementar\Natravés daquele treinamento,
+Dialogue: 0,0:16:41.80,0:16:43.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}tudo que eu já\Nexpliquei para vocês.
+Dialogue: 0,0:16:43.40,0:16:48.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Para depois a gente preparar\Na liderança para sustentar
+Dialogue: 0,0:16:48.04,0:16:50.75,Sub,,0,0,0,,{\blur1.2\fad(70,50)}tudo aquilo que foi\Nrealizado dentro do programa.
+Dialogue: 0,0:16:51.22,0:16:54.00,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Agora, caminhando para a\Nparte final dessa aula,
+Dialogue: 0,0:16:54.02,0:16:55.76,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente vai fazer o teste.
+Dialogue: 0,0:16:55.78,0:16:58.02,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Se você tem aí,\Npróximo de você,
+Dialogue: 0,0:16:58.33,0:17:00.15,Sub,,0,0,0,,{\blur1.2\fad(70,50)}pegue uma caneta, um papel,
+Dialogue: 0,0:17:00.17,0:17:02.63,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que a gente vai fazer\Nas quatro perguntas,
+Dialogue: 0,0:17:02.65,0:17:04.23,Sub,,0,0,0,,{\blur1.2\fad(70,50)}uma pra cada etapa.
+Dialogue: 0,0:17:04.25,0:17:07.35,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E nós precisamos que você\Nseja bastante sincero
+Dialogue: 0,0:17:07.37,0:17:11.27,Sub,,0,0,0,,{\blur1.2\fad(70,50)}com a resposta que você vai\Ntrazer para cada uma delas.
+Dialogue: 0,0:17:11.29,0:17:13.11,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E a primeira pergunta é:
+Dialogue: 0,0:17:13.13,0:17:17.80,Sub,,0,0,0,,{\blur1.2\fad(70,50)}eu sei como a minha equipe\Npercebe as decisões por dado
+Dialogue: 0,0:17:17.82,0:17:20.69,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ou só pelo que chega\Nà minha mesa?
+Dialogue: 0,0:17:21.27,0:17:22.78,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A segunda pergunta:
+Dialogue: 0,0:17:23.29,0:17:26.47,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Duas pessoas que fazem\Na mesma coisa recebem a mesma
+Dialogue: 0,0:17:26.49,0:17:29.92,Sub,,0,0,0,,{\blur1.2\fad(70,50)}resposta, mesmo\Ncom líderes diferentes?
+Dialogue: 0,0:17:30.58,0:17:32.40,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E a pergunta número 3:
+Dialogue: 0,0:17:32.42,0:17:35.77,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a minha equipe conhece as\Nregras antes da primeira
+Dialogue: 0,0:17:35.79,0:17:36.66,Sub,,0,0,0,,{\blur1.2\fad(70,50)}advertência?
+Dialogue: 0,0:17:37.32,0:17:40.91,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Existe registro e comprovação\Nde que ela conhece?
+Dialogue: 0,0:17:41.72,0:17:42.98,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Quarta pergunta:
+Dialogue: 0,0:17:43.00,0:17:46.34,Sub,,0,0,0,,{\blur1.2\fad(70,50)}os meus líderes sabem\Nconduzir conversas difíceis,
+Dialogue: 0,0:17:46.36,0:17:48.03,Sub,,0,0,0,,{\blur1.2\fad(70,50)}em vez de deixar\Nque elas subam?
+Dialogue: 0,0:17:48.63,0:17:51.50,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Esse primeiro "não" em alguma\Ndessas perguntas é o seu ponto
+Dialogue: 0,0:17:51.52,0:17:52.22,Sub,,0,0,0,,{\blur1.2\fad(70,50)}de partida.
+Dialogue: 0,0:17:52.24,0:17:53.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E lembre-se, né?
+Dialogue: 0,0:17:53.76,0:17:56.79,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A mandala precisa começar\Nde dentro pra fora, né?
+Dialogue: 0,0:17:57.12,0:17:57.66,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente.
+Dialogue: 0,0:17:57.68,0:18:01.66,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E pra você não sair daqui\Nsó com uma reflexão,
+Dialogue: 0,0:18:01.68,0:18:04.70,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente vai deixar um passo\Na passo pra você fazer durante
+Dialogue: 0,0:18:04.72,0:18:05.53,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a semana.
+Dialogue: 0,0:18:05.55,0:18:08.49,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Para o dono: se você\Né dono de uma empresa,
+Dialogue: 0,0:18:08.51,0:18:12.49,Sub,,0,0,0,,{\blur1.2\fad(70,50)}anote que andar veio cada\Nproblema de gente que chegou até
+Dialogue: 0,0:18:12.51,0:18:13.21,Sub,,0,0,0,,{\blur1.2\fad(70,50)}você.
+Dialogue: 0,0:18:13.23,0:18:15.05,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Se você é do RH,
+Dialogue: 0,0:18:15.07,0:18:19.37,Sub,,0,0,0,,{\blur1.2\fad(70,50)}liste as três situações que mais\Nse repetem e não têm regra
+Dialogue: 0,0:18:19.39,0:18:20.25,Sub,,0,0,0,,{\blur1.2\fad(70,50)}escrita.
+Dialogue: 0,0:18:20.27,0:18:21.77,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E se você é um líder,
+Dialogue: 0,0:18:21.79,0:18:25.13,Sub,,0,0,0,,{\blur1.2\fad(70,50)}escolha aquela conversa que você\Nestá adiando já tem muito
+Dialogue: 0,0:18:25.15,0:18:25.82,Sub,,0,0,0,,{\blur1.2\fad(70,50)}tempo.
+Dialogue: 0,0:18:25.84,0:18:29.91,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E marque na sua agenda\Numa data para você realizá-la.
+Dialogue: 0,0:18:30.39,0:18:33.41,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Se durante essa aula você se\Nreconheceu em algum momento
+Dialogue: 0,0:18:33.43,0:18:35.81,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ou verificou que a sua\Nempresa também passa por esses
+Dialogue: 0,0:18:35.83,0:18:39.01,Sub,,0,0,0,,{\blur1.2\fad(70,50)}problemas que a gente\Nrelatou aqui, eu e a Hellen,
+Dialogue: 0,0:18:39.03,0:18:41.09,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente tem o programa\NCultura em Ação, né?
+Dialogue: 0,0:18:41.11,0:18:43.09,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Como a gente explicou\Npra vocês, toda essa etapa,
+Dialogue: 0,0:18:43.11,0:18:45.97,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o programa completo que a\Ngente vende nas empresas.
+Dialogue: 0,0:18:45.99,0:18:48.69,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Mas aqui você pode dar\Num passo a mais, né?
+Dialogue: 0,0:18:48.71,0:18:50.92,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Sem adquirir o programa.
+Dialogue: 0,0:18:50.94,0:18:53.48,Sub,,0,0,0,,{\blur1.2\fad(70,50)}A gente resolveu\Nofertar, te presentear,
+Dialogue: 0,0:18:53.50,0:18:55.64,Sub,,0,0,0,,{\blur1.2\fad(70,50)}você que ficou até\No final dessa aula,
+Dialogue: 0,0:18:55.66,0:18:58.04,Sub,,0,0,0,,{\blur1.2\fad(70,50)}com o Experiência\NCultura em Ação.
+Dialogue: 0,0:18:58.06,0:18:59.24,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Não é o programa completo,
+Dialogue: 0,0:18:59.26,0:19:01.17,Sub,,0,0,0,,{\blur1.2\fad(70,50)}como a gente vende\Npara as empresas, mas
+Dialogue: 0,0:19:01.98,0:19:03.96,Sub,,0,0,0,,{\blur1.2\fad(70,50)}já é um projeto\Nmuito interessante,
+Dialogue: 0,0:19:03.98,0:19:06.20,Sub,,0,0,0,,{\blur1.2\fad(70,50)}que você pode ter\No olhar de nós duas.
+Dialogue: 0,0:19:06.22,0:19:08.76,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E aí ela vai explicar um pouquinho\Nmais de como que funciona
+Dialogue: 0,0:19:08.78,0:19:10.13,Sub,,0,0,0,,{\blur1.2\fad(70,50)}essa experiência pra você.
+Dialogue: 0,0:19:10.44,0:19:11.06,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente.
+Dialogue: 0,0:19:11.08,0:19:15.62,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O primeiro passo que a gente\Nvai realizar com você é escutar
+Dialogue: 0,0:19:15.64,0:19:18.59,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e saber a realidade\Nda sua empresa.
+Dialogue: 0,0:19:18.97,0:19:21.91,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Entender o que está acontecendo\Npara que a gente possa
+Dialogue: 0,0:19:21.93,0:19:25.99,Sub,,0,0,0,,{\blur1.2\fad(70,50)}montar o que a gente vai falar\Nsobre panorama executivo.
+Dialogue: 0,0:19:26.01,0:19:27.75,Sub,,0,0,0,,{\blur1.2\fad(70,50)}O que é o panorama executivo?
+Dialogue: 0,0:19:27.77,0:19:30.46,Sub,,0,0,0,,{\blur1.2\fad(70,50)}É uma leitura integral\Ndo que encontramos.
+Dialogue: 0,0:19:30.48,0:19:32.86,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Um material que vai ser seu.
+Dialogue: 0,0:19:32.88,0:19:34.14,Sub,,0,0,0,,{\blur1.2\fad(70,50)}No próximo passo,
+Dialogue: 0,0:19:34.16,0:19:37.42,Sub,,0,0,0,,{\blur1.2\fad(70,50)}a gente vai fazer uma reunião\Nde direcionamento.
+Dialogue: 0,0:19:37.44,0:19:40.38,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Essa reunião, a gente vai\Nmostrar pra você o que você
+Dialogue: 0,0:19:40.40,0:19:42.30,Sub,,0,0,0,,{\blur1.2\fad(70,50)}precisa priorizar primeiro,
+Dialogue: 0,0:19:42.32,0:19:45.74,Sub,,0,0,0,,{\blur1.2\fad(70,50)}te entregar um passo a passo\Npara que você possa entender
+Dialogue: 0,0:19:45.76,0:19:48.79,Sub,,0,0,0,,{\blur1.2\fad(70,50)}o que você vai fazer\Na partir de agora.
+Dialogue: 0,0:19:48.81,0:19:50.87,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E quando a gente fala\Npresentear, gente,
+Dialogue: 0,0:19:50.89,0:19:51.91,Sub,,0,0,0,,{\blur1.2\fad(70,50)}é presentear mesmo,
+Dialogue: 0,0:19:51.93,0:19:55.03,Sub,,0,0,0,,{\blur1.2\fad(70,50)}porque nessa edição a gente\Nresolveu abrir três vagas,
+Dialogue: 0,0:19:55.05,0:19:58.31,Sub,,0,0,0,,{\blur1.2\fad(70,50)}e aí vai ser 100% custeado\Ne patrocinado por nós.
+Dialogue: 0,0:19:58.33,0:20:00.31,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Então você vai\Nganhar de presente.
+Dialogue: 0,0:20:00.33,0:20:03.03,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E, em razão disso, você vai\Nter que cumprir as regras.
+Dialogue: 0,0:20:03.05,0:20:05.21,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Por isso, clique\Nno link aqui embaixo.
+Dialogue: 0,0:20:05.23,0:20:08.17,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Olhem bem as regras: se\Na sua empresa se enquadra,
+Dialogue: 0,0:20:08.19,0:20:08.97,Sub,,0,0,0,,{\blur1.2\fad(70,50)}se inscreva.
+Dialogue: 0,0:20:08.99,0:20:12.33,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Nós vamos receber todas as\Ninscrições e vamos dar o feedback
+Dialogue: 0,0:20:12.35,0:20:14.17,Sub,,0,0,0,,{\blur1.2\fad(70,50)}para quem foi o vencedor.
+Dialogue: 0,0:20:14.19,0:20:17.05,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente, porque\Numa empresa organizada,
+Dialogue: 0,0:20:17.07,0:20:19.66,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ela não acontece\Npor acaso, né?
+Dialogue: 0,0:20:19.68,0:20:20.62,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Construída.
+Dialogue: 0,0:20:20.64,0:20:23.43,Sub,,0,0,0,,{\blur1.2\fad(70,50)}E tudo começa sabendo
+Dialogue: 0,0:20:23.76,0:20:24.56,Sub,,0,0,0,,{\blur1.2\fad(70,50)}ouvir.
+Dialogue: 0,0:20:25.10,0:20:26.36,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Exatamente, gente.
+Dialogue: 0,0:20:26.38,0:20:28.60,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Muito obrigada por vocês\Nterem ficado até aqui.
+Dialogue: 0,0:20:28.62,0:20:31.65,Sub,,0,0,0,,{\blur1.2\fad(70,50)}Já se inscrevam, e até\Na Experiência Cultura em Ação.

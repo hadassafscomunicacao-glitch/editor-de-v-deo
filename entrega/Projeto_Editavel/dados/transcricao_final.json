@@ -1,0 +1,2636 @@
+[
+ {
+  "seg": 0,
+  "start": 0.072,
+  "end": 7.732,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    0.0
+   ],
+   [
+    "Indira",
+    0.4
+   ]
+  ],
+  "clean": "Se você lidera pessoas, se existe uma equipe que responde a você, eu quero te propor uma conta rápida antes de você continuar assistindo essa aula.",
+  "verbatim": "Se você lidera pessoas, se existe uma equipe que responde a você, eu quero te propor uma conta rápida antes de você continuar assistindo essa aula.",
+  "uncertain": [
+   "'pessoas': Parakeet hears 'pessoa', Whisper hears 'pessoas'; script also says 'pessoas'"
+  ]
+ },
+ {
+  "seg": 1,
+  "start": 8.104,
+  "end": 9.972,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    7.98
+   ],
+   [
+    "Indira",
+    8.54
+   ]
+  ],
+  "clean": "Pense na sua última semana de trabalho.",
+  "verbatim": "Pense na sua última semana de trabalho.",
+  "uncertain": []
+ },
+ {
+  "seg": 2,
+  "start": 10.472,
+  "end": 20.66,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    10.51
+   ]
+  ],
+  "clean": "Quantas vezes alguém chegou até você com um problema que não era sobre estratégia, não era sobre o cliente e nem era sobre o dinheiro? Era sobre gente.",
+  "verbatim": "Quantas vezes alguém chegou até você com um problema que não era sobre estratégia, não era sobre o cliente e nem era sobre o dinheiro, era sobre gente?",
+  "uncertain": []
+ },
+ {
+  "seg": 3,
+  "start": 21.0,
+  "end": 28.436,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    20.88
+   ],
+   [
+    "Indira",
+    21.36
+   ]
+  ],
+  "clean": "Pessoas que estavam se desentendendo num setor, o líder que estava com muita dificuldade de conduzir equipe, enfim, motivar também.",
+  "verbatim": "Pessoas que estavam se desentendendo num setor, o líder que estava com muita dificuldade de conduzir equipe, enfim, motivar também.",
+  "uncertain": [
+   "'conduzir equipe': the article may be elided ('conduzir a equipe'); not probed, kept as the ASR heard it"
+  ]
+ },
+ {
+  "seg": 4,
+  "start": 28.776,
+  "end": 44.916,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    28.66
+   ],
+   [
+    "Indira",
+    29.22
+   ],
+   [
+    "Hellen",
+    38.66
+   ],
+   [
+    "Indira",
+    38.9
+   ],
+   [
+    "Hellen",
+    41.78
+   ],
+   [
+    "Indira",
+    42.42
+   ],
+   [
+    "Hellen",
+    44.26
+   ]
+  ],
+  "clean": "E um colaborador que pediu demissão da empresa, que você nem sabia que estava insatisfeito. Primeiro, eu quero te tranquilizar, tá? Dizer que esse problema não é exclusivo da sua empresa. Existe um desafio real e comum a todas as empresas. E esse desafio é: gente.",
+  "verbatim": "E um colaborador que pediu demissão da empresa que você nem sabia que estava insatisfeito. Primeiro, eu quero te tranquilizar, tá? Dizer que esse problema não é exclusivo da sua empresa. Existe um desafio real e comum a todas as empresas. E esse desafio é gente.",
+  "uncertain": [
+   "'Dizer que': the chunk ASR wrote 'Diz que'; a re-probe of 33.95-36.2 decodes 'Dizer que'",
+   "'Primeiro' starts right after the 34.00 jump cut; the word is intact (it decodes in isolation), but there is a ~50 ms murmur at the splice (see cut c2)"
+  ]
+ },
+ {
+  "seg": 5,
+  "start": 45.256,
+  "end": 49.236,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    45.14
+   ],
+   [
+    "Indira",
+    45.7
+   ]
+  ],
+  "clean": "Porque onde tem pessoas, tem emoções e também vão ter conflitos.",
+  "verbatim": "Porque onde tem pessoas, tem emoções e também vão ter conflitos.",
+  "uncertain": []
+ },
+ {
+  "seg": 6,
+  "start": 49.64,
+  "end": 69.372,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    49.52
+   ],
+   [
+    "Indira",
+    50.08
+   ],
+   [
+    "Hellen",
+    56.16
+   ],
+   [
+    "Indira",
+    57.12
+   ],
+   [
+    "Hellen",
+    64.56
+   ],
+   [
+    "Indira",
+    66.32
+   ]
+  ],
+  "clean": "E é por isso que liderar, na prática, é gerenciar pessoas, comportamentos, emoções e conflitos. Aí vem a importância de líderes preparados para isso. E quando na empresa ela falta a estrutura de você com normas claras, regras para que todos entendam qual é a cultura da empresa,",
+  "verbatim": "E é por isso que liderar na prática é gere...renciar pessoas, comportamentos, emoções e conflitos. Aí vem a importância de líderes preparados para isso. E quando na empresa ela falta a estrutura de você com normas claras, regras para que todos entendam qual é a cultura da empresa,",
+  "uncertain": [
+   "'gererenciar': Parakeet decodes the doubled syllable in two different contexts; the duplicated 're' is only about 0.1 s (see cut c1)",
+   "'a estrutura de você com normas claras' is what was said (confirmed by the probe); the phrasing is odd but was not changed",
+   "A probe of 59.6-66.4 hears a weak 'né?' after 'claras' (~65.76, -29 to -40 dB); it is not in the chunk ASR and was left out"
+  ]
+ },
+ {
+  "seg": 7,
+  "start": 69.544,
+  "end": 72.916,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    69.42
+   ],
+   [
+    "Indira",
+    69.98
+   ],
+   [
+    "Hellen",
+    72.14
+   ]
+  ],
+  "clean": "começa também esses desafios com relação à gestão de pessoas.",
+  "verbatim": "começa também esses desafios com relação à gestão de pessoas.",
+  "uncertain": [
+   "'Começa' vs 'Começam': the ending is not clearly nasal; kept as heard (the agreement is colloquial)"
+  ]
+ },
+ {
+  "seg": 8,
+  "start": 73.32,
+  "end": 85.204,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    73.2
+   ],
+   [
+    "Indira",
+    73.6
+   ]
+  ],
+  "clean": "E eu aprendi uma coisa na mediação de conflitos: a pergunta que você deve fazer não é \"como evitar o conflito?\", e sim \"a minha empresa está preparada para gerenciar e conduzir o conflito quando ele aparecer?\"",
+  "verbatim": "E eu aprendi uma coisa na mediação de conflitos. A pergunta que você deve fazer não é como evitar o conflito. E sim, a minha empresa está preparada para gerenciar e conduzir o conflito quando ele aparecer?",
+  "uncertain": []
+ },
+ {
+  "seg": 9,
+  "start": 85.64,
+  "end": 104.22,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    85.52
+   ],
+   [
+    "Indira",
+    86.08
+   ]
+  ],
+  "clean": "E se você é do RH, eu sei que você se sente diferente. Principalmente porque, quando chega até o RH, o conflito já explodiu. E aí é mais difícil ainda. Por quê? Porque, além de você não ter tanta autoridade sobre o comportamento dos líderes, vem um desafio pra você: você não tem uma norma, você não tem regra",
+  "verbatim": "E se você é do RH, eu sei que você se sente diferente. Principalmente porque quando chega até o RH, o conflito já explodiu. E aí é mais difícil ainda. Por quê? Porque além de você não ter tanta autoridade sobre o comportamento dos líderes, vem um desafio pra você. Você não tem uma norma, você não tem regra",
+  "uncertain": []
+ },
+ {
+  "seg": 10,
+  "start": 104.424,
+  "end": 121.428,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    104.3
+   ],
+   [
+    "Indira",
+    105.02
+   ],
+   [
+    "Hellen",
+    106.14
+   ]
+  ],
+  "clean": "para embasar as suas decisões. Exatamente. É por isso que, nos próximos minutos, nós vamos mostrar para você o que acontece com a sua empresa quando essa estrutura falha. E por que algumas soluções apresentadas pelo mercado, mais comuns, não se sustentam sozinhos.",
+  "verbatim": "para embasar as suas decisões. Exatamente. É por isso que nos próximos minutos nós vamos mostrar para você o que acontece com a sua empresa quando essa estrutura falha. E porque algumas soluções apresentadas pelo mercado mais comuns não se sustentam sozinho.",
+  "uncertain": [
+   "'sozinho': spoken in the singular (no final /s/ in the energy profile at 121.1-121.35); 'sozinhas' would be grammatical but was not said",
+   "'Exatamente.' (106.94) is probably the other presenter agreeing (likely Hellen)"
+  ]
+ },
+ {
+  "seg": 11,
+  "start": 121.832,
+  "end": 139.508,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    121.87
+   ],
+   [
+    "Hellen",
+    122.19
+   ]
+  ],
+  "clean": "Qual é o caminho em quatro etapas, que segue uma sequência lógica e não é uma sugestão. E, ao final desse vídeo, você vai realizar um teste. E esse teste, você vai responder quatro perguntas. E somente após responder essas quatro perguntas, você vai saber por onde a sua empresa deve começar.",
+  "verbatim": "Qual é o caminho em quatro etapas que segue uma sequência lógica e não é uma sugestão. E ao final desse vídeo, você vai realizar um teste. E esse teste você vai responder quatro perguntas. E somente após responder essas quatro perguntas, você vai saber por onde a sua empresa deve começar.",
+  "uncertain": [
+   "'E esse teste' could be 'E nesse teste'; not probed"
+  ]
+ },
+ {
+  "seg": 12,
+  "start": 140.2,
+  "end": 152.692,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    140.08
+   ],
+   [
+    "Hellen",
+    140.64
+   ],
+   [
+    "Indira",
+    145.92
+   ],
+   [
+    "Hellen",
+    148.64
+   ],
+   [
+    "Indira",
+    149.44
+   ]
+  ],
+  "clean": "Eu sou a Hellen, psicóloga organizacional, e eu cuido do lado do comportamento. Eu sou Indira, eu sou advogada e mediadora de conflitos, eu cuido do lado das regras, da normativa e prevenção empresarial.",
+  "verbatim": "Eu sou a Hellen, psicóloga organizacional, e eu cuido do lado do comportamento. Eu sou Indira, eu sou advogada e mediadora de conflitos, eu cuido do lado das regras, da normativa e prevenção empresarial.",
+  "uncertain": [
+   "The ASR wrote 'Ellen'; the name is corrected to 'Hellen'"
+  ]
+ },
+ {
+  "seg": 13,
+  "start": 153.032,
+  "end": 169.524,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    152.91
+   ],
+   [
+    "Hellen",
+    153.47
+   ],
+   [
+    "Indira",
+    158.91
+   ],
+   [
+    "Hellen",
+    159.39
+   ]
+  ],
+  "clean": "Olha o que acontece com a sua empresa quando essa estrutura ela não existe. O mais comum, quando existem pessoas no ambiente, é existir conflitos. E os conflitos, quando não são resolvidos, eles não vão deixar de existir. Eles vão subir de andar.",
+  "verbatim": "Olha o que acontece com a sua empresa quando essa estrutura ela não existe. O mais comum quando existem pessoas no ambiente é existir conflitos. E os conflitos, quando não são resolvidos, eles não vão deixar de existir. Eles vão subir de andar.",
+  "uncertain": []
+ },
+ {
+  "seg": 14,
+  "start": 169.864,
+  "end": 188.284,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    169.74
+   ],
+   [
+    "Indira",
+    170.06
+   ],
+   [
+    "Hellen",
+    170.62
+   ]
+  ],
+  "clean": "Ou seja, onde existe problema de gente: pessoas do mesmo setor que não se entendem, uma regra que não foi bem estabelecida, uma promessa que o líder fez e não foi cumprida, uma escala que foi malfeita. Ou seja, esse problema sempre vai começar no andar de baixo.",
+  "verbatim": "Ou seja, onde existe problema de ge... gente, hum... pessoas do mesmo setor que não se entendem, uma regra que não foi estabelec... bem estabelecida, uma promessa que o líder fez e não foi cumprida, uma escala que foi mal feita. Ou seja, esse problema sempre vai começar no andar de baixo.",
+  "uncertain": [
+   "'ge...' fragment (172.29-172.48) before 'gente': inferred from the energy and frication pattern; Parakeet drops it",
+   "The nasal 'hum' at 173.21-173.41 was heard as 'com' by one probe, but there is no /k/ burst",
+   "'entendem' (one probe heard 'entende')"
+  ]
+ },
+ {
+  "seg": 15,
+  "start": 188.584,
+  "end": 198.164,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    188.46
+   ],
+   [
+    "Hellen",
+    188.78
+   ],
+   [
+    "Indira",
+    191.42
+   ],
+   [
+    "Hellen",
+    192.38
+   ]
+  ],
+  "clean": "E muitos casos, ou grande maioria deles, uma simples conversa de 10 minutos poderia resolver tudo, mas essa conversa nunca acontece.",
+  "verbatim": "Em muitos casos, ou grande maioria deles, uma simples conversa de 10 minutos poderia resolver tudo, mas essa conversa nunca acontece.",
+  "uncertain": [
+   "'Em muitos casos': the ASR writes 'E muitos'; a ~200 ms nasal (188.69-188.89) supports 'Em'"
+  ]
+ },
+ {
+  "seg": 16,
+  "start": 198.472,
+  "end": 203.156,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    198.51
+   ]
+  ],
+  "clean": "Exatamente. A gente costuma dizer, né: quando ela não acontece, ela pega um elevador.",
+  "verbatim": "Exatamente, a gente costuma dizer, né? Quando ela não acontece, ela pega um elevador.",
+  "uncertain": []
+ },
+ {
+  "seg": 17,
+  "start": 203.464,
+  "end": 211.732,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    203.34
+   ],
+   [
+    "Indira",
+    203.82
+   ],
+   [
+    "Hellen",
+    205.82
+   ],
+   [
+    "Indira",
+    206.22
+   ],
+   [
+    "Hellen",
+    208.22
+   ],
+   [
+    "Indira",
+    209.18
+   ]
+  ],
+  "clean": "E aí, do colaborador vai para o líder, que muitas vezes não tem preparo para ter conversas difíceis. Do líder, sobe para o RH,",
+  "verbatim": "E aí, do colaborador vai para o líder, que muitas vezes não tem preparo para ter conversas difíceis. Do líder vai para o R..., sobe para o RH,",
+  "uncertain": []
+ },
+ {
+  "seg": 18,
+  "start": 212.136,
+  "end": 232.412,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    212.02
+   ],
+   [
+    "Indira",
+    212.5
+   ]
+  ],
+  "clean": "que não tem norma para embasar as suas decisões. E ele passa a atuar de caso a caso. E o líder também, muitas vezes, por não ter a normativa dentro da empresa, né, ele resolve cada caso de um jeitinho. Ou do humor do dia, que é onde tem um risco também. Do RH, que não tem também a norma, e ele acaba virando um bombeiro, um mediador, no caso a caso,",
+  "verbatim": "que não tem norma para embasar as suas decisões. E ele passa a atuar de caso a caso. E o líder também, muitas vezes, por não ter a normativa dentro da empresa, né? Ele resolve cada caso de um jeitinho. Ou do humor do dia, que é onde tem um risco também. Do RH, que não tem também a norma, e ele acaba virando um bombeiro, um mediador, no caso a caso,",
+  "uncertain": [
+   "'Do RH' (226.58) could be 'O RH'; it reads as the start of 'Do RH... sobe para o dono da empresa' (S19)"
+  ]
+ },
+ {
+  "seg": 19,
+  "start": 232.648,
+  "end": 234.58,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "Hellen",
+    232.53
+   ]
+  ],
+  "clean": "sobe para o dono da empresa.",
+  "verbatim": "sobe para o dono da empresa.",
+  "uncertain": []
+ },
+ {
+  "seg": 20,
+  "start": 234.92,
+  "end": 254.812,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    234.8
+   ],
+   [
+    "Indira",
+    235.12
+   ],
+   [
+    "Hellen",
+    248.72
+   ]
+  ],
+  "clean": "E o dono da empresa, muitas vezes, não consegue resolver aquilo ali e vai para a mesa do advogado. E, dessa subida inteira, é o único andar que tem data e valor definido. Porque pode virar, sim, um passivo trabalhista. E repara bem uma coisa: ninguém, em nenhum momento, foi incompetente. Ninguém sai de casa",
+  "verbatim": "E o dono da empresa muitas vezes não consegue resolver aquilo ali e vai para a mesa (d')advogado. E dessa subida inteira é a única andar que tem data e valor definido. Porque pode virar sim um passivo trabalhista. E repara bem uma coisa. Ninguém em nenhum momento foi incompetente, ninguém sai de casa",
+  "uncertain": [
+   "'mesa do advogado': the ASR gives 'mesa advogado'. 'do' is probably elided into 'd'advogado'. Not probed.",
+   "She says 'a única andar' (probe 240.0–244.2: Parakeet and Whisper agree). The clean text corrects the agreement to 'o único andar'. Change it back to 'a única andar' if strictly verbatim subtitles are wanted."
+  ]
+ },
+ {
+  "seg": 21,
+  "start": 255.016,
+  "end": 274.652,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    254.9
+   ],
+   [
+    "Hellen",
+    255.3
+   ]
+  ],
+  "clean": "ou faz alguma coisa porque ela queria fazer aquilo errado. Na verdade, ela fez ou executou aquilo que ela achava que sabia. O problema maior é que em nenhum andar existe um freio. E o que acelera ainda mais esse elevador é uma coisa chamada de percepção de injustiça. O que seria essa percepção da injustiça?",
+  "verbatim": "ou faz alguma coisa porque ela queria fazer aquilo errado. Na verdade, ela fez ou executou aquilo que ela achava que sabia. O problema maior é que em nenhum andar existe um freio, e o que acelera ainda mais esse elevador é uma coisa chamada de percepção de injustiça. O que seria essa percepção da injustiça?",
+  "uncertain": [
+   "The original ASR gave 'em nenhuma da existe'. A probe (262.2–267.2) clearly hears 'em nenhum andar existe um freio', so that is the text used."
+  ]
+ },
+ {
+  "seg": 22,
+  "start": 274.984,
+  "end": 290.324,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    274.86
+   ],
+   [
+    "Hellen",
+    275.26
+   ]
+  ],
+  "clean": "É quando, em um mesmo setor, existe um líder e os seus colaboradores trazem um problema, uma solução, e os mesmos colaboradores de um mesmo setor recebem a mesma resposta. Ou quando a regra depende de alguém.",
+  "verbatim": "É quando em um mesmo setor existe um líder e os seus colaboradores traz um problema, uma solução, e os mesmos colaboradores de um mesmo setor recebem a mesma resposta. Ou quando a regra depende de alguém.",
+  "uncertain": [
+   "She says 'traz' (both ASRs agree). The clean text corrects it to 'trazem'.",
+   "The logic seems inverted. The script defines injustice as 'mesma coisa, respostas diferentes', but she says 'recebem a mesma resposta'. Both ASRs agree, and the gap at 283.5–284.1 is near-silent, so there is no hidden 'não'. The subtitle keeps what she said; do not put a paraphrase on screen here."
+  ]
+ },
+ {
+  "seg": 23,
+  "start": 290.632,
+  "end": 306.804,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    290.51
+   ],
+   [
+    "Hellen",
+    291.15
+   ]
+  ],
+  "clean": "Essa pessoa vai deixar de procurar o líder e ela vai subir o elevador novamente. Só que existe um problema muito sério acontecendo aqui. Quando esse conflito sobe esse elevador, ele vai se transformar em outra coisa. Uma fofoca.",
+  "verbatim": "Essa pessoa vai deixar de procurar o líder e ela vai subir o elevador novamente. Só que existe um problema muito sério acontecendo aqui. Quando esse problema, esse conflito sobe esse elevador, ele vai se transformar em outra coisa. Uma fofoca.",
+  "uncertain": []
+ },
+ {
+  "seg": 24,
+  "start": 307.176,
+  "end": 321.94,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    307.3
+   ],
+   [
+    "Hellen",
+    307.62
+   ]
+  ],
+  "clean": "Uma perda da produtividade, um atestado, uma demissão que não era esperada. E em grande maioria das vezes, alguém, quando pede demissão da empresa, ela não está pedindo demissão da empresa, ela está pedindo demissão do líder.",
+  "verbatim": "Uma perca da produtividade, um atestado, uma demissão que não era esperada. E em grande maioria das vezes, alguém quando pede demissão da empresa, ela não está pedindo demissão da empresa, ela está pedindo demissão do líder.",
+  "uncertain": [
+   "She says the colloquial 'perca'. The subtitle uses 'perda'. Not probed."
+  ]
+ },
+ {
+  "seg": 25,
+  "start": 322.28,
+  "end": 326.548,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    322.32
+   ]
+  ],
+  "clean": "Exatamente. Existe até uma pesquisa que relata isso que a Hellen acabou de falar.",
+  "verbatim": "Exatamente, existe até uma pesquisa que relata isso que a El(len) acabou de falar.",
+  "uncertain": [
+   "The name is very short (0.24 s; ASR 'El') and may be the nickname 'Hel'. It is written 'Hellen'."
+  ]
+ },
+ {
+  "seg": 26,
+  "start": 326.824,
+  "end": 345.308,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    326.7
+   ],
+   [
+    "Indira",
+    327.18
+   ],
+   [
+    "Hellen",
+    330.7
+   ],
+   [
+    "Indira",
+    331.42
+   ],
+   [
+    "Hellen",
+    335.34
+   ],
+   [
+    "Indira",
+    335.5
+   ]
+  ],
+  "clean": "Gente, muitas vezes isso acontece porque a gente não tem regras claras. A gente não tem normas, não tem política interna de gestão de conflito. Os líderes não foram preparados pra lidar e nem sabem como conduzir situações difíceis, e viram um assédio moral, né? E não tem regras pra todos. Então, onde não existe regra clara,",
+  "verbatim": "Gente, muitas vezes isso acontece porque a gente não tem regras claras. A gente não tem normas, não tem política interna de gestão de conflito. Os líderes não foram preparados pra lidar e nem sabem como conduzir situações difíceis e viram um assédio moral, né? E não tem regras pra todos. Então, onde não existe regra clara",
+  "uncertain": [
+   "'e viram um assédio moral' was not probed. Read as: the difficult situations become (viram) moral harassment."
+  ]
+ },
+ {
+  "seg": 27,
+  "start": 345.768,
+  "end": 350.324,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    345.81
+   ],
+   [
+    "Hellen",
+    346.21
+   ],
+   [
+    "Indira",
+    348.21
+   ],
+   [
+    "Hellen",
+    348.37
+   ],
+   [
+    "Indira",
+    349.09
+   ]
+  ],
+  "clean": "sempre vai existir decisão subjetiva. E onde existe decisão subjetiva,",
+  "verbatim": "sempre vai existir decisão subjetiva. E onde existe decisão subjetiva",
+  "uncertain": []
+ },
+ {
+  "seg": 28,
+  "start": 350.664,
+  "end": 370.3,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    350.7
+   ],
+   [
+    "Indira",
+    351.02
+   ],
+   [
+    "Hellen",
+    366.22
+   ],
+   [
+    "Indira",
+    366.46
+   ]
+  ],
+  "clean": "pode, sim, haver percepção de injustiça. E a injustiça acumulada, gente, mais cedo ou mais tarde, ela vira processo. E eu quero mostrar pra vocês esses dados aqui, que são alarmantes. Só em 2025, a Justiça do Trabalho recebeu mais de 2,3 milhões de novas ações. O maior volume desde a reforma trabalhista, em 2017.",
+  "verbatim": "pode sim haver percepção de injustiça. E a injustiça acumulada, gente, mais cedo ou mais tarde, ela vira processo. E eu quero mostrar pra vocês esses dados aqui que são alarmantes. Só em 2025, a Justiça do Trabalho recebeu mais de 2,3 milhões de novas ações. O maior volume desde a reforma trabalhista em 2017.",
+  "uncertain": [
+   "'trabalhista': both Parakeet runs hear 'trabalho'. However, an /s/+/t/ dip at 369.17–369.24 and a voiced syllable at 369.25–369.34 that the ASR assigned to no word fit 'trabalhista' before 'em'.",
+   "'2,3 milhões' comes from the original ASR only; it was not re-probed.",
+   "Existing edit point 353.53, checked: 'E' starts at 353.50 with a hard onset (−50 to −10 dB within 20 ms). It is intelligible; no action.",
+   "Existing edit point 369.47, checked: it falls in the voiced closure of 'dois' ('em | dois mil e dezessete'). Audio is continuous and '2017' is recognized intact; no action."
+  ]
+ },
+ {
+  "seg": 29,
+  "start": 370.568,
+  "end": 393.628,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    370.45
+   ],
+   [
+    "Indira",
+    370.85
+   ],
+   [
+    "Hellen",
+    372.13
+   ],
+   [
+    "Indira",
+    372.29
+   ],
+   [
+    "Hellen",
+    391.81
+   ]
+  ],
+  "clean": "Quando a gente olha os assuntos que se repetem muito nessas ações, que não é fraude, nem é má-fé, é o básico: é um desligamento mal conduzido, é uma jornada sem controle, são essas questões que a Hellen acabou de relatar. Ou seja, quase tudo isso passa por uma falta de estrutura, de implementação, ou seja, de método na gestão de pessoas, né? Quando a gente fala de",
+  "verbatim": "Quando a gente olha os assuntos que se repetem muito nessas ações, que não é fraude, nem é má fé, é o básico, é um desligamento mal conduzido, é uma jornada sem controle, são essas questões que a Ellen acabou de relatar, ou seja, quase tudo isso passa por uma falta de estrutura, de implementação, ou seja, de método na gestão de pessoas, né? Quando a gente fala de",
+  "uncertain": []
+ },
+ {
+  "seg": 30,
+  "start": 393.704,
+  "end": 397.108,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "Hellen",
+    393.82
+   ]
+  ],
+  "clean": "comportamento, o sinal é ainda mais claro.",
+  "verbatim": "comportamento, o sinal é ainda mais claro.",
+  "uncertain": []
+ },
+ {
+  "seg": 31,
+  "start": 397.544,
+  "end": 412.5,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    397.42
+   ],
+   [
+    "Hellen",
+    397.98
+   ]
+  ],
+  "clean": "Temos aqui também outros dados importantes. As ações de assédio moral, elas cresceram 22% em um ano. Foram mais de 142 mil novos processos só em 2025. As ações por burnout passaram de menos de mil",
+  "verbatim": "Temos aqui também outros dados importantes. As ações de assédio moral, elas cresceram 22% em um ano. Foram mais de 142 mil novos processos, só em 2025. As ações por burnout passaram de menos de mil",
+  "uncertain": [
+   "The ASR wrote 'assete moral' twice; it is 'assédio moral'.",
+   "Existing edit point 409.40, checked: silence before 'As' (onset 409.38). Clean."
+  ]
+ },
+ {
+  "seg": 32,
+  "start": 412.872,
+  "end": 415.156,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    412.75
+   ],
+   [
+    "Hellen",
+    413.23
+   ]
+  ],
+  "clean": "para 5 mil no ano de 2025.",
+  "verbatim": "para 5 mil no ano de 2025.",
+  "uncertain": []
+ },
+ {
+  "seg": 33,
+  "start": 415.432,
+  "end": 434.012,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    415.31
+   ],
+   [
+    "Hellen",
+    415.71
+   ]
+  ],
+  "clean": "E no ano de 2025 foram mais de 546 mil afastamentos pelo INSS por questões de saúde mental. E quando a gente para para analisar cada um desses números, você percebe que por trás de cada um deles existe uma conversa que não aconteceu.",
+  "verbatim": "E no ano de 2025 foram mais de 546 mil afastamentos pelo INSS por questões de saúde mental. E quando a gente para para analisar cada um desses números, você percebe que por trás de cada um deles existe uma conversa que não aconteceu.",
+  "uncertain": [
+   "'números': Parakeet hears 'mundos' in both runs. The word starts with a nasal murmur (no stop closure at 427.94–428.02) and has one short flap-like dip (428.42), which fits a fast 'núm(e)ros'. Context also fits: she has just listed figures. Check by ear."
+  ]
+ },
+ {
+  "seg": 34,
+  "start": 434.28,
+  "end": 438.1,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    434.16
+   ],
+   [
+    "Hellen",
+    434.72
+   ]
+  ],
+  "clean": "Ou um líder que não sabia conduzir essa conversa difícil.",
+  "verbatim": "Ou um líder que não sabia conduzir essa conversa difícil.",
+  "uncertain": []
+ },
+ {
+  "seg": 35,
+  "start": 438.44,
+  "end": 453.14,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    438.48
+   ],
+   [
+    "Indira",
+    438.8
+   ],
+   [
+    "Hellen",
+    449.2
+   ],
+   [
+    "Indira",
+    449.36
+   ]
+  ],
+  "clean": "Dados alarmantes, né? E teve um dado nessa pesquisa que a gente fez pra trazer pra aula de vocês que nos chamou a atenção, que foi aquele caso do TST, né? Aquele caso do TST que ele manteve recentemente uma condenação no valor de 238 mil reais contra uma montadora.",
+  "verbatim": "Dados alarmantes, né? E teve um dado nessa pesquisa que a gente fez pra trazer pra aula de vocês que nos chamou a atenção, que foi aquele caso do TST, né? Aquele caso do TST que ele manteve recentemente uma condenação no valor de 238 mil reais contra uma montadora.",
+  "uncertain": [
+   "'caso do TST': Whisper hears 'do'; Parakeet does not."
+  ]
+ },
+ {
+  "seg": 36,
+  "start": 453.48,
+  "end": 470.164,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    453.36
+   ],
+   [
+    "Indira",
+    453.92
+   ]
+  ],
+  "clean": "De um líder que ele sofria assédio por um subordinado, e ele levava para a empresa. Ou seja, ele realizou 15 reclamações durante dois anos e a empresa não fez nada. E isso gerou esse valor de 238 mil reais de danos morais para esse líder.",
+  "verbatim": "De um líder que ele sofria assédio por um subordinado e ele levava para a empresa, ou seja, ele realizou 15 reclamações durante dois anos e a empresa não fez nada. E isso gerou esse valor de 238 mil reais de danos morais para esse líder.",
+  "uncertain": [
+   "The second value is disputed: Parakeet hears '288' (original run and probe), Whisper hears '238'. The number takes less time than her first '238' (0.74 s against 0.87 s from 'du-' to 'mil'), not the extra syllable 'oitenta' would need. The public case is R$ 238 mil, so the text says 238. Listen at 466.2–467.0. If she really said 288, change the subtitle to 288, but the data card must still say 238."
+  ]
+ },
+ {
+  "seg": 37,
+  "start": 470.472,
+  "end": 477.428,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    470.35
+   ],
+   [
+    "Indira",
+    470.83
+   ],
+   [
+    "Hellen",
+    472.35
+   ],
+   [
+    "Indira",
+    474.03
+   ],
+   [
+    "Hellen",
+    476.43
+   ]
+  ],
+  "clean": "Então, gente, 15 vezes o conflito subiu, e em nenhum andar existia um freio para isso.",
+  "verbatim": "Então, gente, 15 vezes o conflito subiu, e em nenhum andar existia um freio para isso.",
+  "uncertain": []
+ },
+ {
+  "seg": 38,
+  "start": 478.12,
+  "end": 486.196,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    478.0
+   ],
+   [
+    "Indira",
+    478.56
+   ],
+   [
+    "Hellen",
+    481.52
+   ]
+  ],
+  "clean": "Quando a empresa, ela percebe esse tipo de problema, ela costuma fazer duas coisas. E a primeira é contratar um treinamento.",
+  "verbatim": "Quando a empresa ela percebe esse tipo de problema, ela costuma fazer duas coisas. E a primeira é contratar um treinamento.",
+  "uncertain": [
+   "'ela' depois de 'a empresa' (~479.2 s) é fraco: o ASR principal ouviu, a sonda Parakeet não. A energia mostra uma sílaba curta, então foi mantido"
+  ]
+ },
+ {
+  "seg": 39,
+  "start": 486.472,
+  "end": 512.316,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    486.35
+   ],
+   [
+    "Hellen",
+    486.83
+   ],
+   [
+    "Indira",
+    490.51
+   ],
+   [
+    "Hellen",
+    491.87
+   ],
+   [
+    "Indira",
+    494.35
+   ],
+   [
+    "Hellen",
+    495.63
+   ]
+  ],
+  "clean": "Uma palestra, um workshop de liderança, que vai, sim, gerar uma transformação, vai gerar uma consciência. As pessoas vão sair desse workshop de liderança realmente motivadas. Mas o que geralmente acontece é que, alguns meses, a empresa vai voltar como estava antes. O problema não é que o treinamento é ruim. O treinamento gera uma consciência no colaborador, mas não muda a regra.",
+  "verbatim": "Uma palestra, um workshop de liderança, que vai sim gerar uma transformação, vai gerar uma consciência. As pessoas vão sair desse workshop de liderança realmente motivadas. Mas o que geralmente acontece é que alguns meses a empresa vai voltar como estava antes. O problema não é que o treinamento é ruim. O treinamento gera uma consciência no colaborador, mas não muda a regra.",
+  "uncertain": [
+   "'alguns meses' foi dito sem 'depois' (confirmado por Parakeet e Whisper na sonda). Não acrescentar"
+  ]
+ },
+ {
+  "seg": 40,
+  "start": 512.872,
+  "end": 520.916,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    512.75
+   ],
+   [
+    "Indira",
+    513.47
+   ],
+   [
+    "Hellen",
+    514.99
+   ]
+  ],
+  "clean": "A pessoa sair desses eventos, ela vai voltar pra empresa e ela vai lidar com líderes que cada um decide de uma maneira.",
+  "verbatim": "A pessoa (ao) sair desses eventos, ela vai voltar pra empresa e ela vai lidar com líderes que cada um decide de uma maneira.",
+  "uncertain": [
+   "'ao sair': Whisper ouve 'ao', Parakeet só 'sair'. Provável 'ao' fundido com o final de 'pessoa'",
+   "'pra empresa' (sonda Parakeet, ~0.16 s de voz) vs 'para a empresa' (ASR principal/Whisper)"
+  ]
+ },
+ {
+  "seg": 41,
+  "start": 521.256,
+  "end": 528.66,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    521.14
+   ],
+   [
+    "Hellen",
+    521.7
+   ],
+   [
+    "Indira",
+    524.26
+   ],
+   [
+    "Hellen",
+    524.5
+   ]
+  ],
+  "clean": "E aí acontece o seguinte: essa consciência que foi gerada com os treinamentos, com as palestras, com o workshop,",
+  "verbatim": "E aí acontece o seguinte, essa consciência que foi gerada com os treinamentos, com as palestras, com o workshop.",
+  "uncertain": []
+ },
+ {
+  "seg": 42,
+  "start": 528.968,
+  "end": 532.948,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    528.85
+   ],
+   [
+    "Hellen",
+    529.33
+   ]
+  ],
+  "clean": "ela não vai sustentar e, com o tempo, ela vai perder a força.",
+  "verbatim": "Ela não vai sustentar e, com o tempo, ela vai perder a força.",
+  "uncertain": []
+ },
+ {
+  "seg": 43,
+  "start": 533.48,
+  "end": 553.372,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    533.6
+   ],
+   [
+    "Hellen",
+    543.92
+   ],
+   [
+    "Indira",
+    544.96
+   ]
+  ],
+  "clean": "Exatamente, porque ela não tá escrita em lugar nenhum, né? E é muito interessante a gente falar isso, gente, porque uma segunda coisa que acontece muito nas empresas é: ou a empresa, ela leva um susto e ela decide contratar a parte normativa, o que é muito válido, tá? E tem empresas que nem isso faz, que também já fica muito desprotegida, né?",
+  "verbatim": "Exatamente, porque ela não tá escrita em lugar nenhum, né? E é muito interessante a gente falar isso, gente, porque uma segunda coisa que acontece muito nas empresas é ou a empresa ela leva um susto e ela decide contratar a parte normativa, o que é muito válido, tá? E tem empresas que nem isso faz, que também já fica muito desprotegida, né?",
+  "uncertain": []
+ },
+ {
+  "seg": 44,
+  "start": 553.512,
+  "end": 573.884,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    553.39
+   ],
+   [
+    "Indira",
+    553.95
+   ],
+   [
+    "Hellen",
+    558.11
+   ],
+   [
+    "Indira",
+    559.31
+   ]
+  ],
+  "clean": "Mas as empresas que optam por esse caminho de contratar a normativa, elas fazem de duas formas. A primeira: modelos prontos ou ChatGPT fazendo, que também é um risco. Por quê? Porque a normativa precisa conversar com a realidade da sua empresa. Ela precisa traduzir a realidade da sua empresa para que ela seja sustentada dentro da empresa.",
+  "verbatim": "Mas as empresas que optam por esse caminho de contratar a normativa, elas fazem de duas formas. A primeira, modelos prontos ou ChatGPT fazendo, que também é um risco. Por quê? Porque a normativa precisa conversar com a realidade da sua empresa. Ela precisa traduzir a realidade da sua empresa para que ela seja sustentada dentro da empresa.",
+  "uncertain": []
+ },
+ {
+  "seg": 45,
+  "start": 574.408,
+  "end": 594.972,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    574.93
+   ]
+  ],
+  "clean": "Outro caminho é realmente contratar um profissional, um advogado, que possa entender a realidade da sua empresa, fazer um diagnóstico ali e construir essa normativa conversando com a realidade da empresa. Daí ele recebe todos esses documentos, ou seja, regulamento interno, código de conduta, política de gestão de conflito, política",
+  "verbatim": "Outro caminho é realmente contratar um profissional, um advogado, que possa entender a realidade da sua empresa, fazer um diagnóstico ali e construir essa normativa conversando com a realidade da empresa. Daí ele recebe todos esses documentos, ou seja, regulamento interno, código de conduta, política de gestão de conflito, política",
+  "uncertain": []
+ },
+ {
+  "seg": 46,
+  "start": 595.208,
+  "end": 602.612,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    595.41
+   ]
+  ],
+  "clean": "antiassédio, né, assédio moral e sexual, manual de cultura. Ele tem toda a parte normativa, mas ele guarda numa gaveta.",
+  "verbatim": "antiassédio, né, assédio moral e sexual, manual de cultura. Ele tem toda a parte normativa, mas ele guarda numa gaveta.",
+  "uncertain": []
+ },
+ {
+  "seg": 47,
+  "start": 603.016,
+  "end": 617.332,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    603.06
+   ],
+   [
+    "Indira",
+    603.38
+   ],
+   [
+    "Hellen",
+    609.38
+   ],
+   [
+    "Indira",
+    609.94
+   ]
+  ],
+  "clean": "Ele não implementa. Então, essa parte, você está estruturando a empresa. E é importante que isso se faça assim. Só que você precisa entender que a consciência que é gerada lá no treinamento, ela precisa ser sustentada aqui,",
+  "verbatim": "Ele não implementa. Então, essa parte você está estruturando a empresa. E é importante que isso se faça assim. Só que você precisa entender que a consciência que é gerada lá no treinamento ela precisa ser sustentada aqui.",
+  "uncertain": [
+   "'você está' pode ter sido dito 'você tá' (não sondado)",
+   "'Então, essa parte' talvez seja 'nessa parte' (não sondado)"
+  ]
+ },
+ {
+  "seg": 48,
+  "start": 617.992,
+  "end": 624.916,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    618.03
+   ],
+   [
+    "Hellen",
+    619.63
+   ],
+   [
+    "Indira",
+    622.35
+   ],
+   [
+    "Hellen",
+    623.07
+   ]
+  ],
+  "clean": "através da normativa, né? Exatamente. Uma coisa complementa a outra. O que eu escuto na sala",
+  "verbatim": "Através da normativa, né? Exatamente. Uma coisa complementa a outra. O que eu escuto na sala",
+  "uncertain": [
+   "Troca de falante dentro do segmento: 'Através da normativa, né?' é Indira e 'Exatamente...' é Hellen"
+  ]
+ },
+ {
+  "seg": 49,
+  "start": 625.288,
+  "end": 632.596,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    625.17
+   ],
+   [
+    "Hellen",
+    625.73
+   ],
+   [
+    "Indira",
+    628.53
+   ],
+   [
+    "Hellen",
+    629.17
+   ]
+  ],
+  "clean": "vira escrita e cláusula do que a Indira vai escrever. E o que a Indira escreve vira conteúdo e treinamento.",
+  "verbatim": "vira escrita e cláusula do que a Indira vai escrever. E o que a Indira escreve, vira conteúdo e treinamento.",
+  "uncertain": [
+   "'vira escrita e cláusula' foi confirmado por Whisper. Pode ser uma reformulação (em vez de 'vira cláusula'), mas é semanticamente aceitável e foi mantido como falado",
+   "'o que é Indira' do ASR = 'o que a Indira' (confirmado por Whisper)"
+  ]
+ },
+ {
+  "seg": 50,
+  "start": 632.904,
+  "end": 652.444,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    633.1
+   ],
+   [
+    "Hellen",
+    640.14
+   ],
+   [
+    "Indira",
+    648.7
+   ],
+   [
+    "Hellen",
+    649.42
+   ],
+   [
+    "Indira",
+    650.78
+   ]
+  ],
+  "clean": "Perfeito, porque o documento, ele muda a regra, né? Mas não muda o comportamento. E o comportamento gera consciência, mas é sustentado pela regra. Exatamente. E quando essa situação na sua empresa não muda, a gente dá um nome de gestão no improviso. Mas calma, que a gente vai te dar o caminho. O método que a gente aplica, ele segue",
+  "verbatim": "Perfeito, porque o documento ele muda a regra, né? Mas não muda o comportamento. E o comportamento gera consciência, mas é sustentado pela regra. Exatamente. E quando isso, essa situação na sua empresa não muda, a gente dá um nome de gestão no improviso. Mas calma que a gente vai te dar o caminho. O método que a gente aplica, ele segue",
+  "uncertain": [
+   "'E o comportamento gera consciência' foi confirmado no áudio. Provável lapso de Indira por 'o treinamento', mas foi mantido como falado (não pôr na tela)",
+   "'dá um nome de' (ASR principal + Whisper) vs 'dá o nome de' (sonda Parakeet)",
+   "'na sua empresa' (Whisper/ASR) vs 'da sua empresa' (sonda Parakeet)",
+   "Troca de falante em 'Exatamente.' (~640.6 s): de Indira para Hellen"
+  ]
+ },
+ {
+  "seg": 51,
+  "start": 652.52,
+  "end": 658.004,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "Hellen",
+    652.64
+   ]
+  ],
+  "clean": "quatro etapas: o diagnóstico, a estrutura, a implementação e a liderança.",
+  "verbatim": "Quatro etapas: o diagnóstico, a estrutura, a implementação e a liderança.",
+  "uncertain": []
+ },
+ {
+  "seg": 52,
+  "start": 658.344,
+  "end": 665.524,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    658.22
+   ],
+   [
+    "Hellen",
+    658.78
+   ],
+   [
+    "Indira",
+    660.54
+   ],
+   [
+    "Hellen",
+    661.5
+   ],
+   [
+    "Indira",
+    663.66
+   ],
+   [
+    "Hellen",
+    663.74
+   ]
+  ],
+  "clean": "E o mais comum no mercado é as empresas sempre começarem pela liderança, ou seja, contratando um treinamento.",
+  "verbatim": "E o mais comum no mercado é as empresas sempre começarem pela liderança, ou seja, contratando um treinamento.",
+  "uncertain": []
+ },
+ {
+  "seg": 53,
+  "start": 665.896,
+  "end": 673.172,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    665.78
+   ],
+   [
+    "Hellen",
+    666.34
+   ]
+  ],
+  "clean": "A gente não pode contratar um treinamento sem antes escutar e sem antes escrever. Porque três semanas depois",
+  "verbatim": "A gente não pode contratar um treinamento sem antes escutar e sem antes escrever. Porque três semanas depois",
+  "uncertain": []
+ },
+ {
+  "seg": 54,
+  "start": 673.448,
+  "end": 674.804,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    673.33
+   ],
+   [
+    "Indira",
+    673.81
+   ]
+  ],
+  "clean": "vai perder o efeito.",
+  "verbatim": "vai perder o efeito.",
+  "uncertain": []
+ },
+ {
+  "seg": 55,
+  "start": 675.208,
+  "end": 684.596,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    675.09
+   ],
+   [
+    "Hellen",
+    675.49
+   ]
+  ],
+  "clean": "A gente vai começar falando sobre o diagnóstico. Tudo começa: eu e a Indira conversando com o dono da empresa. Esse dono já traz um diagnóstico pré-pronto.",
+  "verbatim": "A gente vai começar falando sobre o diagnóstico. Tudo começa, eu e a Indira conversando com o dono da empresa. Esse dono já traz um diagnóstico pré-pronto.",
+  "uncertain": [
+   "The existing jump cut at 677.63 lands inside 'Tudo'. The ~80 ms before it is very loud (peaks around -1 dBFS) and the level drops about 14 dB at the splice (see cut c4-01)."
+  ]
+ },
+ {
+  "seg": 56,
+  "start": 685.032,
+  "end": 697.012,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "Hellen",
+    685.15
+   ],
+   [
+    "Indira",
+    686.91
+   ],
+   [
+    "Hellen",
+    687.71
+   ]
+  ],
+  "clean": "Grande maioria das vezes, ele vai falar que já sabe o que está acontecendo, que já sabe quem é o culpado. Mas esse dono não tem uma visão muito macro, porque ele só sabe aquilo que sobe até ele.",
+  "verbatim": "Grande maioria das vezes ele vai falar que já sabe o que está acontecendo, que já sabe quem é o culpado, mas esse dono... não tem uma visão muito macro, porque ele só sabe aquilo que sobe até ele.",
+  "uncertain": [
+   "There is a 1 s hesitation pause after 'esse dono' (691.6-692.6). It is a plain pause, so the automatic pause pass handles it."
+  ]
+ },
+ {
+  "seg": 57,
+  "start": 697.448,
+  "end": 703.348,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    697.33
+   ],
+   [
+    "Indira",
+    698.05
+   ],
+   [
+    "Hellen",
+    698.69
+   ]
+  ],
+  "clean": "E nem o chefe, ou ninguém, sobe à sala do chefe pra falar que o chefe é o problema.",
+  "verbatim": "E nem o chefe ou ninguém sobe à sala do chefe pra falar que o chefe é o problema.",
+  "uncertain": [
+   "The main ASR has 'soube'. The probe and Whisper both hear 'sobe à sala'.",
+   "'E nem o chefe ou ninguém' is a mid-sentence reformulation (the meaning is 'ninguém sobe…'). Nothing separates 'E', 'nem' and 'o chefe ou ninguém' acoustically, so I could not cut it cleanly and left it as spoken."
+  ]
+ },
+ {
+  "seg": 58,
+  "start": 703.656,
+  "end": 707.796,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    703.54
+   ],
+   [
+    "Hellen",
+    704.02
+   ]
+  ],
+  "clean": "Ou seja, por isso que o nosso diagnóstico, ele vem de",
+  "verbatim": "Ou seja, por isso que o nosso diagnóstico vem de...",
+  "uncertain": [
+   "There is a 0.55 s pause between 'de' and 'fora' (707.75-708.30). Whisper adds 'ele' ('o nosso diagnóstico, ele vem'), but the energy shows no extra word, so I kept the Parakeet reading."
+  ]
+ },
+ {
+  "seg": 59,
+  "start": 708.264,
+  "end": 709.844,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    708.3
+   ],
+   [
+    "Hellen",
+    708.7
+   ]
+  ],
+  "clean": "fora, do anonimato.",
+  "verbatim": "fora, do anonimato.",
+  "uncertain": [
+   "Both ASRs hear 'do anonimato' (the intended meaning is probably 'com anonimato'). I kept it as spoken."
+  ]
+ },
+ {
+  "seg": 60,
+  "start": 710.216,
+  "end": 726.9,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    710.1
+   ],
+   [
+    "Hellen",
+    710.66
+   ],
+   [
+    "Indira",
+    723.94
+   ]
+  ],
+  "clean": "O nosso diagnóstico, ele não é uma pesquisa de clima, porque uma pesquisa de clima vai perguntar pra você como você se sente. Agora, um diagnóstico organizacional, ele vai perguntar como as decisões são tomadas e o que influencia essas decisões.",
+  "verbatim": "O nosso diagnóstico, ele não é uma pesquisa de clima, porque uma pesquisa de clima vai perguntar pra você como você se sente. Agora, um diagnóstico organizacional, ele vai perguntar como as decisões são tomadas e o que influencia essas decisões.",
+  "uncertain": [
+   "Parakeet's 'pesquisa de crime' is corrected to 'pesquisa de clima'. Whisper confirms it in the probe at 712.2-717.2."
+  ]
+ },
+ {
+  "seg": 61,
+  "start": 727.336,
+  "end": 748.988,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    727.22
+   ],
+   [
+    "Indira",
+    727.94
+   ],
+   [
+    "Hellen",
+    748.34
+   ]
+  ],
+  "clean": "Exatamente. Com essa relação do diagnóstico, eu gosto muito da analogia que a gente fala, né, Hellen? Sobre a questão de você ir ao médico. Você vai ao médico e você já pede uma cirurgia, mas nenhum médico vai fazer uma cirurgia ou vai te recomendar um tratamento adequado se ele não te pedir exames. Esses exames são o diagnóstico. E aqui na empresa, quando a gente fala de estruturar, que é o nosso segundo",
+  "verbatim": "Exatamente, com essa relação do diagnóstico, eu gosto muito da analogia que a gente fala, né, Hellen? Sobre a questão de você ir ao médico. Você vai ao médico e você já pede uma cirurgia, mas nenhum médico vai fazer uma cirurgia ou vai te recomendar um tratamento adequado se ele não te pedir exames. Esses exames são o diagnóstico. E aqui na empresa, quando a gente fala de estruturar, que é o nosso segundo",
+  "uncertain": [
+   "The ASR wrote 'Ellie'. It is Hellen."
+  ]
+ },
+ {
+  "seg": 62,
+  "start": 749.288,
+  "end": 759.316,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    749.33
+   ],
+   [
+    "Indira",
+    749.89
+   ]
+  ],
+  "clean": "passo, nossa segunda etapa, a gente está falando do que vem do diagnóstico. Então, com o diagnóstico na mão, a gente tem aí um caminho para um tratamento mais adequado.",
+  "verbatim": "passo, nossa segunda etapa, a gente está falando do que vem do diagnóstico. Então, com o diagnóstico na mão, a gente tem aí um caminho, porque a gente tem um caminho para um tratamento mais adequado.",
+  "uncertain": [
+   "The existing jump cut at 749.33 falls in the silent closure just before the 'p' of 'passo' (silence from 748.9 to 749.3, burst at 749.30). Nothing is clipped.",
+   "'nosso segundo passo, nossa segunda etapa' is a natural reformulation. I did not cut it: there is no clean boundary after 'passo' and it sits right next to the 749.33 cut."
+  ]
+ },
+ {
+  "seg": 63,
+  "start": 759.624,
+  "end": 778.62,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    759.5
+   ],
+   [
+    "Indira",
+    759.9
+   ],
+   [
+    "Hellen",
+    766.3
+   ],
+   [
+    "Indira",
+    766.38
+   ],
+   [
+    "Hellen",
+    768.54
+   ],
+   [
+    "Indira",
+    768.7
+   ]
+  ],
+  "clean": "Então, isso vai virar o quê? Vai virar uma estrutura escrita. E aí vem as normativas que a gente já mencionou, né? O manual de cultura, o regulamento interno, o código de conduta, as políticas internas de gestão adequada de conflito e também a política interna anti-assédio. Tudo isso para ajudar a sustentar",
+  "verbatim": "Então, isso vai virar o quê? Vai virar uma estrutura escrita. E aí vem as normativas que a gente já mencionou, né? O manual de cultura, o regulamento interno, o código de conduta, as políticas internas de gestão adequada de conflito e também a política interna anti-assédio. Tudo isso para ajudar a sustentar",
+  "uncertain": [
+   "The ASR heard 'No manual de cultura'. There is no pause after 'né' and the list is parallel ('o regulamento…, o código…'), so 'O manual' is likely. I did not probe it with a model."
+  ]
+ },
+ {
+  "seg": 64,
+  "start": 778.792,
+  "end": 783.924,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    778.67
+   ],
+   [
+    "Indira",
+    779.07
+   ]
+  ],
+  "clean": "aquele equilíbrio que a gente falou entre a consciência e sustentar também as regras dentro da empresa.",
+  "verbatim": "aquele equilíbrio que a gente falou entre a consciência e sustentar também as regras dentro da empresa.",
+  "uncertain": []
+ },
+ {
+  "seg": 65,
+  "start": 784.232,
+  "end": 792.82,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    784.11
+   ],
+   [
+    "Indira",
+    784.59
+   ]
+  ],
+  "clean": "Porque, gente, o documento, ele não protege por existir. Ele protege por ser aplicável. E aí entra a nossa terceira etapa.",
+  "verbatim": "Porque, gente, o documento ele não protege por existir, ele protege por ser aplicável. E aí entra a nossa terceira etapa.",
+  "uncertain": []
+ },
+ {
+  "seg": 66,
+  "start": 793.384,
+  "end": 804.308,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    793.26
+   ],
+   [
+    "Indira",
+    793.74
+   ],
+   [
+    "Hellen",
+    797.5
+   ],
+   [
+    "Indira",
+    798.54
+   ]
+  ],
+  "clean": "Porque é muito pulada por grande parte das empresas. Você contrata, você recebe as normativas, mas elas não são implementadas dentro da empresa.",
+  "verbatim": "Porque e é muito pulada por grande parte das empresas. Você contrata, você recebe as normativas, mas elas não são implementadas dentro da empresa.",
+  "uncertain": [
+   "Parakeet hears 'Porque e é' and Whisper hears only 'E é'. It may be a swallowed 'Porque ela é' or a micro-stumble 'e… é'. The audio has no gap, so I proposed no cut. The subtitle drops the extra 'e'."
+  ]
+ },
+ {
+  "seg": 67,
+  "start": 804.872,
+  "end": 814.004,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    804.75
+   ],
+   [
+    "Indira",
+    805.71
+   ]
+  ],
+  "clean": "E isso acaba dificultando entre a prática daquilo que está escrito. Então, como que a gente faz? A gente faz a implementação.",
+  "verbatim": "E isso acaba dificultando entre a prática daquilo que está escrito. Então, como que a gente faz? A gente faz a implementação.",
+  "uncertain": [
+   "'dificultando entre a prática daquilo que está escrito' is kept as spoken; she probably meant 'entre a prática e aquilo que está escrito'. Not probed."
+  ]
+ },
+ {
+  "seg": 68,
+  "start": 814.6,
+  "end": 816.084,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    814.64
+   ],
+   [
+    "Indira",
+    815.04
+   ]
+  ],
+  "clean": "Essa implementação,",
+  "verbatim": "Essa implementação,",
+  "uncertain": []
+ },
+ {
+  "seg": 69,
+  "start": 816.36,
+  "end": 825.204,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    816.48
+   ]
+  ],
+  "clean": "ela é realizada em todas as etapas. Inclusive, eu preciso até, como advogada, dar essa orientação pra vocês: que quando você",
+  "verbatim": "ela é realizada em todas as etapas. Inclusive, eu preciso até como advogada dar essa orientação pra vocês, que quando você",
+  "uncertain": []
+ },
+ {
+  "seg": 70,
+  "start": 825.576,
+  "end": 832.596,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    825.62
+   ],
+   [
+    "Indira",
+    825.86
+   ]
+  ],
+  "clean": "só adverte um colaborador de uma norma que ele descumpriu, sem comprovar que todos os colaboradores tinham ciência dessa norma,",
+  "verbatim": "só adverte um colaborador de uma norma que ele descumpriu, sem comprovar que todos os colaboradores tinham ciência dessa norma,",
+  "uncertain": []
+ },
+ {
+  "seg": 71,
+  "start": 832.936,
+  "end": 846.708,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    833.06
+   ],
+   [
+    "Hellen",
+    838.5
+   ],
+   [
+    "Indira",
+    838.9
+   ],
+   [
+    "Hellen",
+    845.78
+   ]
+  ],
+  "clean": "provavelmente essa demissão, essa punição, ela pode ser anulada, revertida nos tribunais de trabalho, né? Então, por isso que é importante implementar. E nessa implementação é que a gente dá essa clareza para o colaborador, né?",
+  "verbatim": "provavelmente essa demissão, essa punição, ela pode ser anulada, revertida nos tribunais de trabalho, né? Então, por isso que é importante implementar. E nessa implementação é que a gente dá essa clareza para o colaborador, né?",
+  "uncertain": [
+   "The ASR wrote 'revestida'. I corrected it to 'revertida' from the legal context ('anulada, revertida nos tribunais'), without probing.",
+   "'essa demissão, essa punição' could be a lexical self-correction, but it also reads as a deliberate widening. I left it in."
+  ]
+ },
+ {
+  "seg": 72,
+  "start": 847.112,
+  "end": 865.02,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    846.99
+   ],
+   [
+    "Indira",
+    847.55
+   ]
+  ],
+  "clean": "Nas nossas implementações, a gente vai com o treinamento, com a linguagem acessível, todos eles têm um conhecimento das regras e a empresa fica com a comprovação de que eles tinham ciência. Porque é isso que, em um eventual ação trabalhista, vão te pedir: qual é a comprovação de que esse colaborador",
+  "verbatim": "Por isso que ele... Nas nossas implemententações, a gente vai com o treinamento, com a linguagem acessível, todos eles têm um conhecimento das regras e a empresa fica com a comprovação de que eles tinham ciência. Porque é isso que, em um eventual... a ação trabalhista vão te pedir qual é a comprovação de que esse colaborador",
+  "uncertain": [
+   "There is a 0.3 s hesitation after 'eventual' (860.94-861.24). The main ASR and Whisper hear 'a ação' and the probe's Parakeet hears 'ação'.",
+   "For 'qual é a comprovação', Parakeet's re-probe gives 'qualquer comprovação' and Whisper gives 'qual que é a comprovação'. Only one short syllable sits between 'qual' and 'comprovação'.",
+   "The re-probe hears 'com treinamento' without 'o'."
+  ]
+ },
+ {
+  "seg": 73,
+  "start": 865.128,
+  "end": 869.748,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    865.01
+   ],
+   [
+    "Indira",
+    865.49
+   ],
+   [
+    "Hellen",
+    869.09
+   ]
+  ],
+  "clean": "tinha conhecimento e clareza daquilo que ele descumpriu, e por isso que ele está levando aquela punição.",
+  "verbatim": "tinha conhecimento e clareza daquilo que ele descumpriu, e por isso que ele está levando aquela punição.",
+  "uncertain": []
+ },
+ {
+  "seg": 74,
+  "start": 870.088,
+  "end": 889.404,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    869.97
+   ],
+   [
+    "Indira",
+    870.37
+   ],
+   [
+    "Hellen",
+    882.45
+   ],
+   [
+    "Indira",
+    884.93
+   ],
+   [
+    "Hellen",
+    885.33
+   ]
+  ],
+  "clean": "E mais do que isso: qual é o caminho de um processo disciplinar dentro da empresa? Qual é o caminho que se deve ter, quem que vai apurar, por exemplo, uma denúncia anti-assédio? Tudo isso a gente também trabalha na questão da implementação. E a quarta etapa: a gente começa agora pela liderança, e somente agora a gente vai começar a",
+  "verbatim": "E mais do que isso, qual é o caminho de um processo disciplinar dentro da empresa? Qual é o caminho que se deve ter, quem que vai apurar, por exemplo, uma denúncia anti-assédio? Tudo isso a gente também trabalha na questão da implementação. E a quarta etapa, a gente começa agora pela liderança e somente agora a gente vai começar a",
+  "uncertain": [
+   "The ASR wrote 'anti-assédico'. Whisper and the probe confirm 'anti-assédio'.",
+   "The existing cut at 882.13 sits in an 80 ms silence between 'implementação.' and 'E a quarta etapa'. The speaker probably changes here from Indira to Hellen."
+  ]
+ },
+ {
+  "seg": 75,
+  "start": 889.512,
+  "end": 900.884,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "Hellen",
+    889.63
+   ],
+   [
+    "Indira",
+    891.47
+   ],
+   [
+    "Hellen",
+    893.07
+   ],
+   [
+    "Indira",
+    894.27
+   ],
+   [
+    "Hellen",
+    896.67
+   ],
+   [
+    "Indira",
+    899.07
+   ],
+   [
+    "Hellen",
+    900.11
+   ]
+  ],
+  "clean": "treinar. Porque grande maioria da liderança que foi promovida dentro das empresas, elas foram promovidas porque elas tinham uma competência técnica diária.",
+  "verbatim": "treinar, porque grande maioria... da liderança que foi promovida dentro das empresas, elas foram promovidas porque elas tinham uma competência técnica... diária.",
+  "uncertain": [
+   "The ASR wrote 'Treina'; this is 'treinar' with the final r dropped.",
+   "For 'diária', the word onset has a clear affricate ([dʒi]), so it is not 'da área'. It could be 'de área', though; the script says 'o melhor técnico da área'. I kept the ASR reading. Not model-probed.",
+   "There is a 1.1 s hesitation after 'grande maioria'. It is a plain pause, handled automatically."
+  ]
+ },
+ {
+  "seg": 76,
+  "start": 901.16,
+  "end": 905.748,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    901.28
+   ],
+   [
+    "Hellen",
+    901.6
+   ]
+  ],
+  "clean": "Mas elas não sabem conduzir conversas difíceis.",
+  "verbatim": "Mas elas não sabem conduzir conversas difíceis.",
+  "uncertain": []
+ },
+ {
+  "seg": 77,
+  "start": 906.056,
+  "end": 916.724,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    905.94
+   ],
+   [
+    "Hellen",
+    906.34
+   ],
+   [
+    "Indira",
+    912.74
+   ],
+   [
+    "Hellen",
+    913.94
+   ],
+   [
+    "Indira",
+    916.18
+   ]
+  ],
+  "clean": "Como elas não sabem conduzir conversas difíceis, elas vão começar a adiar essas conversas, vai deixar pra depois, e mais uma vez esse conflito, essa situação vai subir de andar.",
+  "verbatim": "Como elas não sabem conduzir conversas difíceis, elas vão começar a adiar essas conversas, vai deixar pra depois e mais uma vez esse conflito, essa situação vai subir de andar.",
+  "uncertain": [
+   "The ASR wrote 'subir, jandar'. This is 'subir de andar' (Brazilian 'de' pronounced [dʒi] followed by 'andar'), which matches the elevator metaphor. Not probed."
+  ]
+ },
+ {
+  "seg": 78,
+  "start": 917.0,
+  "end": 922.26,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    916.88
+   ],
+   [
+    "Hellen",
+    918.16
+   ]
+  ],
+  "clean": "Então, antes da gente fazer um treinamento, a gente mapeia essa liderança.",
+  "verbatim": "Então, antes da gente fazer um treinamento, a gente mapeia essa liderança.",
+  "uncertain": []
+ },
+ {
+  "seg": 79,
+  "start": 922.728,
+  "end": 933.62,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    922.61
+   ],
+   [
+    "Hellen",
+    923.17
+   ],
+   [
+    "Indira",
+    926.05
+   ],
+   [
+    "Hellen",
+    926.37
+   ],
+   [
+    "Indira",
+    928.77
+   ],
+   [
+    "Hellen",
+    929.89
+   ]
+  ],
+  "clean": "Aquele líder que não sabe lidar com conflitos, a gente vai ensinar a ele lidar com conflitos. E aquele líder que atropela os conflitos, a gente vai ensinar ele a esperar",
+  "verbatim": "Aquele líder que não sabe lidar com conflitos, a gente vai ensinar a ele lidar com conflitos. E aquele líder que atropela os conflitos, a gente vai ensinar ele a esperar",
+  "uncertain": []
+ },
+ {
+  "seg": 80,
+  "start": 933.928,
+  "end": 935.956,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    933.81
+   ],
+   [
+    "Hellen",
+    934.29
+   ]
+  ],
+  "clean": "para poder resolver esse conflito.",
+  "verbatim": "para poder resolver esse conflito.",
+  "uncertain": []
+ },
+ {
+  "seg": 81,
+  "start": 936.776,
+  "end": 942.388,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    936.82
+   ],
+   [
+    "Hellen",
+    941.3
+   ],
+   [
+    "Indira",
+    941.54
+   ]
+  ],
+  "clean": "Verdade, gente. E atendendo também a um pedido de líderes que a gente sempre vinha treinando, a gente desenvolveu",
+  "verbatim": "Verdade, gente. E atendendo também a um pedido de líderes que a gente sempre vinha treinando, a gente desenvolveu",
+  "uncertain": []
+ },
+ {
+  "seg": 82,
+  "start": 942.696,
+  "end": 949.172,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    942.58
+   ],
+   [
+    "Indira",
+    943.06
+   ]
+  ],
+  "clean": "uma ferramenta prática para auxiliar. Dentro do programa Cultura em Ação, a empresa recebe essa ferramenta.",
+  "verbatim": "uma ferramenta prática para auxiliar. Dentro do programa Cultura em Ação, a empresa recebe essa ferramenta.",
+  "uncertain": [
+   "The main ASR had 'prática que para auxiliar'. The re-probe hears only 'prática para auxiliar', and the energy shows a single short syllable before 'auxiliar'. I proposed no cut."
+  ]
+ },
+ {
+  "seg": 83,
+  "start": 949.48,
+  "end": 968.924,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    949.36
+   ],
+   [
+    "Indira",
+    949.68
+   ],
+   [
+    "Hellen",
+    960.56
+   ],
+   [
+    "Indira",
+    960.88
+   ],
+   [
+    "Hellen",
+    968.32
+   ]
+  ],
+  "clean": "A ferramenta, com o auxílio da IA, ela vai ajudar o líder: quando ele vai advertir, quando que ele vai suspender e quando ele já pode demitir por justa causa, através de um material complementar — ele vai ter um guia sobre isso. A gente também colocou o guia de conversas difíceis dentro da ferramenta. A ferramenta vai auxiliar o líder quando ele fazer o relato do caso,",
+  "verbatim": "A ferramenta, com o auxílio da IA, ela vai ajudar o líder a quando ele vai advertir, quando que ele vai suspender e quando ele já pode demitir por justa causa, através de um material complementar que ele vai ter um guia sobre isso. A gente também colocou o guia de conversas difíceis dentro da ferramenta. A ferramenta vai auxiliar o líder quando ele fazer o relato do caso,",
+  "uncertain": [
+   "ASR errors corrected: 'pro justa causa' to 'por justa causa' and 'difíce' to 'difíceis'.",
+   "The spoken form 'quando ele fazer' (instead of 'fizer') is kept as said.",
+   "A tiny hesitation 'líder a… quando' is too short to cut; the subtitle drops the 'a'."
+  ]
+ },
+ {
+  "seg": 84,
+  "start": 969.032,
+  "end": 990.108,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    968.91
+   ],
+   [
+    "Indira",
+    969.31
+   ]
+  ],
+  "clean": "já trazer um PDI, que é o Plano de Desenvolvimento Individual do colaborador, como que dar feedback, como ter conversas difíceis. Então, assim, é muito completo o programa Cultura em Ação, e o líder também tem todo esse auxílio. E, desde o que a Hellen falou, a gente tem uma mandala que vocês estão vendo aí. E o que acontece, gente? O mercado hoje, ele insiste em pintar a mandala",
+  "verbatim": "já trazer um PDI, que é o Plano de Desenvolvimento Individual do colaborador, como que dar feedback, como ter conversas difíceis. Então, assim, é muito completo o programa Cultura em Ação e o líder também tem todo esse auxílio. E desde o que a Hellen falou, a gente tem uma mandala que vocês estão vendo aí. E o que acontece, gente? As pessoas... O mercado hoje ele insiste em pintar a mandala",
+  "uncertain": [
+   "The ASR wrote 'Ellen'. It is Hellen.",
+   "'desde o que a Hellen falou' is kept as heard."
+  ]
+ },
+ {
+  "seg": 85,
+  "start": 990.44,
+  "end": 998.932,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    990.32
+   ],
+   [
+    "Indira",
+    990.88
+   ]
+  ],
+  "clean": "de fora pra dentro, quando na verdade a gente se pinta de dentro pra fora. Não tem como eu vir treinar a liderança sem antes eu estruturar.",
+  "verbatim": "de fora pra dentro, quando na verdade a gente se pinta de dentro pra fora. Não tem como eu vir treinar a liderança sem antes eu estruturar.",
+  "uncertain": [
+   "Both Parakeet passes hear 'a gente se pinta'. The script line is 'a mandala se pinta de dentro para fora'. I kept what was heard."
+  ]
+ },
+ {
+  "seg": 86,
+  "start": 999.208,
+  "end": 1016.724,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    999.09
+   ],
+   [
+    "Indira",
+    999.57
+   ]
+  ],
+  "clean": "Não tem como eu estruturar sem antes eu diagnosticar o que está acontecendo. E quando eu vou estruturar, eu preciso também implementar através daquele treinamento, tudo que eu já expliquei para vocês. Para depois a gente preparar a liderança para sustentar tudo aquilo que foi realizado dentro do programa.",
+  "verbatim": "Não tem como eu estruturar sem antes eu diagnosticar o que está acontecendo. E quando eu vou estruturar, eu preciso também implementar através daquele treinamento, tudo que eu já expliquei para vocês. Para depois a gente preparar a liderança para sustentar tudo aquilo que foi realizado dentro do programa.",
+  "uncertain": [
+   "The repetition 'Não tem como eu… sem antes eu…' is intentional anaphora. Keep it."
+  ]
+ },
+ {
+  "seg": 87,
+  "start": 1017.352,
+  "end": 1024.148,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    1017.39
+   ],
+   [
+    "Hellen",
+    1017.79
+   ],
+   [
+    "Indira",
+    1020.35
+   ],
+   [
+    "Hellen",
+    1022.67
+   ]
+  ],
+  "clean": "Agora, caminhando para a parte final dessa aula, a gente vai fazer o teste. Se você tem aí, próximo de você,",
+  "verbatim": "Agora, caminhando para a parte final dessa aula, a gente vai fazer o teste. Se você tem aí próximo de você,",
+  "uncertain": [
+   "Existing edit point 1017.43 sits right at the onset of 'Agora' (energy onset ~1017.36, hard vowel attack). Probe recognizes 'Agora' intact, so no fix needed."
+  ]
+ },
+ {
+  "seg": 88,
+  "start": 1024.616,
+  "end": 1030.196,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    1024.5
+   ],
+   [
+    "Hellen",
+    1025.06
+   ]
+  ],
+  "clean": "pegue uma caneta, um papel, que a gente vai fazer as quatro perguntas, uma pra cada etapa.",
+  "verbatim": "pegue uma caneta, um papel, que a gente vai fazer as quatro perguntas, uma pra cada etapa.",
+  "uncertain": []
+ },
+ {
+  "seg": 89,
+  "start": 1030.536,
+  "end": 1043.7,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1030.42
+   ],
+   [
+    "Indira",
+    1030.9
+   ],
+   [
+    "Hellen",
+    1031.38
+   ],
+   [
+    "Indira",
+    1033.86
+   ],
+   [
+    "Hellen",
+    1035.06
+   ]
+  ],
+  "clean": "E nós precisamos que você seja bastante sincero com a resposta que você vai trazer para cada uma delas. E a primeira pergunta é: eu sei como a minha equipe percebe as decisões por dado",
+  "verbatim": "E nós precisamos que você seja bastante sincero com a resposta que você vai trazer para cada uma delas. E a primeira pergunta é: eu sei como a minha equipe percebe as decisões por dado",
+  "uncertain": []
+ },
+ {
+  "seg": 90,
+  "start": 1044.104,
+  "end": 1046.644,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1043.98
+   ],
+   [
+    "Hellen",
+    1044.46
+   ],
+   [
+    "Indira",
+    1045.26
+   ]
+  ],
+  "clean": "ou só pelo que chega à minha mesa?",
+  "verbatim": "ou só pelo que chega à minha mesa?",
+  "uncertain": []
+ },
+ {
+  "seg": 91,
+  "start": 1047.4,
+  "end": 1048.788,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    1047.44
+   ],
+   [
+    "Hellen",
+    1047.6
+   ]
+  ],
+  "clean": "A segunda pergunta:",
+  "verbatim": "A segunda pergunta.",
+  "uncertain": []
+ },
+ {
+  "seg": 92,
+  "start": 1049.416,
+  "end": 1055.988,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    1049.46
+   ],
+   [
+    "Hellen",
+    1049.78
+   ]
+  ],
+  "clean": "Duas pessoas que fazem a mesma coisa recebem a mesma resposta, mesmo com líderes diferentes?",
+  "verbatim": "Duas pessoas que fazem a mesma coisa recebem a mesma resposta, mesmo com líderes diferentes?",
+  "uncertain": []
+ },
+ {
+  "seg": 93,
+  "start": 1056.872,
+  "end": 1062.676,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1056.75
+   ],
+   [
+    "Indira",
+    1057.07
+   ]
+  ],
+  "clean": "E a pergunta número 3: a minha equipe conhece as regras antes da primeira advertência?",
+  "verbatim": "E a pergunta número 3. A minha equipe conhece as regras antes da primeira advertência?",
+  "uncertain": []
+ },
+ {
+  "seg": 94,
+  "start": 1063.368,
+  "end": 1066.9,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    1063.49
+   ]
+  ],
+  "clean": "Existe registro e comprovação de que ela conhece?",
+  "verbatim": "Existe registro e comprovação de que ela conhece?",
+  "uncertain": []
+ },
+ {
+  "seg": 95,
+  "start": 1068.008,
+  "end": 1074.036,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    1067.89
+   ]
+  ],
+  "clean": "Quarta pergunta: os meus líderes sabem conduzir conversas difíceis, em vez de deixar que elas subam?",
+  "verbatim": "Quarta pergunta. Os meus líderes sabem conduzir conversas difíceis em vez de deixar que ela suba?",
+  "uncertain": [
+   "Probe: Parakeet and Whisper both hear 'que ela suba' (colloquial, plural dropped; first-pass ASR wrote 'elas suban'). Subtitle normalizes agreement to 'elas subam' because it refers to 'conversas difíceis'. Use 'que ela suba' if strict literal fidelity is preferred."
+  ]
+ },
+ {
+  "seg": 96,
+  "start": 1074.92,
+  "end": 1076.276,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1074.88
+   ],
+   [
+    "Indira",
+    1075.2
+   ]
+  ],
+  "clean": "",
+  "verbatim": "Se o seu primeiro não...",
+  "uncertain": [
+   "Whole segment removed by cut c5_01 (restart: she starts again with 'Esse primeiro não...')."
+  ]
+ },
+ {
+  "seg": 97,
+  "start": 1076.68,
+  "end": 1093.204,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1076.56
+   ],
+   [
+    "Indira",
+    1077.28
+   ],
+   [
+    "Hellen",
+    1085.12
+   ]
+  ],
+  "clean": "Esse primeiro \"não\" em alguma dessas perguntas é o seu ponto de partida. E lembre-se, né? A mandala precisa começar de dentro pra fora, né? Exatamente. E pra você não sair daqui só com uma reflexão, a gente vai deixar um passo a passo pra você fazer durante a semana.",
+  "verbatim": "Esse primeiro não em alguma dessas perguntas é o seu ponto de partida. E lembre-se, né? A mandala precisa começar de dentro pra fora, né? Exatamente. E pra você não sair daqui só com uma reflexão, a gente vai deixar um passo a passo pra você fazer durante a semana.",
+  "uncertain": [
+   "Speaker changes at 'Exatamente' (~1085.1): Indira closes the mandala line, Hellen affirms and goes on."
+  ]
+ },
+ {
+  "seg": 98,
+  "start": 1093.672,
+  "end": 1100.948,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1093.55
+   ],
+   [
+    "Indira",
+    1094.03
+   ],
+   [
+    "Hellen",
+    1095.39
+   ]
+  ],
+  "clean": "Para o dono: se você é dono de uma empresa, anote que andar veio cada problema de gente que chegou até você.",
+  "verbatim": "Para o dono, se você é dono de uma empresa, anote que andar veio cada problema de gente que chegou até você.",
+  "uncertain": [
+   "First-pass ASR 'a noite que andar' is really 'anote que andar' (confirmed by Parakeet and Whisper probe). No 'de' is audible ('anote [de] que andar'), so the subtitle leaves it out. Add 'de' only if the client accepts that normalization."
+  ]
+ },
+ {
+  "seg": 99,
+  "start": 1101.352,
+  "end": 1113.588,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    1101.23
+   ],
+   [
+    "Hellen",
+    1101.79
+   ],
+   [
+    "Indira",
+    1108.27
+   ],
+   [
+    "Hellen",
+    1109.23
+   ]
+  ],
+  "clean": "Se você é do RH, liste as três situações que mais se repetem e não têm regra escrita. E se você é um líder, escolha aquela conversa que você está adiando já tem muito tempo.",
+  "verbatim": "Se você é do RH, lix(te) as três situações que mais se repetem e não tem regra escrita. E se você é um líder, escolha aquela conversa que você está adiando já tem muito tempo.",
+  "uncertain": [
+   "ASR heard 'lixe' / 'Lix'. It is said fast ('lis'as'); context makes it 'liste'."
+  ]
+ },
+ {
+  "seg": 100,
+  "start": 1113.96,
+  "end": 1117.716,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    1113.84
+   ],
+   [
+    "Hellen",
+    1114.24
+   ]
+  ],
+  "clean": "E marque na sua agenda uma data para você realizá-la.",
+  "verbatim": "E marque na sua agenda uma data para você realizá-la.",
+  "uncertain": [
+   "Existing edit point 1118.07 falls in clean silence (speech ends ~1117.70, next onset ~1119.12). OK."
+  ]
+ },
+ {
+  "seg": 101,
+  "start": 1119.144,
+  "end": 1137.82,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1119.02
+   ],
+   [
+    "Indira",
+    1119.34
+   ]
+  ],
+  "clean": "Se durante essa aula você se reconheceu em algum momento ou verificou que a sua empresa também passa por esses problemas que a gente relatou aqui, eu e a Hellen, a gente tem o programa Cultura em Ação, né? Como a gente explicou pra vocês, toda essa etapa, o programa completo que a gente vende nas empresas. Mas aqui você pode dar um passo a mais, né? Sem",
+  "verbatim": "Se durante essa aula você se reconheceu em algum momento ou verificou que a sua empresa também passa por esses problemas que a gente relatou aqui, eu e a Ellie, a gente tem o programa Cultura em Ação, né? Como a gente explicou pra vocês, toda essa etapa, o programa completo que a gente vende nas empresas. Mas aqui você pode dar um passo a mais, né? Sem",
+  "uncertain": [
+   "ASR 'Ellie' = Hellen."
+  ]
+ },
+ {
+  "seg": 102,
+  "start": 1138.12,
+  "end": 1158.908,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    1138.56
+   ]
+  ],
+  "clean": "adquirir o programa. A gente resolveu ofertar, te presentear, você que ficou até o final dessa aula, com o Experiência Cultura em Ação. Não é o programa completo, como a gente vende para as empresas, mas já é um projeto muito interessante, que você pode ter o olhar de nós duas. E aí ela vai explicar um pouquinho mais de como que funciona essa experiência pra você.",
+  "verbatim": "adquirir o programa. A gente resolveu ofertar, te presentear, você que ficou até o final dessa aula, com o Experiência Cultura em Ação. Não é o programa completo, como a gente vende para as empresas, mas... já é um projeto muito interessante que você pode ter o olhar de nós duas. E aí ele vai explicar um pouquinho mais de como que funciona essa experiência pra você.",
+  "uncertain": [
+   "'ele vai explicar': both ASRs hear 'ele', but Indira is handing over to Hellen. Written as 'ela'. It could also be a clipped 'a Hel...'.",
+   "'com o Experiência Cultura em Ação': the masculine article is kept as spoken.",
+   "'mas' (~1149.84) is drawn out for about 1 s ('maaas... já'). There is no separate filler word and no clean boundary, so no cut."
+  ]
+ },
+ {
+  "seg": 103,
+  "start": 1159.304,
+  "end": 1167.348,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "Hellen",
+    1159.34
+   ]
+  ],
+  "clean": "Exatamente. O primeiro passo que a gente vai realizar com você é escutar e saber a realidade da sua empresa.",
+  "verbatim": "Exatamente. O primeiro passo que a gente vai realizar com você é escutar e saber a realidade da sua empresa.",
+  "uncertain": []
+ },
+ {
+  "seg": 104,
+  "start": 1167.752,
+  "end": 1179.22,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "Hellen",
+    1167.87
+   ]
+  ],
+  "clean": "Entender o que está acontecendo para que a gente possa montar o que a gente vai falar sobre panorama executivo. O que é o panorama executivo? É uma leitura integral do que encontramos.",
+  "verbatim": "Entender o que está acontecendo para que a gente possa montar o que a gente vai falar sobre panorama executivo. O que é o panorama executivo? É uma leitura integral do que encontramos.",
+  "uncertain": []
+ },
+ {
+  "seg": 105,
+  "start": 1179.496,
+  "end": 1197.564,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    1179.38
+   ],
+   [
+    "Hellen",
+    1179.7
+   ]
+  ],
+  "clean": "Um material que vai ser seu. No próximo passo, a gente vai fazer uma reunião de direcionamento. Essa reunião, a gente vai mostrar pra você o que você precisa priorizar primeiro, te entregar um passo a passo para que você possa entender o que você vai fazer a partir de agora.",
+  "verbatim": "Um material que vai ser seu. No próximo passo, a gente vai fazer uma reunião de direcionamento. Essa reunião a gente vai mostrar pra você o que você precisa priorizar primeiro, te entregar um passo a passo para que você possa entender o que você vai fazer a partir de agora.",
+  "uncertain": [
+   "'Essa reunião' could be 'Nessa reunião' (not probed; not important)."
+  ]
+ },
+ {
+  "seg": 106,
+  "start": 1197.832,
+  "end": 1213.716,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1197.71
+   ],
+   [
+    "Indira",
+    1198.27
+   ]
+  ],
+  "clean": "E quando a gente fala presentear, gente, é presentear mesmo, porque nessa edição a gente resolveu abrir três vagas, e aí vai ser 100% custeado e patrocinado por nós. Então você vai ganhar de presente. E, em razão disso, você vai ter que cumprir as regras. Por isso, clique no link aqui embaixo.",
+  "verbatim": "E quando a gente fala presentear, gente, é presentear mesmo, porque nessa edição a gente resolveu abrir três vagas e aí vai ser 100% custeado e patrocinado por nós. Então você vai ganhar de presente. E em razão disso, você vai ter que cumprir as regras. Por isso, clique no link aqui embaixo.",
+  "uncertain": []
+ },
+ {
+  "seg": 107,
+  "start": 1214.248,
+  "end": 1227.22,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "?",
+    1214.13
+   ],
+   [
+    "Indira",
+    1214.61
+   ],
+   [
+    "Hellen",
+    1223.09
+   ]
+  ],
+  "clean": "Olhem bem as regras: se a sua empresa se enquadra, se inscreva. Nós vamos receber todas as inscrições e vamos dar o feedback para quem foi o vencedor. Exatamente, porque uma empresa organizada, ela não acontece",
+  "verbatim": "Olhem bem as regras, se a sua empresa se enquadra, se inscreva, nós vamos receber todas as inscrições e vamos dar o feedback para quem foi o vencedor. Exatamente, porque uma empresa organizada, ela não acontece",
+  "uncertain": [
+   "Speaker changes at 'Exatamente' (~1223.09): Indira to Hellen."
+  ]
+ },
+ {
+  "seg": 108,
+  "start": 1227.496,
+  "end": 1232.244,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "?",
+    1227.38
+   ],
+   [
+    "Hellen",
+    1227.7
+   ]
+  ],
+  "clean": "por acaso, né? Construída. E tudo começa sabendo",
+  "verbatim": "por acaso, né? Construída. E tudo começa sabendo",
+  "uncertain": [
+   "'né? Construída' vs 'ela é construída': the first-pass ASR and a narrow Parakeet probe hear 'né?', while Whisper and a wider Parakeet probe hear 'ela é construída'. About 0.24 s of audio, unresolved. Either works as a subtitle, but a human should check by ear."
+  ]
+ },
+ {
+  "seg": 109,
+  "start": 1232.616,
+  "end": 1233.428,
+  "speaker": "Hellen",
+  "turns": [
+   [
+    "Hellen",
+    1232.66
+   ]
+  ],
+  "clean": "ouvir.",
+  "verbatim": "ouvir.",
+  "uncertain": [
+   "First-pass ASR wrote only 'O'. Parakeet and Whisper probes both confirm 'sabendo ouvir', after a pause of about 0.45 s."
+  ]
+ },
+ {
+  "seg": 110,
+  "start": 1233.96,
+  "end": 1240.308,
+  "speaker": "Indira",
+  "turns": [
+   [
+    "Indira",
+    1234.0
+   ]
+  ],
+  "clean": "Exatamente, gente. Muito obrigada por vocês terem ficado até aqui. Já se inscrevam, e até a Experiência Cultura em Ação.",
+  "verbatim": "Exatamente, gente. Muito obrigada por vocês terem ficado até aqui. Já se inscrevam e até a experiência Cultura em Ação.",
+  "uncertain": []
+ }
+]

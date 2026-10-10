@@ -1,0 +1,3805 @@
+[
+ {
+  "id": "v01_titulo",
+  "scene": "lettering",
+  "start": 0.25,
+  "end": 5.6,
+  "params": {
+   "kicker": "Aula",
+   "kickerT": {
+    "@t": 0.35
+   },
+   "top": 205,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "O",
+       "t": {
+        "@t": 0.55
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "elevador",
+       "t": {
+        "@t": 0.62
+       },
+       "cls": "serif"
+      }
+     ],
+     "font": "serif",
+     "size": 96,
+     "color": "#FFFFFF"
+    },
+    {
+     "words": [
+      {
+       "text": "do",
+       "t": {
+        "@t": 0.75
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "conflito",
+       "t": {
+        "@t": 0.82
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 96
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v02_gente",
+  "scene": "list",
+  "start": 13.372,
+  "end": 23.272,
+  "params": {
+   "kicker": "Um problema que não era sobre…",
+   "kickerT": {
+    "@t": 13.472
+   },
+   "top": 175,
+   "size": 54,
+   "numW": 56,
+   "items": [
+    {
+     "n": "✕",
+     "text": "estratégia",
+     "t": {
+      "@t": 14.672
+     },
+     "strikeT": {
+      "@t": 15.222
+     },
+     "dimAt": {
+      "@t": 19.852
+     }
+    },
+    {
+     "n": "✕",
+     "text": "o cliente",
+     "t": {
+      "@t": 16.672
+     },
+     "strikeT": {
+      "@t": 17.222
+     },
+     "dimAt": {
+      "@t": 19.852
+     }
+    },
+    {
+     "n": "✕",
+     "text": "o dinheiro",
+     "t": {
+      "@t": 18.432
+     },
+     "strikeT": {
+      "@t": 18.982
+     },
+     "dimAt": {
+      "@t": 19.852
+     }
+    },
+    {
+     "n": "✓",
+     "text": "era sobre gente.",
+     "t": {
+      "@t": 19.072
+     },
+     "hiT": {
+      "@t": 19.952
+     },
+     "numColor": "#9FD3C7",
+     "size": 66,
+     "weight": 750
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "tick",
+    19.952,
+    -22
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v03_desafio",
+  "scene": "lettering",
+  "start": 39.336,
+  "end": 46.696,
+  "params": {
+   "top": 220,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Existe",
+       "t": {
+        "@t": 39.486
+       },
+       "cls": ""
+      },
+      {
+       "text": "um",
+       "t": {
+        "@t": 39.886
+       },
+       "cls": ""
+      },
+      {
+       "text": "desafio",
+       "t": {
+        "@t": 40.046
+       },
+       "cls": ""
+      },
+      {
+       "text": "real",
+       "t": {
+        "@t": 40.686
+       },
+       "cls": ""
+      },
+      {
+       "text": "e",
+       "t": {
+        "@t": 41.006
+       },
+       "cls": ""
+      },
+      {
+       "text": "comum",
+       "t": {
+        "@t": 41.246
+       },
+       "cls": ""
+      },
+      {
+       "text": "a",
+       "t": {
+        "@t": 41.726
+       },
+       "cls": ""
+      },
+      {
+       "text": "todas",
+       "t": {
+        "@t": 41.886
+       },
+       "cls": ""
+      },
+      {
+       "text": "as",
+       "t": {
+        "@t": 42.206
+       },
+       "cls": ""
+      },
+      {
+       "text": "empresas",
+       "t": {
+        "@t": 42.366
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 52,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "E",
+       "t": {
+        "@t": 42.846
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "esse",
+       "t": {
+        "@t": 43.006
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "desafio",
+       "t": {
+        "@t": 43.246
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "é",
+       "t": {
+        "@t": 43.726
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "gente.",
+       "t": {
+        "@t": 44.206
+       },
+       "cls": "serif gold",
+       "pop": true
+      }
+     ],
+     "font": "serif",
+     "size": 96,
+     "gap": 14
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v04_liderar",
+  "scene": "lettering",
+  "start": 50.28,
+  "end": 58.72,
+  "params": {
+   "top": 205,
+   "kicker": "Liderar na prática é gerenciar",
+   "kickerT": {
+    "@t": 50.48
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "pessoas,",
+       "t": {
+        "@t": 53.63
+       },
+       "cls": ""
+      },
+      {
+       "text": "comportamentos,",
+       "t": {
+        "@t": 54.43
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 70
+    },
+    {
+     "words": [
+      {
+       "text": "emoções",
+       "t": {
+        "@t": 55.55
+       },
+       "cls": ""
+      },
+      {
+       "text": "e",
+       "t": {
+        "@t": 56.11
+       },
+       "cls": ""
+      },
+      {
+       "text": "conflitos.",
+       "t": {
+        "@t": 56.27
+       },
+       "cls": "",
+       "pop": true
+      }
+     ],
+     "font": "sans",
+     "size": 70
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v05_pergunta",
+  "scene": "list",
+  "start": 75.78,
+  "end": 86.6,
+  "params": {
+   "kicker": "A pergunta certa",
+   "kickerT": {
+    "@t": 76.08
+   },
+   "top": 165,
+   "size": 44,
+   "numW": 52,
+   "items": [
+    {
+     "n": "✕",
+     "text": "Como evitar o conflito?",
+     "t": {
+      "@t": 78.08
+     },
+     "strikeT": {
+      "@t": 79.52
+     },
+     "dimAt": {
+      "@t": 79.72
+     }
+    },
+    {
+     "n": "✓",
+     "numColor": "#9FD3C7",
+     "text": "A minha empresa está preparada para gerenciar e conduzir o conflito quando ele aparecer?",
+     "t": {
+      "@t": 80.08
+     },
+     "size": 48
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v06_rh",
+  "scene": "lettering",
+  "start": 90.04,
+  "end": 96.16,
+  "params": {
+   "top": 230,
+   "kicker": "E se você é do RH",
+   "kickerT": {
+    "@t": 85.52
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Quando",
+       "t": {
+        "@t": 90.19
+       },
+       "cls": ""
+      },
+      {
+       "text": "chega",
+       "t": {
+        "@t": 90.43
+       },
+       "cls": ""
+      },
+      {
+       "text": "até",
+       "t": {
+        "@t": 90.75
+       },
+       "cls": ""
+      },
+      {
+       "text": "o",
+       "t": {
+        "@t": 90.99
+       },
+       "cls": ""
+      },
+      {
+       "text": "RH,",
+       "t": {
+        "@t": 91.15
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 58,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "o",
+       "t": {
+        "@t": 91.79
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "conflito",
+       "t": {
+        "@t": 91.95
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "já",
+       "t": {
+        "@t": 92.75
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "explodiu.",
+       "t": {
+        "@t": 92.99
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 86
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v07_roteiro",
+  "scene": "list",
+  "start": 108.004,
+  "end": 135.032,
+  "params": {
+   "kicker": "Nos próximos minutos",
+   "kickerT": {
+    "@t": 108.304
+   },
+   "top": 160,
+   "size": 40,
+   "rowGap": 16,
+   "items": [
+    {
+     "text": "O que acontece quando essa estrutura falha",
+     "t": {
+      "@t": 111.184
+     }
+    },
+    {
+     "text": "Por que as soluções mais comuns não se sustentam sozinhas",
+     "t": {
+      "@t": 116.064
+     }
+    },
+    {
+     "text": "O caminho em quatro etapas",
+     "t": {
+      "@t": 123.152
+     }
+    },
+    {
+     "n": "✎",
+     "text": "Um teste: quatro perguntas",
+     "t": {
+      "@t": 128.992
+     },
+     "color": "#E2C88F"
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v08_hellen",
+  "scene": "nameTag",
+  "start": 139.98,
+  "end": 146.82,
+  "params": {
+   "side": "R",
+   "name": "Hellen de Paula",
+   "role": "Psicóloga organizacional",
+   "y": 520
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v08_indira",
+  "scene": "nameTag",
+  "start": 145.82,
+  "end": 153.2,
+  "params": {
+   "side": "L",
+   "name": "Indira Matos",
+   "role": "Advogada e mediadora",
+   "y": 540
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v09_bigidea",
+  "scene": "lettering",
+  "start": 161.112,
+  "end": 171.232,
+  "params": {
+   "top": 190,
+   "kicker": "A grande ideia",
+   "kickerT": {
+    "@t": 161.312
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Os",
+       "t": {
+        "@t": 161.422
+       },
+       "cls": ""
+      },
+      {
+       "text": "conflitos,",
+       "t": {
+        "@t": 161.582
+       },
+       "cls": ""
+      },
+      {
+       "text": "quando",
+       "t": {
+        "@t": 162.302
+       },
+       "cls": ""
+      },
+      {
+       "text": "não",
+       "t": {
+        "@t": 162.622
+       },
+       "cls": ""
+      },
+      {
+       "text": "são",
+       "t": {
+        "@t": 162.942
+       },
+       "cls": ""
+      },
+      {
+       "text": "resolvidos,",
+       "t": {
+        "@t": 163.182
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 52,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "não",
+       "t": {
+        "@t": 164.782
+       },
+       "cls": ""
+      },
+      {
+       "text": "vão",
+       "t": {
+        "@t": 165.022
+       },
+       "cls": ""
+      },
+      {
+       "text": "deixar",
+       "t": {
+        "@t": 165.342
+       },
+       "cls": ""
+      },
+      {
+       "text": "de",
+       "t": {
+        "@t": 166.142
+       },
+       "cls": ""
+      },
+      {
+       "text": "existir.",
+       "t": {
+        "@t": 166.622
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 52,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "Eles",
+       "t": {
+        "@t": 167.422
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "vão",
+       "t": {
+        "@t": 167.742
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "subir",
+       "t": {
+        "@t": 168.062
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "de",
+       "t": {
+        "@t": 168.702
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "andar.",
+       "t": {
+        "@t": 169.022
+       },
+       "cls": "serif gold",
+       "pop": true
+      }
+     ],
+     "font": "serif",
+     "size": 96,
+     "gap": 16
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "impact",
+    168.112,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v10_terreo",
+  "scene": "list",
+  "start": 173.104,
+  "end": 189.304,
+  "params": {
+   "kicker": "Onde o problema começa",
+   "kickerT": {
+    "@t": 173.204
+   },
+   "top": 165,
+   "size": 40,
+   "rowGap": 12,
+   "numSize": 34,
+   "numW": 46,
+   "items": [
+    {
+     "n": "·",
+     "text": "pessoas do mesmo setor que não se entendem",
+     "t": {
+      "@t": 173.504
+     }
+    },
+    {
+     "n": "·",
+     "text": "uma regra que não foi bem estabelecida",
+     "t": {
+      "@t": 175.984
+     }
+    },
+    {
+     "n": "·",
+     "text": "uma promessa do líder que não foi cumprida",
+     "t": {
+      "@t": 178.624
+     }
+    },
+    {
+     "n": "·",
+     "text": "uma escala mal feita",
+     "t": {
+      "@t": 181.504
+     }
+    },
+    {
+     "n": "↳",
+     "text": "sempre começa no andar de baixo",
+     "t": {
+      "@t": 186.704
+     },
+     "color": "#E2C88F",
+     "size": 46
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v11_conversa",
+  "scene": "lettering",
+  "start": 190.984,
+  "end": 199.044,
+  "params": {
+   "top": 215,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Uma",
+       "t": {
+        "@t": 191.134
+       },
+       "cls": ""
+      },
+      {
+       "text": "simples",
+       "t": {
+        "@t": 191.374
+       },
+       "cls": ""
+      },
+      {
+       "text": "conversa",
+       "t": {
+        "@t": 191.854
+       },
+       "cls": ""
+      },
+      {
+       "text": "de",
+       "t": {
+        "@t": 192.334
+       },
+       "cls": ""
+      },
+      {
+       "text": "10",
+       "t": {
+        "@t": 192.574
+       },
+       "cls": ""
+      },
+      {
+       "text": "minutos",
+       "t": {
+        "@t": 193.054
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 58,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "poderia",
+       "t": {
+        "@t": 193.614
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "resolver",
+       "t": {
+        "@t": 194.254
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "tudo.",
+       "t": {
+        "@t": 194.814
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 80
+    },
+    {
+     "words": [
+      {
+       "text": "Mas",
+       "t": {
+        "@t": 195.134
+       },
+       "cls": ""
+      },
+      {
+       "text": "essa",
+       "t": {
+        "@t": 195.374
+       },
+       "cls": ""
+      },
+      {
+       "text": "conversa",
+       "t": {
+        "@t": 195.694
+       },
+       "cls": ""
+      },
+      {
+       "text": "nunca",
+       "t": {
+        "@t": 196.574
+       },
+       "cls": ""
+      },
+      {
+       "text": "acontece.",
+       "t": {
+        "@t": 197.214
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 44,
+     "color": "#F2B3A3",
+     "gap": 18,
+     "weight": 600
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v12_elevador_a",
+  "scene": "elevator",
+  "start": 199.532,
+  "end": 250.02,
+  "params": {
+   "header": "O elevador do conflito",
+   "sub": "quando a conversa não acontece, ela pega um elevador",
+   "floors": [
+    {
+     "level": "Térreo",
+     "name": "Colaborador",
+     "desc": "onde o problema começa",
+     "t": {
+      "@t": 203.824
+     }
+    },
+    {
+     "level": "1º andar",
+     "name": "Líder",
+     "desc": "sem preparo para conversas difíceis",
+     "t": {
+      "@t": 205.264
+     }
+    },
+    {
+     "level": "2º andar",
+     "name": "RH",
+     "desc": "sem norma: atua caso a caso",
+     "t": {
+      "@t": 211.024
+     }
+    },
+    {
+     "level": "3º andar",
+     "name": "Dono",
+     "desc": "muitas vezes não consegue resolver",
+     "t": {
+      "@t": 233.408
+     }
+    },
+    {
+     "level": "4º andar",
+     "name": "Advogado",
+     "desc": "o único andar com data e valor definido",
+     "t": {
+      "@t": 239.36
+     }
+    }
+   ],
+   "topNote": {
+    "t": {
+     "@t": 247.42
+    },
+    "text": "pode virar passivo trabalhista"
+   }
+  },
+  "layout": "split",
+  "sfx": [
+   [
+    "whoosh_down",
+    199.53199999999998,
+    -20
+   ],
+   [
+    "ding",
+    205.214,
+    -21
+   ],
+   [
+    "ding",
+    210.974,
+    -21
+   ],
+   [
+    "ding",
+    233.35799999999998,
+    -21
+   ],
+   [
+    "ding",
+    239.31,
+    -21
+   ],
+   [
+    "motor",
+    203.964,
+    -30
+   ],
+   [
+    "motor",
+    209.724,
+    -30
+   ],
+   [
+    "motor",
+    232.10799999999998,
+    -30
+   ],
+   [
+    "motor",
+    238.06,
+    -30
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v13_ninguem",
+  "scene": "lettering",
+  "start": 250.44,
+  "end": 255.24,
+  "params": {
+   "top": 240,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Ninguém,",
+       "t": {
+        "@t": 250.59
+       },
+       "cls": ""
+      },
+      {
+       "text": "em",
+       "t": {
+        "@t": 251.15
+       },
+       "cls": ""
+      },
+      {
+       "text": "nenhum",
+       "t": {
+        "@t": 251.31
+       },
+       "cls": ""
+      },
+      {
+       "text": "momento,",
+       "t": {
+        "@t": 251.79
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 54,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "foi",
+       "t": {
+        "@t": 252.19
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "incompetente.",
+       "t": {
+        "@t": 252.51
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 88,
+     "gap": 10
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v14_sem_freio",
+  "scene": "elevator",
+  "start": 261.656,
+  "end": 273.656,
+  "params": {
+   "header": "O elevador do conflito",
+   "sub": "em nenhum andar existe um freio",
+   "floors": [
+    {
+     "level": "Térreo",
+     "name": "Colaborador",
+     "desc": "onde o problema começa",
+     "t": {
+      "@t": 261.806
+     }
+    },
+    {
+     "level": "1º andar",
+     "name": "Líder",
+     "desc": "sem preparo para conversas difíceis",
+     "t": {
+      "@t": 261.926
+     }
+    },
+    {
+     "level": "2º andar",
+     "name": "RH",
+     "desc": "sem norma: atua caso a caso",
+     "t": {
+      "@t": 262.046
+     }
+    },
+    {
+     "level": "3º andar",
+     "name": "Dono",
+     "desc": "muitas vezes não consegue resolver",
+     "t": {
+      "@t": 262.166
+     }
+    },
+    {
+     "level": "4º andar",
+     "name": "Advogado",
+     "desc": "o único andar com data e valor definido",
+     "t": {
+      "@t": 262.286
+     }
+    }
+   ],
+   "startFloor": 4,
+   "stops": [],
+   "freio": {
+    "@t": 265.436
+   },
+   "accel": {
+    "t": {
+     "@t": 267.376
+    },
+    "text": "o que acelera ainda mais:",
+    "text2": "percepção de injustiça",
+    "t2": {
+     "@t": 270.896
+    }
+   }
+  },
+  "layout": "split",
+  "sfx": [
+   [
+    "whoosh_down",
+    261.65599999999995,
+    -20
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v15_injustica",
+  "scene": "lettering",
+  "start": 287.524,
+  "end": 293.892,
+  "params": {
+   "top": 230,
+   "kicker": "Percepção de injustiça",
+   "kickerT": {
+    "@t": 287.524
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Quando",
+       "t": {
+        "@t": 287.374
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "a",
+       "t": {
+        "@t": 287.774
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "regra",
+       "t": {
+        "@t": 288.014
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "depende",
+       "t": {
+        "@t": 288.654
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "de",
+       "t": {
+        "@t": 289.454
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "alguém…",
+       "t": {
+        "@t": 289.694
+       },
+       "cls": "serif"
+      }
+     ],
+     "font": "serif",
+     "size": 70,
+     "color": "#FFFFFF"
+    },
+    {
+     "words": [
+      {
+       "text": "essa",
+       "t": {
+        "@t": 290.462
+       },
+       "cls": ""
+      },
+      {
+       "text": "pessoa",
+       "t": {
+        "@t": 291.102
+       },
+       "cls": ""
+      },
+      {
+       "text": "vai",
+       "t": {
+        "@t": 291.502
+       },
+       "cls": ""
+      },
+      {
+       "text": "deixar",
+       "t": {
+        "@t": 291.742
+       },
+       "cls": ""
+      },
+      {
+       "text": "de",
+       "t": {
+        "@t": 292.222
+       },
+       "cls": ""
+      },
+      {
+       "text": "procurar",
+       "t": {
+        "@t": 292.382
+       },
+       "cls": ""
+      },
+      {
+       "text": "o",
+       "t": {
+        "@t": 292.782
+       },
+       "cls": ""
+      },
+      {
+       "text": "líder.",
+       "t": {
+        "@t": 292.942
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 42,
+     "color": "#E2C88F",
+     "gap": 18,
+     "weight": 600
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v16_formas",
+  "scene": "elevator",
+  "start": 293.772,
+  "end": 314.176,
+  "params": {
+   "header": "O elevador do conflito",
+   "sub": "no caminho, ele se transforma em outra coisa",
+   "floors": [
+    {
+     "level": "Térreo",
+     "name": "Colaborador",
+     "desc": "onde o problema começa",
+     "t": {
+      "@t": 293.922
+     }
+    },
+    {
+     "level": "1º andar",
+     "name": "Líder",
+     "desc": "sem preparo para conversas difíceis",
+     "t": {
+      "@t": 294.022
+     }
+    },
+    {
+     "level": "2º andar",
+     "name": "RH",
+     "desc": "sem norma: atua caso a caso",
+     "t": {
+      "@t": 294.122
+     }
+    },
+    {
+     "level": "3º andar",
+     "name": "Dono",
+     "desc": "muitas vezes não consegue resolver",
+     "t": {
+      "@t": 294.222
+     }
+    },
+    {
+     "level": "4º andar",
+     "name": "Advogado",
+     "desc": "o único andar com data e valor definido",
+     "t": {
+      "@t": 294.322
+     }
+    }
+   ],
+   "rowsDim": true,
+   "startFloor": 0,
+   "stops": [
+    {
+     "t": {
+      "@t": 305.792
+     },
+     "floor": 0
+    },
+    {
+     "t": {
+      "@t": 307.616
+     },
+     "floor": 1
+    },
+    {
+     "t": {
+      "@t": 309.536
+     },
+     "floor": 2
+    },
+    {
+     "t": {
+      "@t": 310.416
+     },
+     "floor": 3
+    }
+   ],
+   "pills": [
+    {
+     "t": {
+      "@t": 305.792
+     },
+     "text": "fofoca"
+    },
+    {
+     "t": {
+      "@t": 307.616
+     },
+     "text": "perda de produtividade"
+    },
+    {
+     "t": {
+      "@t": 309.536
+     },
+     "text": "atestado"
+    },
+    {
+     "t": {
+      "@t": 310.416
+     },
+     "text": "demissão inesperada"
+    }
+   ]
+  },
+  "layout": "split",
+  "sfx": [
+   [
+    "whoosh_down",
+    293.772,
+    -20
+   ],
+   [
+    "ding",
+    307.566,
+    -22
+   ],
+   [
+    "ding",
+    309.486,
+    -22
+   ],
+   [
+    "ding",
+    310.366,
+    -22
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v17_demissao",
+  "scene": "lettering",
+  "start": 317.776,
+  "end": 323.736,
+  "params": {
+   "top": 230,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Ela",
+       "t": {
+        "@t": 317.486
+       },
+       "cls": ""
+      },
+      {
+       "text": "não",
+       "t": {
+        "@t": 317.726
+       },
+       "cls": ""
+      },
+      {
+       "text": "está",
+       "t": {
+        "@t": 317.966
+       },
+       "cls": ""
+      },
+      {
+       "text": "pedindo",
+       "t": {
+        "@t": 318.126
+       },
+       "cls": ""
+      },
+      {
+       "text": "demissão",
+       "t": {
+        "@t": 318.606
+       },
+       "cls": ""
+      },
+      {
+       "text": "da",
+       "t": {
+        "@t": 319.086
+       },
+       "cls": ""
+      },
+      {
+       "text": "empresa.",
+       "t": {
+        "@t": 319.246
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 50,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "Ela",
+       "t": {
+        "@t": 319.646
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "está",
+       "t": {
+        "@t": 319.886
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "pedindo",
+       "t": {
+        "@t": 320.046
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "demissão",
+       "t": {
+        "@t": 320.366
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "do",
+       "t": {
+        "@t": 320.926
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "líder.",
+       "t": {
+        "@t": 321.166
+       },
+       "cls": "serif gold",
+       "pop": true
+      }
+     ],
+     "font": "serif",
+     "size": 78,
+     "gap": 16
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "impact",
+    320.976,
+    -26
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v18_sequencia",
+  "scene": "chain",
+  "start": 343.784,
+  "end": 359.204,
+  "params": {
+   "kicker": "A sequência",
+   "kickerT": {
+    "@t": 343.884
+   },
+   "top": 150,
+   "size": 40,
+   "arrowH": 26,
+   "nodes": [
+    {
+     "text": "Sem regra clara",
+     "t": {
+      "@t": 343.904
+     }
+    },
+    {
+     "text": "decisão subjetiva",
+     "t": {
+      "@t": 346.848
+     }
+    },
+    {
+     "text": "percepção de injustiça",
+     "t": {
+      "@t": 351.824
+     }
+    },
+    {
+     "text": "processo",
+     "t": {
+      "@t": 356.944
+     },
+     "color": "#E2C88F",
+     "size": 54,
+     "weight": 750
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v19_dado_acoes",
+  "scene": "dataCard",
+  "start": 360.404,
+  "end": 371.824,
+  "params": {
+   "kicker": "Justiça do Trabalho · 2025",
+   "value": 2.3,
+   "decimals": 1,
+   "unit": "milhões",
+   "prefix": "+",
+   "tCount": {
+    "@t": 363.584
+   },
+   "label": "de novas ações",
+   "tLabel": {
+    "@t": 365.184
+   },
+   "sub": "o maior volume desde a reforma trabalhista de 2017",
+   "tSub": {
+    "@t": 366.224
+   }
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "tick",
+    363.584,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v22_dado_assedio",
+  "scene": "dataCard",
+  "start": 399.744,
+  "end": 409.984,
+  "params": {
+   "kicker": "Ações de assédio moral",
+   "value": 22,
+   "prefix": "+",
+   "suffix": "%",
+   "tCount": {
+    "@t": 402.624
+   },
+   "label": "em um ano",
+   "tLabel": {
+    "@t": 404.224
+   },
+   "sub": "mais de 142 mil novos processos só em 2025",
+   "tSub": {
+    "@t": 405.904
+   }
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "tick",
+    402.624,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v23_burnout",
+  "scene": "fromTo",
+  "start": 409.224,
+  "end": 416.052,
+  "params": {
+   "kicker": "Ações por burnout",
+   "a": {
+    "text": "< 1 mil",
+    "label": "antes"
+   },
+   "b": {
+    "text": "5 mil",
+    "label": "em 2025"
+   },
+   "tB": {
+    "@t": 412.752
+   }
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v24_inss",
+  "scene": "dataCard",
+  "start": 416.792,
+  "end": 425.712,
+  "params": {
+   "kicker": "INSS · 2025",
+   "value": 546,
+   "unit": "mil",
+   "prefix": "+",
+   "tCount": {
+    "@t": 418.192
+   },
+   "label": "afastamentos por saúde mental",
+   "tLabel": {
+    "@t": 423.392
+   }
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v25_conversa",
+  "scene": "lettering",
+  "start": 429.272,
+  "end": 439.16,
+  "params": {
+   "top": 225,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Por",
+       "t": {
+        "@t": 429.422
+       },
+       "cls": ""
+      },
+      {
+       "text": "trás",
+       "t": {
+        "@t": 429.582
+       },
+       "cls": ""
+      },
+      {
+       "text": "de",
+       "t": {
+        "@t": 429.902
+       },
+       "cls": ""
+      },
+      {
+       "text": "cada",
+       "t": {
+        "@t": 430.062
+       },
+       "cls": ""
+      },
+      {
+       "text": "um",
+       "t": {
+        "@t": 430.302
+       },
+       "cls": ""
+      },
+      {
+       "text": "deles,",
+       "t": {
+        "@t": 430.542
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 50,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "existe",
+       "t": {
+        "@t": 431.102
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "uma",
+       "t": {
+        "@t": 431.742
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "conversa",
+       "t": {
+        "@t": 431.982
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "que",
+       "t": {
+        "@t": 432.622
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "não",
+       "t": {
+        "@t": 432.862
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "aconteceu.",
+       "t": {
+        "@t": 433.182
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 74,
+     "gap": 14
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v26a_caso",
+  "scene": "dataCard",
+  "start": 444.96,
+  "end": 459.4,
+  "params": {
+   "kicker": "Caso julgado no TST",
+   "value": 238,
+   "prefix": "R$ ",
+   "unit": "mil",
+   "size": 132,
+   "tCount": {
+    "@t": 449.84
+   },
+   "label": "condenação mantida contra uma montadora",
+   "tLabel": {
+    "@t": 451.84
+   },
+   "sub": "um líder que sofria assédio de um subordinado",
+   "tSub": {
+    "@t": 455.68
+   }
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "tick",
+    449.84,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v26_tst",
+  "scene": "elevMini",
+  "start": 460.2,
+  "end": 477.792,
+  "params": {
+   "count": 15,
+   "tCount": {
+    "@t": 460.8
+   },
+   "countDur": 1.8,
+   "top": 175,
+   "size": 46,
+   "texts": [
+    {
+     "t": {
+      "@t": 460.8
+     },
+     "text": "15 reclamações em dois anos"
+    },
+    {
+     "t": {
+      "@t": 463.28
+     },
+     "text": "15 reclamações em dois anos.<br><span style=\"color:#F2B3A3\">A empresa não fez nada.</span>"
+    },
+    {
+     "t": {
+      "@t": 471.312
+     },
+     "text": "15 vezes o conflito subiu —<br><span style=\"color:#E2C88F\">e em nenhum andar existia um freio.</span>"
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v28_curva",
+  "scene": "curve",
+  "start": 486.052,
+  "end": 513.952,
+  "params": {
+   "kicker": "1ª coisa: contratar um treinamento",
+   "label1": "palestra / workshop",
+   "label2": "alguns meses depois",
+   "tEvent": {
+    "@t": 491.872
+   },
+   "tDecay": {
+    "@t": 500.032
+   },
+   "label3": "gera consciência — mas não muda a regra.",
+   "tLabel3": {
+    "@t": 511.232
+   }
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v31_modelos",
+  "scene": "contrast",
+  "start": 559.632,
+  "end": 587.528,
+  "params": {
+   "top": 175,
+   "divH": 340,
+   "left": {
+    "kicker": "2ª coisa · normativa",
+    "title": "Modelos prontos ou ChatGPT",
+    "size": 48,
+    "t": {
+     "@t": 560.992
+    },
+    "items": [
+     {
+      "text": "é um risco",
+      "mark": "no",
+      "t": {
+       "@t": 564.432
+      }
+     },
+     {
+      "text": "não conversa com a realidade da empresa",
+      "mark": "no",
+      "t": {
+       "@t": 567.632
+      }
+     }
+    ]
+   },
+   "right": {
+    "kicker": "outro caminho",
+    "title": "Um profissional, um advogado",
+    "size": 48,
+    "t": {
+     "@t": 576.528
+    },
+    "items": [
+     {
+      "text": "faz um diagnóstico",
+      "mark": "ok",
+      "t": {
+       "@t": 581.168
+      }
+     },
+     {
+      "text": "constrói com a realidade da empresa",
+      "mark": "ok",
+      "t": {
+       "@t": 585.248
+      }
+     }
+    ]
+   }
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v32_gaveta",
+  "scene": "drawer",
+  "start": 589.608,
+  "end": 605.696,
+  "params": {
+   "kicker": "Ela recebe toda a parte normativa",
+   "caption": "…mas guarda numa gaveta.",
+   "docs": [
+    {
+     "text": "Regulamento interno",
+     "t": {
+      "@t": 590.208
+     }
+    },
+    {
+     "text": "Código de conduta",
+     "t": {
+      "@t": 591.488
+     }
+    },
+    {
+     "text": "Política de gestão de conflito",
+     "t": {
+      "@t": 592.688
+     }
+    },
+    {
+     "text": "Política antiassédio",
+     "t": {
+      "@t": 595.628
+     }
+    },
+    {
+     "text": "Manual de cultura",
+     "t": {
+      "@t": 597.808
+     }
+    }
+   ],
+   "tDrawer": {
+    "@t": 601.508
+   }
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "whoosh_down",
+    601.608,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v34_loop",
+  "scene": "loop",
+  "start": 620.612,
+  "end": 633.188,
+  "params": {
+   "cy": 400,
+   "left": {
+    "kicker": "Indira",
+    "title": "Regra",
+    "sub": "o que a Indira escreve",
+    "t": {
+     "@t": 620.912
+    }
+   },
+   "right": {
+    "kicker": "Hellen",
+    "title": "Comportamento",
+    "sub": "o que eu escuto na sala",
+    "t": {
+     "@t": 623.232
+    }
+   },
+   "tTop": {
+    "@t": 625.168
+   },
+   "topText": "vira cláusula",
+   "tBottom": {
+    "@t": 630.368
+   },
+   "bottomText": "vira conteúdo de treinamento",
+   "reverse": true
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v35_documento",
+  "scene": "lettering",
+  "start": 633.884,
+  "end": 638.704,
+  "params": {
+   "top": 215,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "O",
+       "t": {
+        "@t": 633.934
+       },
+       "cls": ""
+      },
+      {
+       "text": "documento,",
+       "t": {
+        "@t": 634.014
+       },
+       "cls": ""
+      },
+      {
+       "text": "ele",
+       "t": {
+        "@t": 634.574
+       },
+       "cls": ""
+      },
+      {
+       "text": "muda",
+       "t": {
+        "@t": 634.734
+       },
+       "cls": ""
+      },
+      {
+       "text": "a",
+       "t": {
+        "@t": 635.054
+       },
+       "cls": ""
+      },
+      {
+       "text": "regra,",
+       "t": {
+        "@t": 635.134
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 54,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "mas",
+       "t": {
+        "@t": 635.854
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "não",
+       "t": {
+        "@t": 636.014
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "muda",
+       "t": {
+        "@t": 636.174
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "o",
+       "t": {
+        "@t": 636.494
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "comportamento.",
+       "t": {
+        "@t": 636.574
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 70,
+     "gap": 10
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v36_improviso",
+  "scene": "lettering",
+  "start": 644.084,
+  "end": 649.864,
+  "params": {
+   "top": 250,
+   "kicker": "A gente dá um nome",
+   "kickerT": {
+    "@t": 644.384
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Gestão",
+       "t": {
+        "@t": 645.614
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "no",
+       "t": {
+        "@t": 646.494
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "improviso.",
+       "t": {
+        "@t": 646.814
+       },
+       "cls": "serif gold",
+       "pop": true
+      }
+     ],
+     "font": "serif",
+     "size": 108
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "impact",
+    645.664,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v37_etapas",
+  "scene": "steps4",
+  "start": 649.924,
+  "end": 675.098,
+  "params": {
+   "tSteps": [
+    {
+     "@t": 654.0
+    },
+    {
+     "@t": 654.96
+    },
+    {
+     "@t": 655.92
+    },
+    {
+     "@t": 657.2
+    }
+   ],
+   "tMarket": {
+    "@t": 661.504
+   },
+   "marketText": "↑ o mais comum no mercado: começar por aqui",
+   "caption": "três semanas depois, vai perder o efeito.",
+   "tCap": {
+    "@t": 671.616
+   }
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v38_etapa1",
+  "scene": "stepCard",
+  "start": 675.528,
+  "end": 680.328,
+  "params": {
+   "n": 1
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v39_culpado",
+  "scene": "quote",
+  "start": 686.472,
+  "end": 692.192,
+  "params": {
+   "text": "Já sei o que está acontecendo.<br>Já sei quem é o culpado.",
+   "attrib": "o dono, com o diagnóstico pré-pronto",
+   "size": 58
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v40_sobe",
+  "scene": "elevMini",
+  "start": 694.452,
+  "end": 700.368,
+  "params": {
+   "mode": "up",
+   "text": "ele só sabe aquilo que sobe até ele.",
+   "top": 190,
+   "size": 50,
+   "tMove": {
+    "@t": 695.652
+   },
+   "moveDur": 1.2,
+   "tText": {
+    "@t": 694.752
+   }
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v41_chefe",
+  "scene": "lettering",
+  "start": 700.468,
+  "end": 711.104,
+  "params": {
+   "top": 220,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Ninguém",
+       "t": {
+        "@t": 700.768
+       },
+       "cls": ""
+      },
+      {
+       "text": "vai",
+       "t": {
+        "@t": 700.818
+       },
+       "cls": ""
+      },
+      {
+       "text": "à",
+       "t": {
+        "@t": 700.868
+       },
+       "cls": ""
+      },
+      {
+       "text": "sala",
+       "t": {
+        "@t": 700.918
+       },
+       "cls": ""
+      },
+      {
+       "text": "do",
+       "t": {
+        "@t": 700.968
+       },
+       "cls": ""
+      },
+      {
+       "text": "chefe",
+       "t": {
+        "@t": 701.018
+       },
+       "cls": ""
+      },
+      {
+       "text": "dizer",
+       "t": {
+        "@t": 701.068
+       },
+       "cls": ""
+      },
+      {
+       "text": "que",
+       "t": {
+        "@t": 701.118
+       },
+       "cls": ""
+      },
+      {
+       "text": "o",
+       "t": {
+        "@t": 701.168
+       },
+       "cls": ""
+      },
+      {
+       "text": "chefe",
+       "t": {
+        "@t": 701.218
+       },
+       "cls": ""
+      },
+      {
+       "text": "é",
+       "t": {
+        "@t": 701.268
+       },
+       "cls": ""
+      },
+      {
+       "text": "o",
+       "t": {
+        "@t": 701.318
+       },
+       "cls": ""
+      },
+      {
+       "text": "problema.",
+       "t": {
+        "@t": 701.368
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 46,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "Por",
+       "t": {
+        "@t": 705.776
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "isso",
+       "t": {
+        "@t": 705.856
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "o",
+       "t": {
+        "@t": 705.936
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "diagnóstico",
+       "t": {
+        "@t": 706.016
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "vem",
+       "t": {
+        "@t": 706.096
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "de",
+       "t": {
+        "@t": 706.176
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "fora.",
+       "t": {
+        "@t": 706.256
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 70,
+     "gap": 18
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v42_clima",
+  "scene": "contrast",
+  "start": 712.096,
+  "end": 728.216,
+  "params": {
+   "top": 180,
+   "divH": 330,
+   "left": {
+    "kicker": "Pesquisa de clima",
+    "title": "Como você se sente?",
+    "size": 50,
+    "t": {
+     "@t": 712.496
+    },
+    "dimAt": {
+     "@t": 718.096
+    },
+    "items": []
+   },
+   "right": {
+    "kicker": "Diagnóstico organizacional",
+    "title": "Como as decisões são tomadas?",
+    "size": 50,
+    "t": {
+     "@t": 718.096
+    },
+    "items": [
+     {
+      "text": "e o que influencia essas decisões",
+      "mark": "ok",
+      "t": {
+       "@t": 724.096
+      }
+     }
+    ]
+   }
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v43_medico",
+  "scene": "list",
+  "start": 732.316,
+  "end": 746.016,
+  "params": {
+   "kicker": "A analogia do médico",
+   "kickerT": {
+    "@t": 732.416
+   },
+   "top": 180,
+   "size": 46,
+   "items": [
+    {
+     "n": "✕",
+     "text": "ir ao médico e já pedir uma cirurgia",
+     "t": {
+      "@t": 735.216
+     },
+     "strikeT": {
+      "@t": 736.336
+     },
+     "dimAt": {
+      "@t": 741.216
+     }
+    },
+    {
+     "n": "✓",
+     "numColor": "#9FD3C7",
+     "text": "nenhum médico trata sem pedir exames",
+     "t": {
+      "@t": 741.216
+     }
+    },
+    {
+     "n": "=",
+     "text": "Esses exames são o diagnóstico.",
+     "t": {
+      "@t": 742.336
+     },
+     "color": "#E2C88F",
+     "size": 56
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v44_etapa2",
+  "scene": "stepCard",
+  "start": 749.328,
+  "end": 753.728,
+  "params": {
+   "n": 2
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v45_estrutura",
+  "scene": "lettering",
+  "start": 753.268,
+  "end": 764.904,
+  "params": {
+   "top": 235,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Com",
+       "t": {
+        "@t": 753.518
+       },
+       "cls": ""
+      },
+      {
+       "text": "o",
+       "t": {
+        "@t": 753.678
+       },
+       "cls": ""
+      },
+      {
+       "text": "diagnóstico",
+       "t": {
+        "@t": 753.758
+       },
+       "cls": ""
+      },
+      {
+       "text": "na",
+       "t": {
+        "@t": 754.478
+       },
+       "cls": ""
+      },
+      {
+       "text": "mão,",
+       "t": {
+        "@t": 754.638
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 52,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "vai",
+       "t": {
+        "@t": 760.894
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "virar",
+       "t": {
+        "@t": 761.054
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "uma",
+       "t": {
+        "@t": 761.454
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "estrutura",
+       "t": {
+        "@t": 761.774
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "escrita.",
+       "t": {
+        "@t": 762.414
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 80,
+     "gap": 12
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v46_aplicavel",
+  "scene": "lettering",
+  "start": 784.612,
+  "end": 791.352,
+  "params": {
+   "top": 240,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "O",
+       "t": {
+        "@t": 784.862
+       },
+       "cls": ""
+      },
+      {
+       "text": "documento,",
+       "t": {
+        "@t": 785.022
+       },
+       "cls": ""
+      },
+      {
+       "text": "ele",
+       "t": {
+        "@t": 785.662
+       },
+       "cls": ""
+      },
+      {
+       "text": "não",
+       "t": {
+        "@t": 785.822
+       },
+       "cls": ""
+      },
+      {
+       "text": "protege",
+       "t": {
+        "@t": 785.982
+       },
+       "cls": ""
+      },
+      {
+       "text": "por",
+       "t": {
+        "@t": 786.542
+       },
+       "cls": ""
+      },
+      {
+       "text": "existir,",
+       "t": {
+        "@t": 786.702
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 54,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "ele",
+       "t": {
+        "@t": 787.262
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "protege",
+       "t": {
+        "@t": 787.502
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "por",
+       "t": {
+        "@t": 787.982
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "ser",
+       "t": {
+        "@t": 788.222
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "aplicável.",
+       "t": {
+        "@t": 788.462
+       },
+       "cls": "serif gold",
+       "pop": true
+      }
+     ],
+     "font": "serif",
+     "size": 84,
+     "gap": 14
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "impact",
+    788.552,
+    -26
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v47_etapa3",
+  "scene": "stepCard",
+  "start": 791.162,
+  "end": 794.712,
+  "params": {
+   "n": 3
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v49_advertencia",
+  "scene": "chain",
+  "start": 825.016,
+  "end": 839.496,
+  "params": {
+   "kicker": "Orientação jurídica",
+   "kickerT": {
+    "@t": 822.16
+   },
+   "top": 150,
+   "size": 40,
+   "arrowH": 24,
+   "nodes": [
+    {
+     "text": "Advertência por descumprir uma norma",
+     "t": {
+      "@t": 825.616
+     }
+    },
+    {
+     "text": "sem comprovar que todos tinham ciência",
+     "t": {
+      "@t": 829.056
+     }
+    },
+    {
+     "text": "a punição pode ser anulada nos tribunais do trabalho",
+     "t": {
+      "@t": 836.576
+     },
+     "color": "#F2B3A3",
+     "size": 40
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v50_ciencia",
+  "scene": "list",
+  "start": 850.252,
+  "end": 861.072,
+  "params": {
+   "kicker": "Na implementação",
+   "kickerT": {
+    "@t": 850.352
+   },
+   "top": 185,
+   "size": 44,
+   "items": [
+    {
+     "n": "01",
+     "text": "treinamento com linguagem acessível",
+     "t": {
+      "@t": 851.552
+     }
+    },
+    {
+     "n": "02",
+     "text": "todos conhecem as regras",
+     "t": {
+      "@t": 854.432
+     }
+    },
+    {
+     "n": "03",
+     "text": "a empresa fica com a comprovação de ciência",
+     "t": {
+      "@t": 857.712
+     },
+     "color": "#E2C88F"
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v52_etapa4",
+  "scene": "stepCard",
+  "start": 882.008,
+  "end": 886.008,
+  "params": {
+   "n": 4
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v53_promovido",
+  "scene": "chain",
+  "start": 895.792,
+  "end": 917.696,
+  "params": {
+   "kicker": "Por que o conflito sobe",
+   "kickerT": {
+    "@t": 895.892
+   },
+   "top": 150,
+   "size": 40,
+   "arrowH": 22,
+   "nodes": [
+    {
+     "text": "promovido pela competência técnica",
+     "t": {
+      "@t": 897.792
+     }
+    },
+    {
+     "text": "não sabe conduzir conversas difíceis",
+     "t": {
+      "@t": 904.08
+     }
+    },
+    {
+     "text": "adia a conversa",
+     "t": {
+      "@t": 909.856
+     }
+    },
+    {
+     "text": "o conflito sobe de andar",
+     "t": {
+      "@t": 915.456
+     },
+     "color": "#E2C88F",
+     "size": 48
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v54_mapeia",
+  "scene": "contrast",
+  "start": 920.12,
+  "end": 937.248,
+  "params": {
+   "top": 175,
+   "divH": 330,
+   "left": {
+    "kicker": "Antes de treinar, mapear",
+    "title": "Não sabe lidar com conflitos",
+    "size": 44,
+    "t": {
+     "@t": 923.808
+    },
+    "items": [
+     {
+      "text": "aprende a lidar com o conflito",
+      "mark": "ok",
+      "t": {
+       "@t": 927.248
+      }
+     }
+    ]
+   },
+   "right": {
+    "kicker": " ",
+    "title": "Atropela os conflitos",
+    "size": 44,
+    "t": {
+     "@t": 929.888
+    },
+    "items": [
+     {
+      "text": "aprende a esperar",
+      "mark": "ok",
+      "t": {
+       "@t": 932.048
+      }
+     }
+    ]
+   }
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v55_ferramenta",
+  "scene": "tool",
+  "start": 950.04,
+  "end": 976.632,
+  "params": {
+   "title": "Ferramenta do líder · com IA",
+   "items": [
+    {
+     "text": "Advertir, suspender ou demitir por justa causa?",
+     "t": {
+      "@t": 954.08
+     }
+    },
+    {
+     "text": "Guia de conversas difíceis",
+     "t": {
+      "@t": 962.48
+     }
+    },
+    {
+     "text": "Do relato do caso ao PDI",
+     "t": {
+      "@t": 967.84
+     }
+    },
+    {
+     "text": "Como dar feedback",
+     "t": {
+      "@t": 973.632
+     }
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v56_mandala",
+  "scene": "mandala",
+  "start": 982.412,
+  "end": 1017.368,
+  "params": {
+   "title": "a gente pinta de dentro para fora",
+   "tMarket": {
+    "@t": 988.032
+   },
+   "tInside": {
+    "@t": 993.04
+   },
+   "rings": [
+    {
+     "@t": 993.04
+    },
+    {
+     "@t": 993.49
+    },
+    {
+     "@t": 993.94
+    },
+    {
+     "@t": 994.39
+    }
+   ],
+   "marketText": "✕  o mercado insiste em pintar de fora para dentro",
+   "deps": [
+    {
+     "t": {
+      "@t": 996.08
+     },
+     "text": "Não tem como treinar a liderança sem antes estruturar."
+    },
+    {
+     "t": {
+      "@t": 1000.048
+     },
+     "text": "Não tem como estruturar sem antes diagnosticar."
+    },
+    {
+     "t": {
+      "@t": 1004.928
+     },
+     "text": "Estruturar e implementar o que foi escrito."
+    },
+    {
+     "t": {
+      "@t": 1010.928
+     },
+     "text": "E preparar a liderança para sustentar tudo isso."
+    }
+   ]
+  },
+  "layout": "split",
+  "sfx": [
+   [
+    "whoosh_down",
+    982.412,
+    -20
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v57_teste",
+  "scene": "lettering",
+  "start": 1020.412,
+  "end": 1031.256,
+  "params": {
+   "top": 210,
+   "kicker": "O teste",
+   "kickerT": {
+    "@t": 1020.512
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Pegue",
+       "t": {
+        "@t": 1024.446
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "uma",
+       "t": {
+        "@t": 1024.846
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "caneta,",
+       "t": {
+        "@t": 1025.006
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "um",
+       "t": {
+        "@t": 1025.646
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "papel.",
+       "t": {
+        "@t": 1025.806
+       },
+       "cls": "serif"
+      }
+     ],
+     "font": "serif",
+     "size": 74,
+     "color": "#FFFFFF"
+    },
+    {
+     "words": [
+      {
+       "text": "Quatro",
+       "t": {
+        "@t": 1027.536
+       },
+       "cls": ""
+      },
+      {
+       "text": "perguntas",
+       "t": {
+        "@t": 1027.606
+       },
+       "cls": ""
+      },
+      {
+       "text": "—",
+       "t": {
+        "@t": 1027.676
+       },
+       "cls": ""
+      },
+      {
+       "text": "uma",
+       "t": {
+        "@t": 1027.746
+       },
+       "cls": ""
+      },
+      {
+       "text": "para",
+       "t": {
+        "@t": 1027.816
+       },
+       "cls": ""
+      },
+      {
+       "text": "cada",
+       "t": {
+        "@t": 1027.886
+       },
+       "cls": ""
+      },
+      {
+       "text": "etapa.",
+       "t": {
+        "@t": 1027.956
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 44,
+     "color": "#E2C88F",
+     "gap": 16,
+     "weight": 600
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v58_q1",
+  "scene": "question",
+  "start": 1037.396,
+  "end": 1047.404,
+  "params": {
+   "n": 1,
+   "step": "Diagnóstico",
+   "q": "Eu sei como a minha equipe percebe as decisões — por dado, ou só pelo que chega à minha mesa?",
+   "size": 46
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "tick",
+    1037.4959999999999,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v58_q2",
+  "scene": "question",
+  "start": 1047.14,
+  "end": 1056.636,
+  "params": {
+   "n": 2,
+   "step": "Estrutura",
+   "q": "Duas pessoas que fazem a mesma coisa recebem a mesma resposta, mesmo com líderes diferentes?",
+   "size": 46
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "tick",
+    1047.24,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v58_q3",
+  "scene": "question",
+  "start": 1056.772,
+  "end": 1067.628,
+  "params": {
+   "n": 3,
+   "step": "Implementação",
+   "q": "A minha equipe conhece as regras antes da primeira advertência?",
+   "size": 50,
+   "q2": "Existe registro e comprovação de que ela conhece?",
+   "tQ2": {
+    "@t": 1063.488
+   }
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "tick",
+    1056.8719999999998,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v58_q4",
+  "scene": "question",
+  "start": 1067.588,
+  "end": 1074.948,
+  "params": {
+   "n": 4,
+   "step": "Liderança",
+   "q": "Os meus líderes sabem conduzir conversas difíceis, em vez de deixar que elas subam?",
+   "size": 50
+  },
+  "layout": "top",
+  "sfx": [
+   [
+    "tick",
+    1067.6879999999999,
+    -24
+   ]
+  ],
+  "prio": 1
+ },
+ {
+  "id": "v59_partida",
+  "scene": "lettering",
+  "start": 1074.68,
+  "end": 1082.04,
+  "params": {
+   "top": 235,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Esse",
+       "t": {
+        "@t": 1076.51
+       },
+       "cls": ""
+      },
+      {
+       "text": "primeiro",
+       "t": {
+        "@t": 1076.91
+       },
+       "cls": ""
+      },
+      {
+       "text": "“não”",
+       "t": {
+        "@t": 1077.23
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 56,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "é",
+       "t": {
+        "@t": 1078.59
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "o",
+       "t": {
+        "@t": 1078.83
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "seu",
+       "t": {
+        "@t": 1078.99
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "ponto",
+       "t": {
+        "@t": 1079.15
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "de",
+       "t": {
+        "@t": 1079.47
+       },
+       "cls": "serif gold",
+       "pop": true
+      },
+      {
+       "text": "partida.",
+       "t": {
+        "@t": 1079.55
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 84,
+     "gap": 12
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v61_semana",
+  "scene": "roles",
+  "start": 1092.652,
+  "end": 1118.76,
+  "params": {
+   "kicker": "Para fazer durante a semana",
+   "cards": [
+    {
+     "role": "Dono",
+     "text": "Anote de que andar veio cada problema de gente que chegou até você.",
+     "t": {
+      "@t": 1093.552
+     }
+    },
+    {
+     "role": "RH",
+     "text": "Liste as três situações que mais se repetem e não têm regra escrita.",
+     "t": {
+      "@t": 1101.952
+     }
+    },
+    {
+     "role": "Líder",
+     "text": "Escolha a conversa que está adiando e marque uma data na agenda.",
+     "t": {
+      "@t": 1109.072
+     }
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v62_experiencia",
+  "scene": "lettering",
+  "start": 1141.12,
+  "end": 1149.76,
+  "params": {
+   "top": 225,
+   "kicker": "Um presente para quem ficou até o final",
+   "kickerT": {
+    "@t": 1141.22
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Experiência",
+       "t": {
+        "@t": 1145.07
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "Cultura",
+       "t": {
+        "@t": 1145.87
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "em",
+       "t": {
+        "@t": 1146.35
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "Ação",
+       "t": {
+        "@t": 1146.51
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 88
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v63_passos",
+  "scene": "cta",
+  "start": 1159.684,
+  "end": 1192.836,
+  "params": {
+   "kicker": "Como funciona a Experiência",
+   "steps": [
+    {
+     "text": "Escuta",
+     "sub": "a realidade da sua empresa",
+     "t": {
+      "@t": 1163.744
+     }
+    },
+    {
+     "text": "Panorama executivo",
+     "sub": "uma leitura integral do que encontramos",
+     "t": {
+      "@t": 1173.392
+     }
+    },
+    {
+     "text": "Reunião de direcionamento",
+     "sub": "o que priorizar primeiro + passo a passo",
+     "t": {
+      "@t": 1184.176
+     }
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v63b_vagas",
+  "scene": "lettering",
+  "start": 1201.272,
+  "end": 1209.832,
+  "params": {
+   "top": 230,
+   "kicker": "Nesta edição",
+   "kickerT": {
+    "@t": 1201.372
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "3",
+       "t": {
+        "@t": 1202.622
+       },
+       "cls": "serif gold"
+      },
+      {
+       "text": "vagas",
+       "t": {
+        "@t": 1203.102
+       },
+       "cls": "serif gold"
+      }
+     ],
+     "font": "serif",
+     "size": 110
+    },
+    {
+     "words": [
+      {
+       "text": "100%",
+       "t": {
+        "@t": 1204.782
+       },
+       "cls": ""
+      },
+      {
+       "text": "custeado",
+       "t": {
+        "@t": 1205.342
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 56,
+     "gap": 10,
+     "weight": 700
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v64_link",
+  "scene": "linkDown",
+  "start": 1212.072,
+  "end": 1223.248,
+  "params": {
+   "text": "Clique no link aqui embaixo",
+   "top": 1250
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v65_final",
+  "scene": "lettering",
+  "start": 1223.868,
+  "end": 1233.516,
+  "params": {
+   "top": 215,
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Uma",
+       "t": {
+        "@t": 1224.078
+       },
+       "cls": ""
+      },
+      {
+       "text": "empresa",
+       "t": {
+        "@t": 1224.318
+       },
+       "cls": ""
+      },
+      {
+       "text": "organizada,",
+       "t": {
+        "@t": 1225.118
+       },
+       "cls": ""
+      },
+      {
+       "text": "ela",
+       "t": {
+        "@t": 1225.918
+       },
+       "cls": ""
+      },
+      {
+       "text": "não",
+       "t": {
+        "@t": 1226.158
+       },
+       "cls": ""
+      },
+      {
+       "text": "acontece",
+       "t": {
+        "@t": 1226.398
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 50,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "por",
+       "t": {
+        "@t": 1227.326
+       },
+       "cls": ""
+      },
+      {
+       "text": "acaso.",
+       "t": {
+        "@t": 1227.646
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 50,
+     "weight": 650
+    },
+    {
+     "words": [
+      {
+       "text": "Construída.",
+       "t": {
+        "@t": 1228.526
+       },
+       "cls": "serif gold",
+       "pop": true
+      }
+     ],
+     "font": "serif",
+     "size": 104,
+     "gap": 14
+    },
+    {
+     "words": [
+      {
+       "text": "E",
+       "t": {
+        "@t": 1229.486
+       },
+       "cls": ""
+      },
+      {
+       "text": "tudo",
+       "t": {
+        "@t": 1229.806
+       },
+       "cls": ""
+      },
+      {
+       "text": "começa",
+       "t": {
+        "@t": 1230.286
+       },
+       "cls": ""
+      },
+      {
+       "text": "sabendo",
+       "t": {
+        "@t": 1231.326
+       },
+       "cls": ""
+      },
+      {
+       "text": "ouvir.",
+       "t": {
+        "@t": 1232.606
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 46,
+     "color": "#F5F0E6",
+     "gap": 20,
+     "weight": 600
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ },
+ {
+  "id": "v66_fim",
+  "scene": "lettering",
+  "start": 1235.08,
+  "end": 1245.2,
+  "params": {
+   "top": 300,
+   "kicker": "Experiência",
+   "kickerT": {
+    "@t": 1235.28
+   },
+   "lines": [
+    {
+     "words": [
+      {
+       "text": "Cultura",
+       "t": {
+        "@t": 1235.48
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "em",
+       "t": {
+        "@t": 1235.55
+       },
+       "cls": "serif"
+      },
+      {
+       "text": "Ação",
+       "t": {
+        "@t": 1235.62
+       },
+       "cls": "serif"
+      }
+     ],
+     "font": "serif",
+     "size": 100,
+     "color": "#FFFFFF"
+    },
+    {
+     "words": [
+      {
+       "text": "Inscreva-se",
+       "t": {
+        "@t": 1237.76
+       },
+       "cls": ""
+      },
+      {
+       "text": "no",
+       "t": {
+        "@t": 1237.83
+       },
+       "cls": ""
+      },
+      {
+       "text": "link",
+       "t": {
+        "@t": 1237.9
+       },
+       "cls": ""
+      },
+      {
+       "text": "abaixo",
+       "t": {
+        "@t": 1237.97
+       },
+       "cls": ""
+      }
+     ],
+     "font": "sans",
+     "size": 40,
+     "color": "#E2C88F",
+     "gap": 20,
+     "weight": 600
+    }
+   ]
+  },
+  "layout": "top",
+  "sfx": [],
+  "prio": 1
+ }
+]

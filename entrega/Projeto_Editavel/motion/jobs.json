@@ -1,0 +1,2709 @@
+[
+{
+"id": "v01_titulo",
+"scene": "lettering",
+"duration": 5.35,
+"params": {
+"kicker": "Aula",
+"kickerT": 0.1,
+"top": 205,
+"lines": [
+{
+"words": [
+{
+"text": "O",
+"t": 0.3,
+"cls": "serif"
+},
+{
+"text": "elevador",
+"t": 0.37,
+"cls": "serif"
+}
+],
+"font": "serif",
+"size": 96,
+"color": "#FFFFFF"
+},
+{
+"words": [
+{
+"text": "do",
+"t": 0.5,
+"cls": "serif gold"
+},
+{
+"text": "conflito",
+"t": 0.57,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 96
+}
+],
+"dur": 5.35
+}
+},
+{
+"id": "v02_gente",
+"scene": "list",
+"duration": 9.9,
+"params": {
+"kicker": "Um problema que não era sobre…",
+"kickerT": 0.1,
+"top": 175,
+"size": 54,
+"numW": 56,
+"items": [
+{
+"n": "✕",
+"text": "estratégia",
+"t": 1.3,
+"strikeT": 1.85,
+"dimAt": 6.48
+},
+{
+"n": "✕",
+"text": "o cliente",
+"t": 3.3,
+"strikeT": 3.85,
+"dimAt": 6.48
+},
+{
+"n": "✕",
+"text": "o dinheiro",
+"t": 5.06,
+"strikeT": 5.61,
+"dimAt": 6.48
+},
+{
+"n": "✓",
+"text": "era sobre gente.",
+"t": 5.7,
+"hiT": 6.58,
+"numColor": "#9FD3C7",
+"size": 66,
+"weight": 750
+}
+],
+"dur": 9.9
+}
+},
+{
+"id": "v03_desafio",
+"scene": "lettering",
+"duration": 7.36,
+"params": {
+"top": 220,
+"lines": [
+{
+"words": [
+{
+"text": "Existe",
+"t": 0.15,
+"cls": ""
+},
+{
+"text": "um",
+"t": 0.55,
+"cls": ""
+},
+{
+"text": "desafio",
+"t": 0.71,
+"cls": ""
+},
+{
+"text": "real",
+"t": 1.35,
+"cls": ""
+},
+{
+"text": "e",
+"t": 1.67,
+"cls": ""
+},
+{
+"text": "comum",
+"t": 1.91,
+"cls": ""
+},
+{
+"text": "a",
+"t": 2.39,
+"cls": ""
+},
+{
+"text": "todas",
+"t": 2.55,
+"cls": ""
+},
+{
+"text": "as",
+"t": 2.87,
+"cls": ""
+},
+{
+"text": "empresas",
+"t": 3.03,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 52,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "E",
+"t": 3.51,
+"cls": "serif gold"
+},
+{
+"text": "esse",
+"t": 3.67,
+"cls": "serif gold"
+},
+{
+"text": "desafio",
+"t": 3.91,
+"cls": "serif gold"
+},
+{
+"text": "é",
+"t": 4.39,
+"cls": "serif gold"
+},
+{
+"text": "gente.",
+"t": 4.87,
+"cls": "serif gold",
+"pop": true
+}
+],
+"font": "serif",
+"size": 96,
+"gap": 14
+}
+],
+"dur": 7.36
+}
+},
+{
+"id": "v04_liderar",
+"scene": "lettering",
+"duration": 8.44,
+"params": {
+"top": 205,
+"kicker": "Liderar na prática é gerenciar",
+"kickerT": 0.2,
+"lines": [
+{
+"words": [
+{
+"text": "pessoas,",
+"t": 3.35,
+"cls": ""
+},
+{
+"text": "comportamentos,",
+"t": 4.15,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 70
+},
+{
+"words": [
+{
+"text": "emoções",
+"t": 5.27,
+"cls": ""
+},
+{
+"text": "e",
+"t": 5.83,
+"cls": ""
+},
+{
+"text": "conflitos.",
+"t": 5.99,
+"cls": "",
+"pop": true
+}
+],
+"font": "sans",
+"size": 70
+}
+],
+"dur": 8.44
+}
+},
+{
+"id": "v05_pergunta",
+"scene": "list",
+"duration": 10.82,
+"params": {
+"kicker": "A pergunta certa",
+"kickerT": 0.3,
+"top": 165,
+"size": 44,
+"numW": 52,
+"items": [
+{
+"n": "✕",
+"text": "Como evitar o conflito?",
+"t": 2.3,
+"strikeT": 3.74,
+"dimAt": 3.94
+},
+{
+"n": "✓",
+"numColor": "#9FD3C7",
+"text": "A minha empresa está preparada para gerenciar e conduzir o conflito quando ele aparecer?",
+"t": 4.3,
+"size": 48
+}
+],
+"dur": 10.82
+}
+},
+{
+"id": "v06_rh",
+"scene": "lettering",
+"duration": 6.12,
+"params": {
+"top": 230,
+"kicker": "E se você é do RH",
+"kickerT": -4.52,
+"lines": [
+{
+"words": [
+{
+"text": "Quando",
+"t": 0.15,
+"cls": ""
+},
+{
+"text": "chega",
+"t": 0.39,
+"cls": ""
+},
+{
+"text": "até",
+"t": 0.71,
+"cls": ""
+},
+{
+"text": "o",
+"t": 0.95,
+"cls": ""
+},
+{
+"text": "RH,",
+"t": 1.11,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 58,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "o",
+"t": 1.75,
+"cls": "serif gold"
+},
+{
+"text": "conflito",
+"t": 1.91,
+"cls": "serif gold"
+},
+{
+"text": "já",
+"t": 2.71,
+"cls": "serif gold"
+},
+{
+"text": "explodiu.",
+"t": 2.95,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 86
+}
+],
+"dur": 6.12
+}
+},
+{
+"id": "v07_roteiro",
+"scene": "list",
+"duration": 27.028,
+"params": {
+"kicker": "Nos próximos minutos",
+"kickerT": 0.3,
+"top": 160,
+"size": 40,
+"rowGap": 16,
+"items": [
+{
+"text": "O que acontece quando essa estrutura falha",
+"t": 3.18
+},
+{
+"text": "Por que as soluções mais comuns não se sustentam sozinhas",
+"t": 8.06
+},
+{
+"text": "O caminho em quatro etapas",
+"t": 15.148
+},
+{
+"n": "✎",
+"text": "Um teste: quatro perguntas",
+"t": 20.988,
+"color": "#E2C88F"
+}
+],
+"dur": 27.028
+}
+},
+{
+"id": "v08_hellen",
+"scene": "nameTag",
+"duration": 6.84,
+"params": {
+"side": "R",
+"name": "Hellen de Paula",
+"role": "Psicóloga organizacional",
+"y": 520,
+"dur": 6.84
+}
+},
+{
+"id": "v08_indira",
+"scene": "nameTag",
+"duration": 7.38,
+"params": {
+"side": "L",
+"name": "Indira Matos",
+"role": "Advogada e mediadora",
+"y": 540,
+"dur": 7.38
+}
+},
+{
+"id": "v09_bigidea",
+"scene": "lettering",
+"duration": 10.12,
+"params": {
+"top": 190,
+"kicker": "A grande ideia",
+"kickerT": 0.2,
+"lines": [
+{
+"words": [
+{
+"text": "Os",
+"t": 0.31,
+"cls": ""
+},
+{
+"text": "conflitos,",
+"t": 0.47,
+"cls": ""
+},
+{
+"text": "quando",
+"t": 1.19,
+"cls": ""
+},
+{
+"text": "não",
+"t": 1.51,
+"cls": ""
+},
+{
+"text": "são",
+"t": 1.83,
+"cls": ""
+},
+{
+"text": "resolvidos,",
+"t": 2.07,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 52,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "não",
+"t": 3.67,
+"cls": ""
+},
+{
+"text": "vão",
+"t": 3.91,
+"cls": ""
+},
+{
+"text": "deixar",
+"t": 4.23,
+"cls": ""
+},
+{
+"text": "de",
+"t": 5.03,
+"cls": ""
+},
+{
+"text": "existir.",
+"t": 5.51,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 52,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "Eles",
+"t": 6.31,
+"cls": "serif gold"
+},
+{
+"text": "vão",
+"t": 6.63,
+"cls": "serif gold"
+},
+{
+"text": "subir",
+"t": 6.95,
+"cls": "serif gold"
+},
+{
+"text": "de",
+"t": 7.59,
+"cls": "serif gold"
+},
+{
+"text": "andar.",
+"t": 7.91,
+"cls": "serif gold",
+"pop": true
+}
+],
+"font": "serif",
+"size": 96,
+"gap": 16
+}
+],
+"dur": 10.12
+}
+},
+{
+"id": "v10_terreo",
+"scene": "list",
+"duration": 15.467,
+"params": {
+"kicker": "Onde o problema começa",
+"kickerT": 0.096,
+"top": 165,
+"size": 40,
+"rowGap": 12,
+"numSize": 34,
+"numW": 46,
+"items": [
+{
+"n": "·",
+"text": "pessoas do mesmo setor que não se entendem",
+"t": 0.133
+},
+{
+"n": "·",
+"text": "uma regra que não foi bem estabelecida",
+"t": 2.613
+},
+{
+"n": "·",
+"text": "uma promessa do líder que não foi cumprida",
+"t": 4.787
+},
+{
+"n": "·",
+"text": "uma escala mal feita",
+"t": 7.667
+},
+{
+"n": "↳",
+"text": "sempre começa no andar de baixo",
+"t": 12.867,
+"color": "#E2C88F",
+"size": 46
+}
+],
+"dur": 15.467
+}
+},
+{
+"id": "v11_conversa",
+"scene": "lettering",
+"duration": 8.06,
+"params": {
+"top": 215,
+"lines": [
+{
+"words": [
+{
+"text": "Uma",
+"t": 0.15,
+"cls": ""
+},
+{
+"text": "simples",
+"t": 0.39,
+"cls": ""
+},
+{
+"text": "conversa",
+"t": 0.87,
+"cls": ""
+},
+{
+"text": "de",
+"t": 1.35,
+"cls": ""
+},
+{
+"text": "10",
+"t": 1.59,
+"cls": ""
+},
+{
+"text": "minutos",
+"t": 2.07,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 58,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "poderia",
+"t": 2.63,
+"cls": "serif gold"
+},
+{
+"text": "resolver",
+"t": 3.27,
+"cls": "serif gold"
+},
+{
+"text": "tudo.",
+"t": 3.83,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 80
+},
+{
+"words": [
+{
+"text": "Mas",
+"t": 4.15,
+"cls": ""
+},
+{
+"text": "essa",
+"t": 4.39,
+"cls": ""
+},
+{
+"text": "conversa",
+"t": 4.71,
+"cls": ""
+},
+{
+"text": "nunca",
+"t": 5.59,
+"cls": ""
+},
+{
+"text": "acontece.",
+"t": 6.23,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 44,
+"color": "#F2B3A3",
+"gap": 18,
+"weight": 600
+}
+],
+"dur": 8.06
+}
+},
+{
+"id": "v12_elevador_a",
+"scene": "elevator",
+"duration": 49.788,
+"params": {
+"header": "O elevador do conflito",
+"sub": "quando a conversa não acontece, ela pega um elevador",
+"floors": [
+{
+"level": "Térreo",
+"name": "Colaborador",
+"desc": "onde o problema começa",
+"t": 4.292
+},
+{
+"level": "1º andar",
+"name": "Líder",
+"desc": "sem preparo para conversas difíceis",
+"t": 5.732
+},
+{
+"level": "2º andar",
+"name": "RH",
+"desc": "sem norma: atua caso a caso",
+"t": 10.792
+},
+{
+"level": "3º andar",
+"name": "Dono",
+"desc": "muitas vezes não consegue resolver",
+"t": 33.176
+},
+{
+"level": "4º andar",
+"name": "Advogado",
+"desc": "o único andar com data e valor definido",
+"t": 39.128
+}
+],
+"topNote": {
+"t": 47.188,
+"text": "pode virar passivo trabalhista"
+},
+"dur": 49.788
+}
+},
+{
+"id": "v13_ninguem",
+"scene": "lettering",
+"duration": 4.8,
+"params": {
+"top": 240,
+"lines": [
+{
+"words": [
+{
+"text": "Ninguém,",
+"t": 0.15,
+"cls": ""
+},
+{
+"text": "em",
+"t": 0.71,
+"cls": ""
+},
+{
+"text": "nenhum",
+"t": 0.87,
+"cls": ""
+},
+{
+"text": "momento,",
+"t": 1.35,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 54,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "foi",
+"t": 1.75,
+"cls": "serif gold"
+},
+{
+"text": "incompetente.",
+"t": 2.07,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 88,
+"gap": 10
+}
+],
+"dur": 4.8
+}
+},
+{
+"id": "v14_sem_freio",
+"scene": "elevator",
+"duration": 12.0,
+"params": {
+"header": "O elevador do conflito",
+"sub": "em nenhum andar existe um freio",
+"floors": [
+{
+"level": "Térreo",
+"name": "Colaborador",
+"desc": "onde o problema começa",
+"t": 0.15
+},
+{
+"level": "1º andar",
+"name": "Líder",
+"desc": "sem preparo para conversas difíceis",
+"t": 0.27
+},
+{
+"level": "2º andar",
+"name": "RH",
+"desc": "sem norma: atua caso a caso",
+"t": 0.39
+},
+{
+"level": "3º andar",
+"name": "Dono",
+"desc": "muitas vezes não consegue resolver",
+"t": 0.51
+},
+{
+"level": "4º andar",
+"name": "Advogado",
+"desc": "o único andar com data e valor definido",
+"t": 0.63
+}
+],
+"startFloor": 4,
+"stops": [],
+"freio": 3.78,
+"accel": {
+"t": 5.72,
+"text": "o que acelera ainda mais:",
+"text2": "percepção de injustiça",
+"t2": 9.24
+},
+"dur": 12.0
+}
+},
+{
+"id": "v15_injustica",
+"scene": "lettering",
+"duration": 6.368,
+"params": {
+"top": 230,
+"kicker": "Percepção de injustiça",
+"kickerT": 0.0,
+"lines": [
+{
+"words": [
+{
+"text": "Quando",
+"t": -0.15,
+"cls": "serif"
+},
+{
+"text": "a",
+"t": 0.25,
+"cls": "serif"
+},
+{
+"text": "regra",
+"t": 0.49,
+"cls": "serif"
+},
+{
+"text": "depende",
+"t": 1.13,
+"cls": "serif"
+},
+{
+"text": "de",
+"t": 1.93,
+"cls": "serif"
+},
+{
+"text": "alguém…",
+"t": 2.17,
+"cls": "serif"
+}
+],
+"font": "serif",
+"size": 70,
+"color": "#FFFFFF"
+},
+{
+"words": [
+{
+"text": "essa",
+"t": 2.938,
+"cls": ""
+},
+{
+"text": "pessoa",
+"t": 3.578,
+"cls": ""
+},
+{
+"text": "vai",
+"t": 3.978,
+"cls": ""
+},
+{
+"text": "deixar",
+"t": 4.218,
+"cls": ""
+},
+{
+"text": "de",
+"t": 4.698,
+"cls": ""
+},
+{
+"text": "procurar",
+"t": 4.858,
+"cls": ""
+},
+{
+"text": "o",
+"t": 5.258,
+"cls": ""
+},
+{
+"text": "líder.",
+"t": 5.418,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 42,
+"color": "#E2C88F",
+"gap": 18,
+"weight": 600
+}
+],
+"dur": 6.368
+}
+},
+{
+"id": "v16_formas",
+"scene": "elevator",
+"duration": 19.471,
+"params": {
+"header": "O elevador do conflito",
+"sub": "no caminho, ele se transforma em outra coisa",
+"floors": [
+{
+"level": "Térreo",
+"name": "Colaborador",
+"desc": "onde o problema começa",
+"t": 0.15
+},
+{
+"level": "1º andar",
+"name": "Líder",
+"desc": "sem preparo para conversas difíceis",
+"t": 0.25
+},
+{
+"level": "2º andar",
+"name": "RH",
+"desc": "sem norma: atua caso a caso",
+"t": 0.35
+},
+{
+"level": "3º andar",
+"name": "Dono",
+"desc": "muitas vezes não consegue resolver",
+"t": 0.45
+},
+{
+"level": "4º andar",
+"name": "Advogado",
+"desc": "o único andar com data e valor definido",
+"t": 0.55
+}
+],
+"rowsDim": true,
+"startFloor": 0,
+"stops": [
+{
+"t": 11.087,
+"floor": 0
+},
+{
+"t": 12.911,
+"floor": 1
+},
+{
+"t": 14.831,
+"floor": 2
+},
+{
+"t": 15.711,
+"floor": 3
+}
+],
+"pills": [
+{
+"t": 11.087,
+"text": "fofoca"
+},
+{
+"t": 12.911,
+"text": "perda de produtividade"
+},
+{
+"t": 14.831,
+"text": "atestado"
+},
+{
+"t": 15.711,
+"text": "demissão inesperada"
+}
+],
+"dur": 19.471
+}
+},
+{
+"id": "v17_demissao",
+"scene": "lettering",
+"duration": 5.96,
+"params": {
+"top": 230,
+"lines": [
+{
+"words": [
+{
+"text": "Ela",
+"t": -0.29,
+"cls": ""
+},
+{
+"text": "não",
+"t": -0.05,
+"cls": ""
+},
+{
+"text": "está",
+"t": 0.19,
+"cls": ""
+},
+{
+"text": "pedindo",
+"t": 0.35,
+"cls": ""
+},
+{
+"text": "demissão",
+"t": 0.83,
+"cls": ""
+},
+{
+"text": "da",
+"t": 1.31,
+"cls": ""
+},
+{
+"text": "empresa.",
+"t": 1.47,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 50,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "Ela",
+"t": 1.87,
+"cls": "serif gold"
+},
+{
+"text": "está",
+"t": 2.11,
+"cls": "serif gold"
+},
+{
+"text": "pedindo",
+"t": 2.27,
+"cls": "serif gold"
+},
+{
+"text": "demissão",
+"t": 2.59,
+"cls": "serif gold"
+},
+{
+"text": "do",
+"t": 3.15,
+"cls": "serif gold"
+},
+{
+"text": "líder.",
+"t": 3.39,
+"cls": "serif gold",
+"pop": true
+}
+],
+"font": "serif",
+"size": 78,
+"gap": 16
+}
+],
+"dur": 5.96
+}
+},
+{
+"id": "v18_sequencia",
+"scene": "chain",
+"duration": 15.42,
+"params": {
+"kicker": "A sequência",
+"kickerT": 0.1,
+"top": 150,
+"size": 40,
+"arrowH": 26,
+"nodes": [
+{
+"text": "Sem regra clara",
+"t": 0.12
+},
+{
+"text": "decisão subjetiva",
+"t": 3.064
+},
+{
+"text": "percepção de injustiça",
+"t": 8.04
+},
+{
+"text": "processo",
+"t": 13.16,
+"color": "#E2C88F",
+"size": 54,
+"weight": 750
+}
+],
+"dur": 15.42
+}
+},
+{
+"id": "v19_dado_acoes",
+"scene": "dataCard",
+"duration": 11.42,
+"params": {
+"kicker": "Justiça do Trabalho · 2025",
+"value": 2.3,
+"decimals": 1,
+"unit": "milhões",
+"prefix": "+",
+"tCount": 3.18,
+"label": "de novas ações",
+"tLabel": 4.78,
+"sub": "o maior volume desde a reforma trabalhista de 2017",
+"tSub": 5.82,
+"dur": 11.42
+}
+},
+{
+"id": "v22_dado_assedio",
+"scene": "dataCard",
+"duration": 9.43,
+"params": {
+"kicker": "Ações de assédio moral",
+"value": 22,
+"prefix": "+",
+"suffix": "%",
+"tCount": 2.88,
+"label": "em um ano",
+"tLabel": 4.48,
+"sub": "mais de 142 mil novos processos só em 2025",
+"tSub": 6.16,
+"dur": 9.43
+}
+},
+{
+"id": "v23_burnout",
+"scene": "fromTo",
+"duration": 6.828,
+"params": {
+"kicker": "Ações por burnout",
+"a": {
+"text": "< 1 mil",
+"label": "antes"
+},
+"b": {
+"text": "5 mil",
+"label": "em 2025"
+},
+"tB": 3.528,
+"dur": 6.828
+}
+},
+{
+"id": "v24_inss",
+"scene": "dataCard",
+"duration": 8.92,
+"params": {
+"kicker": "INSS · 2025",
+"value": 546,
+"unit": "mil",
+"prefix": "+",
+"tCount": 1.4,
+"label": "afastamentos por saúde mental",
+"tLabel": 6.6,
+"dur": 8.92
+}
+},
+{
+"id": "v25_conversa",
+"scene": "lettering",
+"duration": 9.888,
+"params": {
+"top": 225,
+"lines": [
+{
+"words": [
+{
+"text": "Por",
+"t": 0.15,
+"cls": ""
+},
+{
+"text": "trás",
+"t": 0.31,
+"cls": ""
+},
+{
+"text": "de",
+"t": 0.63,
+"cls": ""
+},
+{
+"text": "cada",
+"t": 0.79,
+"cls": ""
+},
+{
+"text": "um",
+"t": 1.03,
+"cls": ""
+},
+{
+"text": "deles,",
+"t": 1.27,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 50,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "existe",
+"t": 1.83,
+"cls": "serif gold"
+},
+{
+"text": "uma",
+"t": 2.47,
+"cls": "serif gold"
+},
+{
+"text": "conversa",
+"t": 2.71,
+"cls": "serif gold"
+},
+{
+"text": "que",
+"t": 3.35,
+"cls": "serif gold"
+},
+{
+"text": "não",
+"t": 3.59,
+"cls": "serif gold"
+},
+{
+"text": "aconteceu.",
+"t": 3.91,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 74,
+"gap": 14
+}
+],
+"dur": 9.888
+}
+},
+{
+"id": "v26a_caso",
+"scene": "dataCard",
+"duration": 14.44,
+"params": {
+"kicker": "Caso julgado no TST",
+"value": 238,
+"prefix": "R$ ",
+"unit": "mil",
+"size": 132,
+"tCount": 4.88,
+"label": "condenação mantida contra uma montadora",
+"tLabel": 6.88,
+"sub": "um líder que sofria assédio de um subordinado",
+"tSub": 10.72,
+"dur": 14.44
+}
+},
+{
+"id": "v26_tst",
+"scene": "elevMini",
+"duration": 17.592,
+"params": {
+"count": 15,
+"tCount": 0.6,
+"countDur": 1.8,
+"top": 175,
+"size": 46,
+"texts": [
+{
+"t": 0.6,
+"text": "15 reclamações em dois anos"
+},
+{
+"t": 3.08,
+"text": "15 reclamações em dois anos.<br><span style=\"color:#F2B3A3\">A empresa não fez nada.</span>"
+},
+{
+"t": 11.112,
+"text": "15 vezes o conflito subiu —<br><span style=\"color:#E2C88F\">e em nenhum andar existia um freio.</span>"
+}
+],
+"dur": 17.592
+}
+},
+{
+"id": "v28_curva",
+"scene": "curve",
+"duration": 27.9,
+"params": {
+"kicker": "1ª coisa: contratar um treinamento",
+"label1": "palestra / workshop",
+"label2": "alguns meses depois",
+"tEvent": 5.82,
+"tDecay": 13.98,
+"label3": "gera consciência — mas não muda a regra.",
+"tLabel3": 25.18,
+"dur": 27.9
+}
+},
+{
+"id": "v31_modelos",
+"scene": "contrast",
+"duration": 27.896,
+"params": {
+"top": 175,
+"divH": 340,
+"left": {
+"kicker": "2ª coisa · normativa",
+"title": "Modelos prontos ou ChatGPT",
+"size": 48,
+"t": 1.36,
+"items": [
+{
+"text": "é um risco",
+"mark": "no",
+"t": 4.8
+},
+{
+"text": "não conversa com a realidade da empresa",
+"mark": "no",
+"t": 8.0
+}
+]
+},
+"right": {
+"kicker": "outro caminho",
+"title": "Um profissional, um advogado",
+"size": 48,
+"t": 16.896,
+"items": [
+{
+"text": "faz um diagnóstico",
+"mark": "ok",
+"t": 21.536
+},
+{
+"text": "constrói com a realidade da empresa",
+"mark": "ok",
+"t": 25.616
+}
+]
+},
+"dur": 27.896
+}
+},
+{
+"id": "v32_gaveta",
+"scene": "drawer",
+"duration": 16.088,
+"params": {
+"kicker": "Ela recebe toda a parte normativa",
+"caption": "…mas guarda numa gaveta.",
+"docs": [
+{
+"text": "Regulamento interno",
+"t": 0.6
+},
+{
+"text": "Código de conduta",
+"t": 1.88
+},
+{
+"text": "Política de gestão de conflito",
+"t": 3.08
+},
+{
+"text": "Política antiassédio",
+"t": 6.02
+},
+{
+"text": "Manual de cultura",
+"t": 8.2
+}
+],
+"tDrawer": 11.9,
+"dur": 16.088
+}
+},
+{
+"id": "v34_loop",
+"scene": "loop",
+"duration": 12.576,
+"params": {
+"cy": 400,
+"left": {
+"kicker": "Indira",
+"title": "Regra",
+"sub": "o que a Indira escreve",
+"t": 0.3
+},
+"right": {
+"kicker": "Hellen",
+"title": "Comportamento",
+"sub": "o que eu escuto na sala",
+"t": 2.62
+},
+"tTop": 4.556,
+"topText": "vira cláusula",
+"tBottom": 9.756,
+"bottomText": "vira conteúdo de treinamento",
+"reverse": true,
+"dur": 12.576
+}
+},
+{
+"id": "v35_documento",
+"scene": "lettering",
+"duration": 4.82,
+"params": {
+"top": 215,
+"lines": [
+{
+"words": [
+{
+"text": "O",
+"t": 0.05,
+"cls": ""
+},
+{
+"text": "documento,",
+"t": 0.13,
+"cls": ""
+},
+{
+"text": "ele",
+"t": 0.69,
+"cls": ""
+},
+{
+"text": "muda",
+"t": 0.85,
+"cls": ""
+},
+{
+"text": "a",
+"t": 1.17,
+"cls": ""
+},
+{
+"text": "regra,",
+"t": 1.25,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 54,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "mas",
+"t": 1.97,
+"cls": "serif gold"
+},
+{
+"text": "não",
+"t": 2.13,
+"cls": "serif gold"
+},
+{
+"text": "muda",
+"t": 2.29,
+"cls": "serif gold"
+},
+{
+"text": "o",
+"t": 2.61,
+"cls": "serif gold"
+},
+{
+"text": "comportamento.",
+"t": 2.69,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 70,
+"gap": 10
+}
+],
+"dur": 4.82
+}
+},
+{
+"id": "v36_improviso",
+"scene": "lettering",
+"duration": 5.78,
+"params": {
+"top": 250,
+"kicker": "A gente dá um nome",
+"kickerT": 0.3,
+"lines": [
+{
+"words": [
+{
+"text": "Gestão",
+"t": 1.53,
+"cls": "serif gold"
+},
+{
+"text": "no",
+"t": 2.41,
+"cls": "serif gold"
+},
+{
+"text": "improviso.",
+"t": 2.73,
+"cls": "serif gold",
+"pop": true
+}
+],
+"font": "serif",
+"size": 108
+}
+],
+"dur": 5.78
+}
+},
+{
+"id": "v37_etapas",
+"scene": "steps4",
+"duration": 25.174,
+"params": {
+"tSteps": [
+4.076,
+5.036,
+5.996,
+7.276
+],
+"tMarket": 11.58,
+"marketText": "↑ o mais comum no mercado: começar por aqui",
+"caption": "três semanas depois, vai perder o efeito.",
+"tCap": 21.692,
+"dur": 25.174
+}
+},
+{
+"id": "v38_etapa1",
+"scene": "stepCard",
+"duration": 4.7,
+"params": {
+"n": 1,
+"dur": 4.7
+}
+},
+{
+"id": "v39_culpado",
+"scene": "quote",
+"duration": 5.72,
+"params": {
+"text": "Já sei o que está acontecendo.<br>Já sei quem é o culpado.",
+"attrib": "o dono, com o diagnóstico pré-pronto",
+"size": 58,
+"dur": 5.72
+}
+},
+{
+"id": "v40_sobe",
+"scene": "elevMini",
+"duration": 5.916,
+"params": {
+"mode": "up",
+"text": "ele só sabe aquilo que sobe até ele.",
+"top": 190,
+"size": 50,
+"tMove": 1.2,
+"moveDur": 1.2,
+"tText": 0.3,
+"dur": 5.916
+}
+},
+{
+"id": "v41_chefe",
+"scene": "lettering",
+"duration": 10.636,
+"params": {
+"top": 220,
+"lines": [
+{
+"words": [
+{
+"text": "Ninguém",
+"t": 0.3,
+"cls": ""
+},
+{
+"text": "vai",
+"t": 0.35,
+"cls": ""
+},
+{
+"text": "à",
+"t": 0.4,
+"cls": ""
+},
+{
+"text": "sala",
+"t": 0.45,
+"cls": ""
+},
+{
+"text": "do",
+"t": 0.5,
+"cls": ""
+},
+{
+"text": "chefe",
+"t": 0.55,
+"cls": ""
+},
+{
+"text": "dizer",
+"t": 0.6,
+"cls": ""
+},
+{
+"text": "que",
+"t": 0.65,
+"cls": ""
+},
+{
+"text": "o",
+"t": 0.7,
+"cls": ""
+},
+{
+"text": "chefe",
+"t": 0.75,
+"cls": ""
+},
+{
+"text": "é",
+"t": 0.8,
+"cls": ""
+},
+{
+"text": "o",
+"t": 0.85,
+"cls": ""
+},
+{
+"text": "problema.",
+"t": 0.9,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 46,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "Por",
+"t": 5.308,
+"cls": "serif gold"
+},
+{
+"text": "isso",
+"t": 5.388,
+"cls": "serif gold"
+},
+{
+"text": "o",
+"t": 5.468,
+"cls": "serif gold"
+},
+{
+"text": "diagnóstico",
+"t": 5.548,
+"cls": "serif gold"
+},
+{
+"text": "vem",
+"t": 5.628,
+"cls": "serif gold"
+},
+{
+"text": "de",
+"t": 5.708,
+"cls": "serif gold"
+},
+{
+"text": "fora.",
+"t": 5.788,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 70,
+"gap": 18
+}
+],
+"dur": 10.636
+}
+},
+{
+"id": "v42_clima",
+"scene": "contrast",
+"duration": 16.12,
+"params": {
+"top": 180,
+"divH": 330,
+"left": {
+"kicker": "Pesquisa de clima",
+"title": "Como você se sente?",
+"size": 50,
+"t": 0.4,
+"dimAt": 6.0,
+"items": []
+},
+"right": {
+"kicker": "Diagnóstico organizacional",
+"title": "Como as decisões são tomadas?",
+"size": 50,
+"t": 6.0,
+"items": [
+{
+"text": "e o que influencia essas decisões",
+"mark": "ok",
+"t": 12.0
+}
+]
+},
+"dur": 16.12
+}
+},
+{
+"id": "v43_medico",
+"scene": "list",
+"duration": 13.7,
+"params": {
+"kicker": "A analogia do médico",
+"kickerT": 0.1,
+"top": 180,
+"size": 46,
+"items": [
+{
+"n": "✕",
+"text": "ir ao médico e já pedir uma cirurgia",
+"t": 2.9,
+"strikeT": 4.02,
+"dimAt": 8.9
+},
+{
+"n": "✓",
+"numColor": "#9FD3C7",
+"text": "nenhum médico trata sem pedir exames",
+"t": 8.9
+},
+{
+"n": "=",
+"text": "Esses exames são o diagnóstico.",
+"t": 10.02,
+"color": "#E2C88F",
+"size": 56
+}
+],
+"dur": 13.7
+}
+},
+{
+"id": "v44_etapa2",
+"scene": "stepCard",
+"duration": 3.89,
+"params": {
+"n": 2,
+"dur": 3.89
+}
+},
+{
+"id": "v45_estrutura",
+"scene": "lettering",
+"duration": 10.469,
+"params": {
+"top": 235,
+"lines": [
+{
+"words": [
+{
+"text": "Com",
+"t": 0.25,
+"cls": ""
+},
+{
+"text": "o",
+"t": 0.41,
+"cls": ""
+},
+{
+"text": "diagnóstico",
+"t": 0.49,
+"cls": ""
+},
+{
+"text": "na",
+"t": 1.21,
+"cls": ""
+},
+{
+"text": "mão,",
+"t": 1.37,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 52,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "vai",
+"t": 6.459,
+"cls": "serif gold"
+},
+{
+"text": "virar",
+"t": 6.619,
+"cls": "serif gold"
+},
+{
+"text": "uma",
+"t": 7.019,
+"cls": "serif gold"
+},
+{
+"text": "estrutura",
+"t": 7.339,
+"cls": "serif gold"
+},
+{
+"text": "escrita.",
+"t": 7.979,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 80,
+"gap": 12
+}
+],
+"dur": 10.469
+}
+},
+{
+"id": "v46_aplicavel",
+"scene": "lettering",
+"duration": 6.5,
+"params": {
+"top": 240,
+"lines": [
+{
+"words": [
+{
+"text": "O",
+"t": 0.25,
+"cls": ""
+},
+{
+"text": "documento,",
+"t": 0.41,
+"cls": ""
+},
+{
+"text": "ele",
+"t": 1.05,
+"cls": ""
+},
+{
+"text": "não",
+"t": 1.21,
+"cls": ""
+},
+{
+"text": "protege",
+"t": 1.37,
+"cls": ""
+},
+{
+"text": "por",
+"t": 1.93,
+"cls": ""
+},
+{
+"text": "existir,",
+"t": 2.09,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 54,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "ele",
+"t": 2.65,
+"cls": "serif gold"
+},
+{
+"text": "protege",
+"t": 2.89,
+"cls": "serif gold"
+},
+{
+"text": "por",
+"t": 3.37,
+"cls": "serif gold"
+},
+{
+"text": "ser",
+"t": 3.61,
+"cls": "serif gold"
+},
+{
+"text": "aplicável.",
+"t": 3.85,
+"cls": "serif gold",
+"pop": true
+}
+],
+"font": "serif",
+"size": 84,
+"gap": 14
+}
+],
+"dur": 6.5
+}
+},
+{
+"id": "v47_etapa3",
+"scene": "stepCard",
+"duration": 3.55,
+"params": {
+"n": 3,
+"dur": 3.55
+}
+},
+{
+"id": "v49_advertencia",
+"scene": "chain",
+"duration": 14.48,
+"params": {
+"kicker": "Orientação jurídica",
+"kickerT": -2.856,
+"top": 150,
+"size": 40,
+"arrowH": 24,
+"nodes": [
+{
+"text": "Advertência por descumprir uma norma",
+"t": 0.6
+},
+{
+"text": "sem comprovar que todos tinham ciência",
+"t": 4.04
+},
+{
+"text": "a punição pode ser anulada nos tribunais do trabalho",
+"t": 11.56,
+"color": "#F2B3A3",
+"size": 40
+}
+],
+"dur": 14.48
+}
+},
+{
+"id": "v50_ciencia",
+"scene": "list",
+"duration": 10.82,
+"params": {
+"kicker": "Na implementação",
+"kickerT": 0.1,
+"top": 185,
+"size": 44,
+"items": [
+{
+"n": "01",
+"text": "treinamento com linguagem acessível",
+"t": 1.3
+},
+{
+"n": "02",
+"text": "todos conhecem as regras",
+"t": 4.18
+},
+{
+"n": "03",
+"text": "a empresa fica com a comprovação de ciência",
+"t": 7.46,
+"color": "#E2C88F"
+}
+],
+"dur": 10.82
+}
+},
+{
+"id": "v52_etapa4",
+"scene": "stepCard",
+"duration": 4.0,
+"params": {
+"n": 4,
+"dur": 4.0
+}
+},
+{
+"id": "v53_promovido",
+"scene": "chain",
+"duration": 21.904,
+"params": {
+"kicker": "Por que o conflito sobe",
+"kickerT": 0.1,
+"top": 150,
+"size": 40,
+"arrowH": 22,
+"nodes": [
+{
+"text": "promovido pela competência técnica",
+"t": 2.0
+},
+{
+"text": "não sabe conduzir conversas difíceis",
+"t": 8.288
+},
+{
+"text": "adia a conversa",
+"t": 14.064
+},
+{
+"text": "o conflito sobe de andar",
+"t": 19.664,
+"color": "#E2C88F",
+"size": 48
+}
+],
+"dur": 21.904
+}
+},
+{
+"id": "v54_mapeia",
+"scene": "contrast",
+"duration": 17.128,
+"params": {
+"top": 175,
+"divH": 330,
+"left": {
+"kicker": "Antes de treinar, mapear",
+"title": "Não sabe lidar com conflitos",
+"size": 44,
+"t": 3.688,
+"items": [
+{
+"text": "aprende a lidar com o conflito",
+"mark": "ok",
+"t": 7.128
+}
+]
+},
+"right": {
+"kicker": " ",
+"title": "Atropela os conflitos",
+"size": 44,
+"t": 9.768,
+"items": [
+{
+"text": "aprende a esperar",
+"mark": "ok",
+"t": 11.928
+}
+]
+},
+"dur": 17.128
+}
+},
+{
+"id": "v55_ferramenta",
+"scene": "tool",
+"duration": 26.592,
+"params": {
+"title": "Ferramenta do líder · com IA",
+"items": [
+{
+"text": "Advertir, suspender ou demitir por justa causa?",
+"t": 4.04
+},
+{
+"text": "Guia de conversas difíceis",
+"t": 12.44
+},
+{
+"text": "Do relato do caso ao PDI",
+"t": 17.8
+},
+{
+"text": "Como dar feedback",
+"t": 23.592
+}
+],
+"dur": 26.592
+}
+},
+{
+"id": "v56_mandala",
+"scene": "mandala",
+"duration": 34.456,
+"params": {
+"title": "a gente pinta de dentro para fora",
+"tMarket": 5.12,
+"tInside": 10.128,
+"rings": [
+10.128,
+10.578,
+11.028,
+11.478
+],
+"marketText": "✕  o mercado insiste em pintar de fora para dentro",
+"deps": [
+{
+"t": 13.168,
+"text": "Não tem como treinar a liderança sem antes estruturar."
+},
+{
+"t": 17.136,
+"text": "Não tem como estruturar sem antes diagnosticar."
+},
+{
+"t": 22.016,
+"text": "Estruturar e implementar o que foi escrito."
+},
+{
+"t": 28.016,
+"text": "E preparar a liderança para sustentar tudo isso."
+}
+],
+"dur": 34.456
+}
+},
+{
+"id": "v57_teste",
+"scene": "lettering",
+"duration": 10.844,
+"params": {
+"top": 210,
+"kicker": "O teste",
+"kickerT": 0.1,
+"lines": [
+{
+"words": [
+{
+"text": "Pegue",
+"t": 4.034,
+"cls": "serif"
+},
+{
+"text": "uma",
+"t": 4.434,
+"cls": "serif"
+},
+{
+"text": "caneta,",
+"t": 4.594,
+"cls": "serif"
+},
+{
+"text": "um",
+"t": 5.234,
+"cls": "serif"
+},
+{
+"text": "papel.",
+"t": 5.394,
+"cls": "serif"
+}
+],
+"font": "serif",
+"size": 74,
+"color": "#FFFFFF"
+},
+{
+"words": [
+{
+"text": "Quatro",
+"t": 7.124,
+"cls": ""
+},
+{
+"text": "perguntas",
+"t": 7.194,
+"cls": ""
+},
+{
+"text": "—",
+"t": 7.264,
+"cls": ""
+},
+{
+"text": "uma",
+"t": 7.334,
+"cls": ""
+},
+{
+"text": "para",
+"t": 7.404,
+"cls": ""
+},
+{
+"text": "cada",
+"t": 7.474,
+"cls": ""
+},
+{
+"text": "etapa.",
+"t": 7.544,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 44,
+"color": "#E2C88F",
+"gap": 16,
+"weight": 600
+}
+],
+"dur": 10.844
+}
+},
+{
+"id": "v58_q1",
+"scene": "question",
+"duration": 9.694,
+"params": {
+"n": 1,
+"step": "Diagnóstico",
+"q": "Eu sei como a minha equipe percebe as decisões — por dado, ou só pelo que chega à minha mesa?",
+"size": 46,
+"dur": 9.694
+}
+},
+{
+"id": "v58_q2",
+"scene": "question",
+"duration": 9.496,
+"params": {
+"n": 2,
+"step": "Estrutura",
+"q": "Duas pessoas que fazem a mesma coisa recebem a mesma resposta, mesmo com líderes diferentes?",
+"size": 46,
+"dur": 9.496
+}
+},
+{
+"id": "v58_q3",
+"scene": "question",
+"duration": 10.766,
+"params": {
+"n": 3,
+"step": "Implementação",
+"q": "A minha equipe conhece as regras antes da primeira advertência?",
+"size": 50,
+"q2": "Existe registro e comprovação de que ela conhece?",
+"tQ2": 6.716,
+"dur": 10.766
+}
+},
+{
+"id": "v58_q4",
+"scene": "question",
+"duration": 7.042,
+"params": {
+"n": 4,
+"step": "Liderança",
+"q": "Os meus líderes sabem conduzir conversas difíceis, em vez de deixar que elas subam?",
+"size": 50,
+"dur": 7.042
+}
+},
+{
+"id": "v59_partida",
+"scene": "lettering",
+"duration": 5.527,
+"params": {
+"top": 235,
+"lines": [
+{
+"words": [
+{
+"text": "Esse",
+"t": 0.12,
+"cls": ""
+},
+{
+"text": "primeiro",
+"t": 0.397,
+"cls": ""
+},
+{
+"text": "“não”",
+"t": 0.717,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 56,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "é",
+"t": 2.077,
+"cls": "serif gold"
+},
+{
+"text": "o",
+"t": 2.317,
+"cls": "serif gold"
+},
+{
+"text": "seu",
+"t": 2.477,
+"cls": "serif gold"
+},
+{
+"text": "ponto",
+"t": 2.637,
+"cls": "serif gold"
+},
+{
+"text": "de",
+"t": 2.957,
+"cls": "serif gold",
+"pop": true
+},
+{
+"text": "partida.",
+"t": 3.037,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 84,
+"gap": 12
+}
+],
+"dur": 5.527
+}
+},
+{
+"id": "v61_semana",
+"scene": "roles",
+"duration": 25.475,
+"params": {
+"kicker": "Para fazer durante a semana",
+"cards": [
+{
+"role": "Dono",
+"text": "Anote de que andar veio cada problema de gente que chegou até você.",
+"t": 0.9
+},
+{
+"role": "RH",
+"text": "Liste as três situações que mais se repetem e não têm regra escrita.",
+"t": 9.3
+},
+{
+"role": "Líder",
+"text": "Escolha a conversa que está adiando e marque uma data na agenda.",
+"t": 16.42
+}
+],
+"dur": 25.475
+}
+},
+{
+"id": "v62_experiencia",
+"scene": "lettering",
+"duration": 8.64,
+"params": {
+"top": 225,
+"kicker": "Um presente para quem ficou até o final",
+"kickerT": 0.1,
+"lines": [
+{
+"words": [
+{
+"text": "Experiência",
+"t": 3.95,
+"cls": "serif gold"
+},
+{
+"text": "Cultura",
+"t": 4.75,
+"cls": "serif gold"
+},
+{
+"text": "em",
+"t": 5.23,
+"cls": "serif gold"
+},
+{
+"text": "Ação",
+"t": 5.39,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 88
+}
+],
+"dur": 8.64
+}
+},
+{
+"id": "v63_passos",
+"scene": "cta",
+"duration": 33.152,
+"params": {
+"kicker": "Como funciona a Experiência",
+"steps": [
+{
+"text": "Escuta",
+"sub": "a realidade da sua empresa",
+"t": 4.06
+},
+{
+"text": "Panorama executivo",
+"sub": "uma leitura integral do que encontramos",
+"t": 13.708
+},
+{
+"text": "Reunião de direcionamento",
+"sub": "o que priorizar primeiro + passo a passo",
+"t": 24.492
+}
+],
+"dur": 33.152
+}
+},
+{
+"id": "v63b_vagas",
+"scene": "lettering",
+"duration": 8.56,
+"params": {
+"top": 230,
+"kicker": "Nesta edição",
+"kickerT": 0.1,
+"lines": [
+{
+"words": [
+{
+"text": "3",
+"t": 1.35,
+"cls": "serif gold"
+},
+{
+"text": "vagas",
+"t": 1.83,
+"cls": "serif gold"
+}
+],
+"font": "serif",
+"size": 110
+},
+{
+"words": [
+{
+"text": "100%",
+"t": 3.51,
+"cls": ""
+},
+{
+"text": "custeado",
+"t": 4.07,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 56,
+"gap": 10,
+"weight": 700
+}
+],
+"dur": 8.56
+}
+},
+{
+"id": "v64_link",
+"scene": "linkDown",
+"duration": 11.176,
+"params": {
+"text": "Clique no link aqui embaixo",
+"top": 1250,
+"dur": 11.176
+}
+},
+{
+"id": "v65_final",
+"scene": "lettering",
+"duration": 9.648,
+"params": {
+"top": 215,
+"lines": [
+{
+"words": [
+{
+"text": "Uma",
+"t": 0.21,
+"cls": ""
+},
+{
+"text": "empresa",
+"t": 0.45,
+"cls": ""
+},
+{
+"text": "organizada,",
+"t": 1.25,
+"cls": ""
+},
+{
+"text": "ela",
+"t": 2.05,
+"cls": ""
+},
+{
+"text": "não",
+"t": 2.29,
+"cls": ""
+},
+{
+"text": "acontece",
+"t": 2.53,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 50,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "por",
+"t": 3.458,
+"cls": ""
+},
+{
+"text": "acaso.",
+"t": 3.778,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 50,
+"weight": 650
+},
+{
+"words": [
+{
+"text": "Construída.",
+"t": 4.658,
+"cls": "serif gold",
+"pop": true
+}
+],
+"font": "serif",
+"size": 104,
+"gap": 14
+},
+{
+"words": [
+{
+"text": "E",
+"t": 5.618,
+"cls": ""
+},
+{
+"text": "tudo",
+"t": 5.938,
+"cls": ""
+},
+{
+"text": "começa",
+"t": 6.418,
+"cls": ""
+},
+{
+"text": "sabendo",
+"t": 7.458,
+"cls": ""
+},
+{
+"text": "ouvir.",
+"t": 8.738,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 46,
+"color": "#F5F0E6",
+"gap": 20,
+"weight": 600
+}
+],
+"dur": 9.648
+}
+},
+{
+"id": "v66_fim",
+"scene": "lettering",
+"duration": 10.12,
+"params": {
+"top": 300,
+"kicker": "Experiência",
+"kickerT": 0.2,
+"lines": [
+{
+"words": [
+{
+"text": "Cultura",
+"t": 0.4,
+"cls": "serif"
+},
+{
+"text": "em",
+"t": 0.47,
+"cls": "serif"
+},
+{
+"text": "Ação",
+"t": 0.54,
+"cls": "serif"
+}
+],
+"font": "serif",
+"size": 100,
+"color": "#FFFFFF"
+},
+{
+"words": [
+{
+"text": "Inscreva-se",
+"t": 2.68,
+"cls": ""
+},
+{
+"text": "no",
+"t": 2.75,
+"cls": ""
+},
+{
+"text": "link",
+"t": 2.82,
+"cls": ""
+},
+{
+"text": "abaixo",
+"t": 2.89,
+"cls": ""
+}
+],
+"font": "sans",
+"size": 40,
+"color": "#E2C88F",
+"gap": 20,
+"weight": 600
+}
+],
+"dur": 10.12
+}
+}
+]
