@@ -1,0 +1,446 @@
+<title>Os planetas da Sabrina</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: o mapa de órbitas abre a página; depois as regras, a semana e os planetas agrupados por órbita (maiores, depois menores). */
+:root {
+  --bg: #F2F4F1;
+  --surface: #FFFFFF;
+  --ink: #16212B;
+  --muted: #56626C;
+  --line: #D3DAD5;
+  --sun: #D9962B;
+  --sun-soft: #F5E2BC;
+  --on-sun: #1C1508;
+  --tag-fg: #6B4A0E;
+  --major: #24476B;
+  --major-soft: #DDE7F1;
+  --minor: #4C7A60;
+  --minor-soft: #DCEBE2;
+  --font-display: "Sora", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Helvetica Neue", Arial, system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0D141B; --surface: #141E27; --ink: #E6EBEE; --muted: #9AA6AF; --line: #263540;
+    --sun: #F0B458; --sun-soft: #3A2C15; --on-sun: #1C1508; --tag-fg: #F2C77A;
+    --major: #86ADD8; --major-soft: #1B2D40; --minor: #8AC2A0; --minor-soft: #183028;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0D141B; --surface: #141E27; --ink: #E6EBEE; --muted: #9AA6AF; --line: #263540;
+  --sun: #F0B458; --sun-soft: #3A2C15; --on-sun: #1C1508; --tag-fg: #F2C77A;
+  --major: #86ADD8; --major-soft: #1B2D40; --minor: #8AC2A0; --minor-soft: #183028;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid var(--sun); outline-offset: 3px; border-radius: 6px; }
+.wrap {
+  max-width: 1120px; margin: 0 auto; display: grid; gap: 64px;
+  padding-block: 40px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(32px, 5vw, 54px); font-weight: 600; line-height: 1.06; letter-spacing: -.01em; }
+h2 { font-size: clamp(24px, 3.2vw, 34px); font-weight: 600; line-height: 1.15; }
+h3 { font-size: 21px; font-weight: 600; line-height: 1.2; }
+p { margin: 0; }
+
+/* Hero */
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 40px; align-items: center; }
+.hero-text { display: grid; gap: 18px; min-width: 0; }
+.lede { font-size: 18px; color: var(--muted); max-width: 58ch; }
+.legend { display: grid; gap: 12px; margin-top: 6px; }
+.legend-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.legend-row > span { font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); width: 100%; }
+.chip-link {
+  display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); text-decoration: none; font-size: 14px;
+}
+.chip-link:hover { border-color: var(--ink); }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--major); flex: none; }
+.dot.small { width: 7px; height: 7px; background: var(--minor); }
+.map { min-width: 0; }
+.map svg { display: block; width: 100%; max-width: 620px; height: auto; margin: 0 auto; }
+.orbit { fill: none; stroke: var(--muted); stroke-opacity: .45; stroke-width: 2; stroke-dasharray: 3 9; animation: drift 80s linear infinite; }
+.orbit.outer { animation-direction: reverse; }
+@keyframes drift { to { stroke-dashoffset: -560; } }
+@media (prefers-reduced-motion: reduce) { .orbit { animation: none; } }
+.sun-glow { fill: var(--sun-soft); }
+.sun { fill: var(--sun); }
+.sun-name { fill: var(--on-sun); font-family: var(--font-display); font-weight: 600; font-size: 30px; }
+.sun-sub { fill: var(--on-sun); font-family: var(--font-body); font-weight: 500; font-size: 15px; }
+.planet-major { fill: var(--major); }
+.planet-minor { fill: var(--minor); }
+.shine { fill: #FFFFFF; opacity: .2; }
+.label-major { fill: var(--ink); font-family: var(--font-display); font-weight: 600; font-size: 22px; }
+.label-minor { fill: var(--ink); font-family: var(--font-body); font-weight: 500; font-size: 19px; }
+.map a:hover circle.planet-major, .map a:hover circle.planet-minor { opacity: .82; }
+.map a:focus-visible { outline: none; }
+.map a:focus-visible circle.planet-major, .map a:focus-visible circle.planet-minor { stroke: var(--sun); stroke-width: 4; }
+
+/* Seções */
+.section { display: grid; gap: 24px; }
+.section-head { display: grid; gap: 10px; max-width: 68ch; }
+.section-head p { color: var(--muted); font-size: 17px; }
+
+/* Regras das órbitas */
+.rules { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.rule { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.rule svg { width: 44px; height: 44px; }
+.rule h3 { font-size: 19px; }
+.rule p { color: var(--muted); }
+.rule .freq { color: var(--ink); font-weight: 600; font-size: 15px; }
+.rule .example { font-size: 15px; color: var(--ink); padding: 10px 12px; background: var(--minor-soft); border-radius: 8px; }
+
+/* Semana */
+.week { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; }
+.slot { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.slot .when { font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.slot .what { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 15px; }
+.slot .alt { font-size: 13px; color: var(--muted); }
+.slot.stories { border-style: dashed; }
+.season { font-size: 15px; color: var(--muted); max-width: 70ch; }
+.season b { color: var(--ink); }
+
+/* Cartões de planeta */
+.planets { display: grid; gap: 16px; align-items: start; }
+.planets.major { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.planets.minor { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 22px; display: grid; gap: 14px; align-content: start; min-width: 0; scroll-margin-top: 24px; }
+.card:target { border-color: var(--sun); box-shadow: 0 0 0 3px var(--sun-soft); }
+.card-head { display: flex; align-items: center; gap: 14px; }
+.orb { flex: none; width: 42px; height: 42px; border-radius: 50%; background: var(--major); }
+.minor .orb { width: 24px; height: 24px; margin: 9px; background: var(--minor); }
+.card-head div { display: grid; gap: 2px; min-width: 0; }
+.sub { color: var(--muted); font-size: 14px; }
+.meta { display: grid; gap: 4px; font-size: 14px; color: var(--muted); }
+.meta b { color: var(--ink); font-weight: 600; }
+.topics { display: flex; flex-wrap: wrap; gap: 6px; }
+.topic { font-size: 13px; padding: 4px 10px; border-radius: 999px; background: var(--major-soft); }
+.minor .topic { background: var(--minor-soft); }
+.bridge { font-size: 15px; padding: 10px 12px; border-radius: 8px; background: var(--minor-soft); }
+.heads-label { font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.heads { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.heads li { display: grid; gap: 4px; padding-top: 12px; border-top: 1px solid var(--line); }
+.capa { font-weight: 600; font-size: 16px; text-wrap: pretty; }
+.cont { color: var(--muted); font-size: 15px; }
+.tag { justify-self: start; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--tag-fg); background: var(--sun-soft); padding: 3px 8px; border-radius: 999px; }
+
+/* Combinados */
+.notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 32px; margin: 0; padding: 0; list-style: none; }
+.notes li { padding-top: 12px; border-top: 1px solid var(--line); color: var(--muted); }
+.notes b { color: var(--ink); }
+
+@media (max-width: 1000px) {
+  .planets.minor { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .week { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .rules { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .planets.major { grid-template-columns: minmax(0, 1fr); }
+  .notes { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  .wrap { gap: 52px; padding-block: 28px 56px; }
+  .planets.minor { grid-template-columns: minmax(0, 1fr); }
+  .week { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lede { font-size: 17px; }
+}
+</style>
+
+<main class="wrap">
+
+  <header class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Mapa de conteúdo · novembro de 2026</p>
+      <h1>O imóvel é o cenário. A vida é o assunto.</h1>
+      <p class="lede">No centro está a Sabrina e o jeito dela de enxergar a compra de um imóvel: com conhecimento de mercado e de gente. Em volta, os planetas. Os maiores aparecem toda semana e sustentam a autoridade e as vendas. Os menores aparecem menos e mostram a Sabrina fora do trabalho. Todos voltam para o centro.</p>
+      <nav class="legend" aria-label="Planetas">
+        <div class="legend-row">
+          <span>Planetas maiores · a vida de quem compra</span>
+          <a class="chip-link" href="#p-imovel"><i class="dot"></i>Imóvel</a>
+          <a class="chip-link" href="#p-patrimonio"><i class="dot"></i>Patrimônio</a>
+          <a class="chip-link" href="#p-fases"><i class="dot"></i>Fases da vida</a>
+          <a class="chip-link" href="#p-comportamento"><i class="dot"></i>Comportamento</a>
+        </div>
+        <div class="legend-row">
+          <span>Planetas menores · a vida da Sabrina</span>
+          <a class="chip-link" href="#p-casamento"><i class="dot small"></i>Casamento</a>
+          <a class="chip-link" href="#p-filhos"><i class="dot small"></i>Filhos</a>
+          <a class="chip-link" href="#p-viagens"><i class="dot small"></i>Viagens</a>
+          <a class="chip-link" href="#p-saidas"><i class="dot small"></i>Saídas</a>
+          <a class="chip-link" href="#p-receber"><i class="dot small"></i>Receber</a>
+          <a class="chip-link" href="#p-bastidores"><i class="dot small"></i>Bastidores</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="map">
+      <svg viewBox="0 0 800 800" role="img" aria-labelledby="map-title">
+        <title id="map-title">Sistema de planetas: a Sabrina no centro, quatro planetas maiores na órbita de dentro e seis planetas menores na órbita de fora</title>
+        <circle class="orbit outer" cx="400" cy="400" r="320"/>
+        <circle class="orbit" cx="400" cy="400" r="190"/>
+
+        <circle class="sun-glow" cx="400" cy="400" r="104"/>
+        <circle class="sun" cx="400" cy="400" r="74"/>
+        <text class="sun-name" x="400" y="404" text-anchor="middle">Sabrina</text>
+        <text class="sun-sub" x="400" y="428" text-anchor="middle">imóvel e vida</text>
+
+        <a href="#p-imovel" aria-label="Planeta maior: Imóvel">
+          <circle class="planet-major" cx="266" cy="266" r="44"/>
+          <circle class="shine" cx="252" cy="252" r="12"/>
+          <text class="label-major" x="266" y="206" text-anchor="middle">Imóvel</text>
+        </a>
+        <a href="#p-patrimonio" aria-label="Planeta maior: Patrimônio">
+          <circle class="planet-major" cx="534" cy="266" r="44"/>
+          <circle class="shine" cx="520" cy="252" r="12"/>
+          <text class="label-major" x="534" y="206" text-anchor="middle">Patrimônio</text>
+        </a>
+        <a href="#p-comportamento" aria-label="Planeta maior: Comportamento">
+          <circle class="planet-major" cx="266" cy="534" r="44"/>
+          <circle class="shine" cx="252" cy="520" r="12"/>
+          <text class="label-major" x="266" y="608" text-anchor="middle">Comportamento</text>
+        </a>
+        <a href="#p-fases" aria-label="Planeta maior: Fases da vida">
+          <circle class="planet-major" cx="534" cy="534" r="44"/>
+          <circle class="shine" cx="520" cy="520" r="12"/>
+          <text class="label-major" x="534" y="608" text-anchor="middle">Fases da vida</text>
+        </a>
+
+        <a href="#p-viagens" aria-label="Planeta menor: Viagens">
+          <circle class="planet-minor" cx="400" cy="80" r="24"/>
+          <text class="label-minor" x="400" y="42" text-anchor="middle">Viagens</text>
+        </a>
+        <a href="#p-saidas" aria-label="Planeta menor: Saídas">
+          <circle class="planet-minor" cx="677" cy="240" r="24"/>
+          <text class="label-minor" x="677" y="290" text-anchor="middle">Saídas</text>
+        </a>
+        <a href="#p-receber" aria-label="Planeta menor: Receber">
+          <circle class="planet-minor" cx="677" cy="560" r="24"/>
+          <text class="label-minor" x="677" y="610" text-anchor="middle">Receber</text>
+        </a>
+        <a href="#p-bastidores" aria-label="Planeta menor: Bastidores">
+          <circle class="planet-minor" cx="400" cy="720" r="24"/>
+          <text class="label-minor" x="400" y="770" text-anchor="middle">Bastidores</text>
+        </a>
+        <a href="#p-filhos" aria-label="Planeta menor: Filhos">
+          <circle class="planet-minor" cx="123" cy="560" r="24"/>
+          <text class="label-minor" x="123" y="610" text-anchor="middle">Filhos</text>
+        </a>
+        <a href="#p-casamento" aria-label="Planeta menor: Casamento">
+          <circle class="planet-minor" cx="123" cy="240" r="24"/>
+          <text class="label-minor" x="123" y="290" text-anchor="middle">Casamento</text>
+        </a>
+      </svg>
+    </div>
+  </header>
+
+  <section class="section" aria-labelledby="regras">
+    <div class="section-head">
+      <p class="eyebrow">A lógica</p>
+      <h2 id="regras">Como as órbitas funcionam</h2>
+      <p>Ninguém segue um catálogo. As pessoas seguem gente, e compram de quem sentem que conhecem. Por isso o conteúdo da Sabrina não fala só de apartamento.</p>
+    </div>
+    <div class="rules">
+      <div class="rule">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="16" fill="var(--major)"/></svg>
+        <h3>Planetas maiores</h3>
+        <p class="freq">Toda semana · 3 de cada 5 posts</p>
+        <p>Falam da vida e das decisões de quem compra: o imóvel, o dinheiro, a família e a cabeça de quem está decidindo. Geram autoridade, salvamentos e conversas comerciais.</p>
+      </div>
+      <div class="rule">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="9" fill="var(--minor)"/></svg>
+        <h3>Planetas menores</h3>
+        <p class="freq">Cada um 1 ou 2 vezes por mês no feed · nos stories, todo dia</p>
+        <p>Mostram a vida da Sabrina: o casamento, os filhos, as viagens, os passeios, a casa dela e a rotina de trabalho. Geram conexão e confiança.</p>
+      </div>
+      <div class="rule">
+        <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="17" fill="none" stroke="var(--line)" stroke-width="2"/><circle cx="22" cy="22" r="6" fill="var(--sun)"/><circle cx="34" cy="10" r="4" fill="var(--minor)"/></svg>
+        <h3>Toda órbita volta para o sol</h3>
+        <p class="freq">A ponte</p>
+        <p>Um post de viagem, de família ou de um jantar termina numa observação sobre morar bem ou decidir bem. Sem vender nada.</p>
+        <p class="example">Você volta de viagem com metade da mala sem usar. Com a metragem de muita casa acontece o mesmo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="semana">
+    <div class="section-head">
+      <p class="eyebrow">Na prática</p>
+      <h2 id="semana">Uma semana em órbita</h2>
+      <p>Sugestão para uma semana de cinco posts. Os dias acompanham o calendário que já existe; o que importa é a proporção.</p>
+    </div>
+    <div class="week">
+      <div class="slot"><span class="when">Post 1</span><span class="what"><i class="dot"></i>Imóvel</span><span class="alt">autoridade</span></div>
+      <div class="slot"><span class="when">Post 2</span><span class="what"><i class="dot"></i>Comportamento</span><span class="alt">atração e identificação</span></div>
+      <div class="slot"><span class="when">Post 3</span><span class="what"><i class="dot small"></i>Saídas ou Viagens</span><span class="alt">conexão, com ponte</span></div>
+      <div class="slot"><span class="when">Post 4</span><span class="what"><i class="dot"></i>Patrimônio ou Fases</span><span class="alt">autoridade e conversa</span></div>
+      <div class="slot"><span class="when">Post 5</span><span class="what"><i class="dot small"></i>Receber, Casamento ou Filhos</span><span class="alt">conexão, com ponte</span></div>
+      <div class="slot stories"><span class="when">Stories</span><span class="what"><i class="dot small"></i>Todos os menores</span><span class="alt">todo dia, sem ponte obrigatória</span></div>
+    </div>
+    <p class="season"><b>Em dezembro,</b> o planeta Receber cresce: Natal, mesa posta e família reunida rendem conteúdo leve, e a ponte para a planta da casa aparece sozinha.</p>
+  </section>
+
+  <section class="section" aria-labelledby="maiores">
+    <div class="section-head">
+      <p class="eyebrow">Órbita de dentro</p>
+      <h2 id="maiores">Planetas maiores</h2>
+      <p>A vida e as decisões de quem compra. O público: compradores de médio-alto e alto padrão, investidores e famílias mudando de fase, em BH e Nova Lima.</p>
+    </div>
+    <div class="planets major">
+
+      <article class="card" id="p-imovel">
+        <div class="card-head"><span class="orb"></span><div><h3>Imóvel</h3><span class="sub">A escolha do imóvel, nos lançamentos e na planta</span></div></div>
+        <div class="meta"><span><b>Gera:</b> autoridade e salvamentos</span></div>
+        <div class="topics"><span class="topic">a unidade certa dentro do lançamento</span><span class="topic">planta x metragem</span><span class="topic">sol, vista e privacidade</span><span class="topic">decorado e memorial</span><span class="topic">construtora</span><span class="topic">condições de fim de ano</span></div>
+        <span class="heads-label">Headlines · capa e continuação</span>
+        <ul class="heads">
+          <li><p class="capa">O decorado é o único apartamento do prédio em que ninguém vai morar.</p><p class="cont">Por isso eu olho primeiro o que fica quando os móveis saem.</p></li>
+          <li><p class="capa">Dois apartamentos com a mesma planta podem ter vidas completamente diferentes.</p><p class="cont">Um acorda com o sol. O outro, com a janela do vizinho.</p></li>
+          <li><p class="capa">Quem escolhe pela varanda costuma morar pela cozinha.</p><p class="cont">A varanda encanta na visita. A cozinha é usada três vezes por dia.</p></li>
+          <li><p class="capa">Tem uma pergunta que eu faço em todo decorado. E ela muda a visita.</p><p class="cont">"Se tirar tudo isso, você ainda moraria aqui?"</p></li>
+          <li><p class="capa">Quem comprou antes não perdeu a promoção de fim de ano.</p><p class="cont">Ganhou tempo: escolheu a unidade e já está construindo o que é seu.</p></li>
+        </ul>
+      </article>
+
+      <article class="card" id="p-patrimonio">
+        <div class="card-head"><span class="orb"></span><div><h3>Patrimônio</h3><span class="sub">Dinheiro, investimento e legado</span></div></div>
+        <div class="meta"><span><b>Gera:</b> autoridade com investidores e posicionamento</span></div>
+        <div class="topics"><span class="topic">à vista ou liquidez</span><span class="topic">o segundo imóvel</span><span class="topic">imóvel como reserva</span><span class="topic">legado</span><span class="topic">o custo de esperar</span></div>
+        <span class="heads-label">Headlines · capa e continuação</span>
+        <ul class="heads">
+          <li><p class="capa">Comprar o primeiro imóvel é uma conquista. O segundo é uma estratégia.</p></li>
+          <li><p class="capa">Patrimônio de verdade não aparece no story.</p><p class="cont">Aparece na matrícula.</p></li>
+          <li><p class="capa">Tem uma conta que o investidor experiente faz antes de olhar o preço.</p><p class="cont">Quanto do dinheiro dele fica parado, e por quanto tempo.</p></li>
+          <li><p class="capa">Esperar o momento perfeito também tem um preço.</p><p class="cont">Ele só não vem escrito na tabela.</p></li>
+          <li><p class="capa">Tem imóvel que a gente compra para morar. E tem imóvel que a gente compra para deixar.</p><p class="cont">Os dois pedem perguntas diferentes antes da assinatura.</p></li>
+        </ul>
+      </article>
+
+      <article class="card" id="p-fases">
+        <div class="card-head"><span class="orb"></span><div><h3>Fases da vida</h3><span class="sub">A família de quem compra</span></div></div>
+        <div class="meta"><span><b>Gera:</b> identificação e compartilhamento</span></div>
+        <div class="topics"><span class="topic">o filho que chega</span><span class="topic">os filhos que crescem</span><span class="topic">a casa que fica grande</span><span class="topic">o casal que muda de prioridade</span><span class="topic">morar perto dos pais</span><span class="topic">trocar a casa pelo apartamento</span></div>
+        <span class="heads-label">Headlines · capa e continuação</span>
+        <ul class="heads">
+          <li><p class="capa">Todo imóvel tem prazo de validade. E ele não está na escritura.</p><p class="cont">Está na fase da sua vida.</p></li>
+          <li><p class="capa">O quarto do filho muda de função antes de a família mudar de casa.</p><p class="cont">Brinquedoteca, quarto de estudo, quarto de visita. E um dia, escritório.</p></li>
+          <li><p class="capa">Quando os filhos saem de casa, ela fica grande de um jeito que metro quadrado não explica.</p><p class="cont">E a pergunta muda: o que essa casa ainda faz por vocês?</p></li>
+          <li><p class="capa">Morar perto dos pais é uma decisão imobiliária que raramente entra na planilha.</p><p class="cont">Até o dia em que alguém precisa de ajuda às sete da manhã.</p></li>
+          <li><p class="capa">Tem casal que troca a casa pelo apartamento e sente que perdeu espaço.</p><p class="cont">E tem casal que sente que ganhou tempo.</p></li>
+        </ul>
+      </article>
+
+      <article class="card" id="p-comportamento">
+        <div class="card-head"><span class="orb"></span><div><h3>Comportamento</h3><span class="sub">A cabeça de quem compra</span></div></div>
+        <div class="meta"><span><b>Gera:</b> atração e a sensação de "parece que ela entrou na minha cabeça"</span></div>
+        <div class="topics"><span class="topic">medo de errar</span><span class="topic">a opinião da família</span><span class="topic">desejos que brigam</span><span class="topic">a ansiedade da decisão</span><span class="topic">o que a compra diz sobre quem compra</span></div>
+        <span class="heads-label">Headlines · capa e continuação</span>
+        <ul class="heads">
+          <li><p class="capa">Tem visita que não serve para decidir.</p><p class="cont">Serve para confirmar o que o coração já decidiu.</p></li>
+          <li><p class="capa">"Quero silêncio, mas quero estar perto de tudo."</p><p class="cont">Toda escolha de endereço começa com uma frase assim. O meu trabalho é descobrir qual metade pesa mais.</p></li>
+          <li><p class="capa">A opinião que mais pesa na compra de um apartamento nem sempre é de quem vai morar nele.</p><p class="cont">É da mãe, do sogro, do amigo que entende de tudo.</p></li>
+          <li><p class="capa">Ninguém compra só um apartamento.</p><p class="cont">Compra a versão de si mesmo que vai morar nele.</p></li>
+          <li><p class="capa">Tem cliente que pergunta da parcela para fazer uma conta. E tem cliente que pergunta para acalmar um medo.</p><p class="cont">Eu aprendi a ouvir a diferença.</p></li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="menores">
+    <div class="section-head">
+      <p class="eyebrow">Órbita de fora</p>
+      <h2 id="menores">Planetas menores</h2>
+      <p>A vida da Sabrina fora do trabalho. Cada planeta tem a sua ponte de volta para o centro. Tudo aqui entra só se for verdade para ela, e é ela quem escolhe o que quer mostrar. As headlines marcadas pedem confirmação.</p>
+    </div>
+    <div class="planets minor">
+
+      <article class="card minor" id="p-casamento">
+        <div class="card-head"><span class="orb"></span><div><h3>Casamento</h3><span class="sub">A vida a dois</span></div></div>
+        <p class="bridge"><b>Ponte:</b> decidir a dois e a casa como projeto do casal.</p>
+        <ul class="heads">
+          <li><p class="capa">Tem casal que concorda em tudo. Até entrar no decorado.</p><p class="cont">Um quer a varanda. O outro quer o quarto a mais. E começa a conversa mais sincera do casamento.</p></li>
+          <li><p class="capa">O casamento me ensinou mais sobre negociação do que qualquer curso.</p><p class="cont">Ninguém ganha sozinho. Nem em casa, nem na mesa de proposta.</p><span class="tag">confirmar com você</span></li>
+          <li><p class="capa">Todo casal precisa de um cômodo que ninguém mostra no decorado.</p><p class="cont">Um canto para cada um ficar sozinho.</p></li>
+        </ul>
+      </article>
+
+      <article class="card minor" id="p-filhos">
+        <div class="card-head"><span class="orb"></span><div><h3>Filhos</h3><span class="sub">A rotina com as crianças</span></div></div>
+        <p class="bridge"><b>Ponte:</b> a rotina da família, a escola e o endereço, a segurança dentro de casa.</p>
+        <ul class="heads">
+          <li><p class="capa">A escola dos meus filhos escolheu o meu endereço antes de mim.</p><p class="cont">Desde então eu pergunto a idade das crianças antes de mostrar qualquer bairro.</p><span class="tag">confirmar com você</span></li>
+          <li><p class="capa">Criança não liga para metragem. Liga para o lugar onde dá para correr.</p></li>
+          <li><p class="capa">Ser mãe mudou o jeito que eu visito um apartamento.</p><p class="cont">Hoje eu olho a quina da bancada, a altura da janela e a distância até o quarto deles.</p><span class="tag">confirmar com você</span></li>
+        </ul>
+      </article>
+
+      <article class="card minor" id="p-viagens">
+        <div class="card-head"><span class="orb"></span><div><h3>Viagens</h3><span class="sub">O que a estrada ensina sobre morar</span></div></div>
+        <p class="bridge"><b>Ponte:</b> o que viajar ensina sobre morar bem, e a casa para onde dá vontade de voltar.</p>
+        <ul class="heads">
+          <li><p class="capa">Você volta de viagem com metade da mala sem usar.</p><p class="cont">Com a metragem de muita casa acontece o mesmo.</p></li>
+          <li><p class="capa">Todo hotel bom me ensina alguma coisa sobre morar bem.</p><p class="cont">Desta vez foi a luz do quarto. Vira série: "o que eu trouxe da viagem".</p><span class="tag">confirmar com você</span></li>
+          <li><p class="capa">A melhor parte de viajar é voltar para uma casa que dá vontade de voltar.</p></li>
+          <li><p class="capa">Tem cidade que eu visito e, quando vejo, estou olhando os prédios.</p><p class="cont">Defeito profissional.</p></li>
+        </ul>
+      </article>
+
+      <article class="card minor" id="p-saidas">
+        <div class="card-head"><span class="orb"></span><div><h3>Saídas</h3><span class="sub">O bairro e a cidade, em BH e Nova Lima</span></div></div>
+        <p class="bridge"><b>Ponte:</b> o bairro faz parte do imóvel, e a localização é estilo de vida.</p>
+        <ul class="heads">
+          <li><p class="capa">O bairro é a parte do apartamento que não aparece na planta.</p></li>
+          <li><p class="capa">Antes de indicar um apartamento, eu gosto de tomar um café no bairro.</p><p class="cont">É ali que eu descubro como é morar lá de verdade.</p><span class="tag">confirmar com você</span></li>
+          <li><p class="capa">Um jantar a dez minutos de casa vale mais do que uma área gourmet que ninguém usa.</p></li>
+          <li><p class="capa">Fim de semana bom começa num endereço que não obriga ninguém a pegar trânsito.</p><p class="cont">Vira série: "um sábado no bairro", 30 segundos pelo entorno de um lançamento.</p></li>
+        </ul>
+      </article>
+
+      <article class="card minor" id="p-receber">
+        <div class="card-head"><span class="orb"></span><div><h3>Receber</h3><span class="sub">A casa da Sabrina, a mesa e as visitas</span></div></div>
+        <p class="bridge"><b>Ponte:</b> a planta a serviço da vida social da família.</p>
+        <ul class="heads">
+          <li><p class="capa">O Natal mostra se a sua planta funciona.</p><p class="cont">Quinze pessoas, uma cozinha e um corredor estreito.</p></li>
+          <li><p class="capa">Quem gosta de receber escolhe apartamento pela cozinha, e não pela sala.</p></li>
+          <li><p class="capa">A mesa de jantar diz mais sobre uma família do que o tamanho da sala.</p></li>
+          <li><p class="capa">Tem móvel que a gente compra para a casa que imagina, e não para a casa que tem.</p></li>
+        </ul>
+      </article>
+
+      <article class="card minor" id="p-bastidores">
+        <div class="card-head"><span class="orb"></span><div><h3>Bastidores</h3><span class="sub">Um dia de trabalho da Sabrina</span></div></div>
+        <p class="bridge"><b>Ponte:</b> mostra o cuidado com o cliente sem vender nada.</p>
+        <ul class="heads">
+          <li><p class="capa">Tem uma parte do meu trabalho que o cliente nunca vê. E é a que mais protege ele.</p><p class="cont">Conferir o memorial, visitar a obra, olhar o entorno.</p><span class="tag">confirmar com você</span></li>
+          <li><p class="capa">O que eu levo para uma visita a apartamento na planta.</p><p class="cont">A trena, a bússola do celular para ver o sol e o memorial descritivo.</p><span class="tag">confirmar com você</span></li>
+          <li><p class="capa">Eu já desaconselhei uma compra que estava praticamente fechada.</p><p class="cont">A unidade não combinava com a rotina do cliente.</p><span class="tag">confirmar com você</span></li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="combinados">
+    <div class="section-head">
+      <p class="eyebrow">Para produzir</p>
+      <h2 id="combinados">Combinados</h2>
+    </div>
+    <ul class="notes">
+      <li><b>Verdade primeiro.</b> Headline sobre a vida da Sabrina só entra se aconteceu. As marcadas com "confirmar com você" dependem de uma história real dela.</li>
+      <li><b>Filhos com cuidado.</b> Ela decide como eles aparecem: de costas, sem rosto, só a rotina, ou não aparecem.</li>
+      <li><b>Frase, e não lista.</b> As capas são frases que abrem curiosidade, e a continuação entrega a ideia no slide 2 ou na fala.</li>
+      <li><b>Sem promessa.</b> Nada de garantir valorização ou recomendar investimento. Condição comercial só entra com a campanha real da construtora.</li>
+    </ul>
+  </section>
+
+</main>
